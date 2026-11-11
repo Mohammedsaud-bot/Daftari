@@ -1,5 +1,8 @@
 name: Generate voices
-on: [workflow_dispatch]
+on:
+  workflow_dispatch:
+  push:
+    paths: [tool/voices.trigger]
 permissions:
   contents: write
 jobs:
