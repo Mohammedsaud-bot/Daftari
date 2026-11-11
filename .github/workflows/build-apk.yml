@@ -4,6 +4,8 @@ on:
   workflow_call:
   push:
     paths-ignore: [tool/voices.trigger]
+permissions:
+  contents: write
 jobs:
   apk:
     runs-on: ubuntu-latest
@@ -22,3 +24,13 @@ jobs:
       - run: flutter build apk --release
       - uses: actions/upload-artifact@v4
         with: {name: Daftari-APK, path: build/app/outputs/flutter-apk/app-release.apk}
+      - name: Publish a download link for students (latest release)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(grep '^version:' pubspec.yaml | awk '{print $2}' | cut -d+ -f1)
+          cp build/app/outputs/flutter-apk/app-release.apk daftari.apk
+          gh release delete "v$VERSION" -y --cleanup-tag || true
+          gh release create "v$VERSION" daftari.apk --latest \
+            --title "دفتر المذاكرة $VERSION" \
+            --notes "تطبيق دفتر المذاكرة — تم تصميم هذا البرنامج بواسطة الأستاذ محمد سعود المطيري. للتثبيت: نزّل daftari.apk وافتحه على جوال أندرويد."
