@@ -9,6 +9,7 @@ class Speech {
   final FlutterTts _tts = FlutterTts();
   AudioPlayer? _player;
   Future<Map<String, dynamic>>? _clips;
+  Future<void>? _voiceSetup;
   Completer<void>? _completion;
   int _generation = 0;
 
@@ -49,11 +50,57 @@ class Speech {
       throw StateError('No English voice available');
     }
     if (generation != _generation) return;
-    await _tts.setLanguage('en-US');
-    await _tts.setSpeechRate(slow ? .32 : .48);
+    await (_voiceSetup ??= _chooseBestVoice());
+    if (generation != _generation) return;
+    await _tts.setSpeechRate(slow ? .34 : .46);
+    await _tts.setPitch(1.0);
     await _tts.awaitSpeakCompletion(true);
     final result = await _tts.speak(text);
     if (result == 0) throw StateError('Speech could not start');
+  }
+
+  // Picks the clearest English voice on the device: Google's engine when
+  // installed, then the highest-quality en-US voice, preferring offline ones.
+  Future<void> _chooseBestVoice() async {
+    try {
+      final engines = await _tts.getEngines;
+      if (engines is List && engines.contains('com.google.android.tts')) {
+        await _tts.setEngine('com.google.android.tts');
+      }
+    } catch (_) {}
+    await _tts.setLanguage('en-US');
+    try {
+      final voices = await _tts.getVoices;
+      if (voices is! List) return;
+      Map<String, String>? best;
+      var bestScore = -1;
+      for (final v in voices) {
+        if (v is! Map) continue;
+        final name = '${v['name'] ?? ''}';
+        final locale = '${v['locale'] ?? ''}'.toLowerCase().replaceAll('_', '-');
+        if (name.isEmpty || !locale.startsWith('en')) continue;
+        final quality = '${v['quality'] ?? ''}'.toLowerCase();
+        final network = '${v['network_required'] ?? ''}' == '1' ||
+            name.toLowerCase().contains('network');
+        var score = 0;
+        if (locale == 'en-us') score += 40;
+        if (locale == 'en-gb') score += 20;
+        if (quality.contains('very high')) {
+          score += 30;
+        } else if (quality.contains('high')) {
+          score += 20;
+        } else if (quality.contains('normal')) {
+          score += 10;
+        }
+        if (!network) score += 15;
+        if (name.toLowerCase().contains('local')) score += 5;
+        if (score > bestScore) {
+          bestScore = score;
+          best = {'name': name, 'locale': '${v['locale']}'};
+        }
+      }
+      if (best != null) await _tts.setVoice(best);
+    } catch (_) {}
   }
 
   Future<void> stop() async {

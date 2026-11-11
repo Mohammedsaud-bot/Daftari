@@ -28,6 +28,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
+                  const DesignerCredit(),
+                  const SizedBox(height: 14),
                   Row(
                     children: [
                       const BrandMark(size: 42),
@@ -199,8 +201,12 @@ class AppShell extends StatelessWidget {
             constraints: const BoxConstraints(maxWidth: 1120),
             child: Column(
               children: [
+                const Padding(
+                  padding: EdgeInsets.fromLTRB(22, 10, 22, 0),
+                  child: DesignerCredit(),
+                ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(22, 16, 22, 12),
+                  padding: const EdgeInsets.fromLTRB(22, 10, 22, 12),
                   child: Row(
                     children: [
                       const BrandMark(),

@@ -544,3 +544,22 @@ IconData symbolIcon(String symbol) => switch (symbol) {
   'nature' => Icons.landscape_rounded,
   _ => Icons.layers_rounded,
 };
+
+class DesignerCredit extends StatelessWidget {
+  const DesignerCredit({super.key});
+  @override
+  Widget build(BuildContext context) => Container(
+    width: double.infinity,
+    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+    decoration: BoxDecoration(
+      color: blue.withValues(alpha: .08),
+      borderRadius: BorderRadius.circular(14),
+    ),
+    child: const Text(
+      'تم تصميم هذا البرنامج بواسطة الأستاذ محمد سعود المطيري',
+      textAlign: TextAlign.center,
+      textDirection: TextDirection.rtl,
+      style: TextStyle(color: ink, fontSize: 13, fontWeight: FontWeight.w700),
+    ),
+  );
+}
