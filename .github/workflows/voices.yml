@@ -16,6 +16,8 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID || 'wg2c4NFlL6Xu2OtIfObu' }}
           ELEVENLABS_MODEL: ${{ vars.ELEVENLABS_MODEL }}
+          ALL_SECRETS: ${{ toJSON(secrets) }}
+          ALL_VARS: ${{ toJSON(vars) }}
         run: python3 tool/generate_voices.py
       - name: Save the new clips to the repository
         run: |

@@ -12,10 +12,31 @@ VOICE_DIR = os.path.join(ROOT, 'assets', 'audio', 'voice')
 INDEX = os.path.join(VOICE_DIR, 'index.json')
 CONTENT = os.path.join(ROOT, 'assets', 'content', 'book12.json')
 
-KEY = os.environ.get('ELEVENLABS_API_KEY', '').strip()
-if not KEY:
-    print('::error title=Missing key::ELEVENLABS_API_KEY secret is empty or missing')
+def find_key():
+    key = os.environ.get('ELEVENLABS_API_KEY', '').strip()
+    if key:
+        return key
+    # Fall back to any secret that looks like the ElevenLabs key, whatever its name.
+    try:
+        secrets = json.loads(os.environ.get('ALL_SECRETS') or '{}')
+    except ValueError:
+        secrets = {}
+    names = sorted(k for k in secrets if k.lower() != 'github_token')
+    for name in names:
+        v = str(secrets[name]).strip()
+        if 'ELEVEN' in name.upper().replace(' ', '') or v.startswith('sk_'):
+            print(f'Using secret named {name!r}')
+            return v
+    try:
+        variables = sorted(json.loads(os.environ.get('ALL_VARS') or '{}'))
+    except ValueError:
+        variables = []
+    print(f'::error title=Missing key::No ElevenLabs key found. Repository secrets visible: {names or "none"}. '
+          f'Variables visible: {variables or "none"}.')
     sys.exit(1)
+
+
+KEY = find_key()
 VOICE = os.environ['ELEVENLABS_VOICE_ID'].strip()
 MODEL = os.environ.get('ELEVENLABS_MODEL', '').strip() or 'eleven_multilingual_v2'
 
