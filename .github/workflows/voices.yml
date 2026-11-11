@@ -14,7 +14,7 @@ jobs:
       - name: Generate ElevenLabs narration
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID || 'wg2c4NFlL6Xu2OtIfObu' }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID || 'onwK4e9ZLuTAKqWW03F9' }}
           ELEVENLABS_MODEL: ${{ vars.ELEVENLABS_MODEL }}
         run: python3 tool/generate_voices.py
       - name: Save the new clips to the repository
