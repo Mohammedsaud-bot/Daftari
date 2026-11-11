@@ -1342,6 +1342,14 @@ void showSettings(BuildContext context, AppState s) {
               ),
               style: const TextStyle(color: muted, fontSize: 13),
             ),
+            const SizedBox(height: 8),
+            Text(
+              s.t(
+                'تم تصميم هذا البرنامج بواسطة الأستاذ محمد سعود المطيري',
+                'Designed by Mr. Mohammed Saud Al-Mutairi',
+              ),
+              style: const TextStyle(color: muted, fontSize: 13),
+            ),
             if (s.storageProblem) ...[
               const SizedBox(height: 12),
               Text(
