@@ -12,7 +12,10 @@ VOICE_DIR = os.path.join(ROOT, 'assets', 'audio', 'voice')
 INDEX = os.path.join(VOICE_DIR, 'index.json')
 CONTENT = os.path.join(ROOT, 'assets', 'content', 'book12.json')
 
-KEY = os.environ['ELEVENLABS_API_KEY'].strip()
+KEY = os.environ.get('ELEVENLABS_API_KEY', '').strip()
+if not KEY:
+    print('::error title=Missing key::ELEVENLABS_API_KEY secret is empty or missing')
+    sys.exit(1)
 VOICE = os.environ['ELEVENLABS_VOICE_ID'].strip()
 MODEL = os.environ.get('ELEVENLABS_MODEL', '').strip() or 'eleven_multilingual_v2'
 
@@ -86,6 +89,8 @@ def main():
             if made % 25 == 0:
                 print(f'  {made}/{len(todo)}')
     except Exception as e:  # keep what was made; the next run continues from here
+        msg = str(e).replace('\n', ' ')[:400]
+        print(f'::error title=ElevenLabs::{msg}')
         print(f'Stopped early: {e}', file=sys.stderr)
     finally:
         json.dump(index, open(INDEX, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
