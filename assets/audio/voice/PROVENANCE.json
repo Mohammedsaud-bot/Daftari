@@ -1,0 +1,251 @@
+{
+  "provider": "ElevenLabs",
+  "imported_on": "2026-11-05",
+  "origin": "24 audio files supplied by the user",
+  "format": {
+    "codec": "PCM signed 16-bit",
+    "sample_rate": 22050,
+    "channels": 1
+  },
+  "narration": [
+    {
+      "asset": "eleven-01.wav",
+      "speaker": "female narrator",
+      "source": "beach.mp3",
+      "source_sha256": "c0bbbba960fd6949c4bbc308cfeb23f7bda72b19cb70fba693e6283f34ef1920",
+      "source_duration_seconds": 1.071,
+      "duration_seconds": 0.868,
+      "gain_db": 2.97
+    },
+    {
+      "asset": "eleven-02.wav",
+      "speaker": "female narrator",
+      "source": "We will go to the beach on Friday..mp3",
+      "source_sha256": "ab592a1ef34b73345340fac6e038743eb24a8550fbb89739d82924b007981cce",
+      "source_duration_seconds": 2.194,
+      "duration_seconds": 2.165,
+      "gain_db": -2.58
+    },
+    {
+      "asset": "eleven-03.wav",
+      "speaker": "female narrator",
+      "source": "breeze.mp3",
+      "source_sha256": "81d055ea29ef9f3f6cc6192cdcc699da19751b524320d2b8cb2ef8c972ea15b2",
+      "source_duration_seconds": 1.149,
+      "duration_seconds": 0.968,
+      "gain_db": 1.59
+    },
+    {
+      "asset": "eleven-04.wav",
+      "speaker": "female narrator",
+      "source": "There is a cool breeze today..mp3",
+      "source_sha256": "e274753bbab86b8f31ce7ced630fdeed6b38563fa463538bac05f2657d4846b7",
+      "source_duration_seconds": 2.194,
+      "duration_seconds": 2.106,
+      "gain_db": 2.01
+    },
+    {
+      "asset": "eleven-05.wav",
+      "speaker": "female narrator",
+      "source": "climate.mp3",
+      "source_sha256": "b6d50860741f96c5fd430fe08ad191bb376ae08936f052c288229ba268c3bfab",
+      "source_duration_seconds": 1.071,
+      "duration_seconds": 0.918,
+      "gain_db": 0.23
+    },
+    {
+      "asset": "eleven-06.wav",
+      "speaker": "female narrator",
+      "source": "This city has a warm climate..mp3",
+      "source_sha256": "ffb6bd023c6ca84546b0f20c36bb0b86d5e3771116c8fa1d46829211002a09db",
+      "source_duration_seconds": 2.351,
+      "duration_seconds": 2.315,
+      "gain_db": -0.7
+    },
+    {
+      "asset": "eleven-07.wav",
+      "speaker": "female narrator",
+      "source": "expect.mp3",
+      "source_sha256": "b992816c91b38f69d72d5c6543c9a2d0d87984823b7be87c7f4480bb15e92b8f",
+      "source_duration_seconds": 1.149,
+      "duration_seconds": 0.958,
+      "gain_db": 1.12
+    },
+    {
+      "asset": "eleven-08.wav",
+      "speaker": "female narrator",
+      "source": "I expect the weather to be sunny.mp3",
+      "source_sha256": "f6bce41c1ee16d1f2a69d1b07df16bf489535b2e19d3d68e19aa3f303925267b",
+      "source_duration_seconds": 2.273,
+      "duration_seconds": 2.235,
+      "gain_db": -1.42
+    },
+    {
+      "asset": "eleven-09.wav",
+      "speaker": "female narrator",
+      "source": "quiet.mp3",
+      "source_sha256": "ea0e45e0010404bee8a4b2305f8f8257004f470e7d3ed7df49b1393d011f43b1",
+      "source_duration_seconds": 1.071,
+      "duration_seconds": 0.918,
+      "gain_db": 1.63
+    },
+    {
+      "asset": "eleven-10.wav",
+      "speaker": "female narrator",
+      "source": "The beach is quiet in the morning.mp3",
+      "source_sha256": "69cf5d9551a3ce07f8e6e1366ba410f21d89701742cdb09a74c38e42046d60fa",
+      "source_duration_seconds": 2.273,
+      "duration_seconds": 2.215,
+      "gain_db": 0.95
+    },
+    {
+      "asset": "eleven-11.wav",
+      "speaker": "female narrator",
+      "source": "slippery.mp3",
+      "source_sha256": "5d204099fa2f3bd070add5a40a1b725d5f7c69d9382a8a7e274ba31f3060cbc2",
+      "source_duration_seconds": 1.228,
+      "duration_seconds": 1.048,
+      "gain_db": 0.94
+    },
+    {
+      "asset": "eleven-12.wav",
+      "speaker": "female narrator",
+      "source": "Be careful. The road is slippery.mp3",
+      "source_sha256": "ad014132d0186d687ec0f18639d6045c04bb8f039fc72987a82de8f89c29bd6d",
+      "source_duration_seconds": 2.586,
+      "duration_seconds": 2.505,
+      "gain_db": -2.24
+    },
+    {
+      "asset": "eleven-13.wav",
+      "speaker": "female narrator",
+      "source": "trip.mp3",
+      "source_sha256": "2fac0aaf5560dc0562fd940df4776db6f759357e54fca4b6506008fe2297517c",
+      "source_duration_seconds": 0.836,
+      "duration_seconds": 0.729,
+      "gain_db": 1.03
+    },
+    {
+      "asset": "eleven-14.wav",
+      "speaker": "female narrator",
+      "source": "We are planning a short trip.mp3",
+      "source_sha256": "f51baf14ffaba421e2a6a3764f615839365fcb7408201312d124e59b62dd7522",
+      "source_duration_seconds": 1.881,
+      "duration_seconds": 1.881,
+      "gain_db": -1.72
+    },
+    {
+      "asset": "eleven-15.wav",
+      "speaker": "female narrator",
+      "source": "mountain.mp3",
+      "source_sha256": "0732dc35acd8a8311f6dbae7539c81dccca8be4c9958297c6838d8f33047566d",
+      "source_duration_seconds": 0.993,
+      "duration_seconds": 0.958,
+      "gain_db": -2.21
+    },
+    {
+      "asset": "eleven-16.wav",
+      "speaker": "female narrator",
+      "source": "We can see a mountain from the hotel..mp3",
+      "source_sha256": "a9550cd50a92542caaecfd73278b6e50ee0a66ff61d6ca9fcf3a7b9396c2e28f",
+      "source_duration_seconds": 2.351,
+      "duration_seconds": 2.305,
+      "gain_db": -2.5
+    },
+    {
+      "asset": "eleven-17.wav",
+      "speaker": "female narrator",
+      "source": "If it is sunny, we will go to the beach.mp3",
+      "source_sha256": "1e1b9f8e08017a0ac214b394c275e3cce7107af17871b7c5a25b54f00c1346e9",
+      "source_duration_seconds": 2.691,
+      "duration_seconds": 2.584,
+      "gain_db": -1.53
+    },
+    {
+      "asset": "eleven-19.wav",
+      "speaker": "female narrator",
+      "source": "If it rains, we will stay home..mp3",
+      "source_sha256": "dfd253ca8e239fd13f6080fc9943acc9a0916385c0165b0aa22313aeb218542a",
+      "source_duration_seconds": 2.508,
+      "duration_seconds": 2.445,
+      "gain_db": -1.06
+    },
+    {
+      "asset": "eleven-21.wav",
+      "speaker": "female narrator",
+      "source": "I. We. They..mp3",
+      "source_sha256": "9e8f5c3b853add686eeee28c41546a143a309a3ff226257068903031c4f40db2",
+      "source_duration_seconds": 3.004,
+      "duration_seconds": 2.914,
+      "gain_db": -0.93
+    },
+    {
+      "asset": "eleven-22.wav",
+      "speaker": "female narrator",
+      "source": "We will go to the beach..mp3",
+      "source_sha256": "a8ca8ca950c308e50b0381aefa0cc39d1c8fb20f105ee4e0f53cd9821030de78",
+      "source_duration_seconds": 1.802,
+      "duration_seconds": 1.746,
+      "gain_db": -1.76
+    }
+  ],
+  "dialogue": {
+    "asset": "eleven-18.wav",
+    "spoken_names": false,
+    "turn_gap_seconds": 0.32,
+    "duration_seconds": 9.023,
+    "turns": [
+      {
+        "speaker": "Maya",
+        "gender": "female",
+        "spoken_text": "Do you have plans for Friday?",
+        "start_seconds": 0.0,
+        "end_seconds": 1.806,
+        "source": "Do you have plans for Friday.mp3",
+        "source_sha256": "0e74daa0cef2cb84bcdd4cc62a12a5d46245f8099a615ca3432c02242e365b70",
+        "source_duration_seconds": 1.881,
+        "duration_seconds": 1.806,
+        "gain_db": -0.2
+      },
+      {
+        "speaker": "Omar",
+        "gender": "male",
+        "spoken_text": "Yes. If it is sunny, we will go to the beach.",
+        "start_seconds": 2.126,
+        "end_seconds": 5.189,
+        "source": "Yes. If it is sunny, we will go to the beach..mp3",
+        "source_sha256": "642f92ab42c2831222a2ef863aa456b2a7deed4c6936fc7efe668cf089505395",
+        "source_duration_seconds": 3.161,
+        "duration_seconds": 3.063,
+        "gain_db": 4.54
+      },
+      {
+        "speaker": "Maya",
+        "gender": "female",
+        "spoken_text": "What if it rains?",
+        "start_seconds": 5.509,
+        "end_seconds": 6.986,
+        "source": "What if it rains.mp3",
+        "source_sha256": "a295cb1342f03a305df8cc6ee77316084dce36b8419293a66164b7e3668fc38b",
+        "source_duration_seconds": 1.567,
+        "duration_seconds": 1.477,
+        "gain_db": -0.03
+      },
+      {
+        "speaker": "Omar",
+        "gender": "male",
+        "spoken_text": "We will stay home and read.",
+        "start_seconds": 7.306,
+        "end_seconds": 9.023,
+        "source": "We will stay home and read..mp3",
+        "source_sha256": "26659b5bf1286f87cdf45c8506efc6786621987f819e80ae9afc7bb6bbbe3032",
+        "source_duration_seconds": 1.802,
+        "duration_seconds": 1.716,
+        "gain_db": 3.85
+      }
+    ]
+  },
+  "aliases": {
+    "line-20.wav": "eleven-19.wav"
+  }
+}

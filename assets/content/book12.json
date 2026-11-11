@@ -1,0 +1,3572 @@
+{
+ "id": "book12",
+ "title": "Book 12",
+ "units": [
+  {
+   "id": "travel",
+   "number": 1,
+   "ar": "السفر واكتشاف الأماكن",
+   "en": "See the USA!",
+   "subtitleAr": "خطط لرحلتك، خطوة بخطوة",
+   "subtitleEn": "Make plans. Find your next adventure.",
+   "icon": "travel",
+   "available": true,
+   "topicsAr": "خطط السفر، الطقس، الجمل الشرطية، المضارع التام",
+   "topicsEn": "Travel plans, weather, conditionals, present perfect"
+  },
+  {
+   "id": "education",
+   "number": 2,
+   "ar": "التعليم والاختيارات",
+   "en": "Education",
+   "subtitleAr": "تحدث عن الدراسة وقراراتك",
+   "subtitleEn": "Talk about studying and decisions",
+   "icon": "school",
+   "available": true,
+   "topicsAr": "الدراسة والعمل، الخبرات السابقة، ربط الجمل",
+   "topicsEn": "School and work, past experiences, connecting ideas"
+  },
+  {
+   "id": "home",
+   "number": 3,
+   "ar": "المنزل والحياة اليومية",
+   "en": "We’ve added on to the house",
+   "subtitleAr": "صف التغييرات والاحتمالات",
+   "subtitleEn": "Describe changes and possibilities",
+   "icon": "home",
+   "available": true,
+   "topicsAr": "توسعة المنزل، الاحتمالات، المشاعر، الكلام المنقول",
+   "topicsEn": "Home improvements, possibilities, feelings, reported speech"
+  },
+  {
+   "id": "outdoors",
+   "number": 4,
+   "ar": "الطبيعة والصيد",
+   "en": "Hunting and fishing",
+   "subtitleAr": "احكِ عن عاداتك في الماضي",
+   "subtitleEn": "Explore nature and past routines",
+   "icon": "nature",
+   "available": true,
+   "topicsAr": "الطبيعة، العادات الماضية، المقارنة بين الأفعال",
+   "topicsEn": "The outdoors, past routines, comparative adverbs"
+  },
+  {
+   "id": "review",
+   "number": 5,
+   "ar": "المراجعة الشاملة",
+   "en": "Book review",
+   "subtitleAr": "اربط ما تعلمته معًا",
+   "subtitleEn": "Bring everything together",
+   "icon": "review",
+   "available": true,
+   "topicsAr": "مراجعة مفردات وقواعد الوحدات الأربع",
+   "topicsEn": "Vocabulary and structures from all four units"
+  }
+ ],
+ "words": [
+  {
+   "id": "beach",
+   "word": "beach",
+   "ar": "شاطئ",
+   "definition": "The land beside the sea.",
+   "example": "We will go to the beach on Friday.",
+   "exampleAr": "سنذهب إلى الشاطئ يوم الجمعة.",
+   "symbol": "beach"
+  },
+  {
+   "id": "breeze",
+   "word": "breeze",
+   "ar": "نسيم",
+   "definition": "A gentle wind.",
+   "example": "There is a cool breeze today.",
+   "exampleAr": "يوجد نسيم بارد اليوم.",
+   "symbol": "air"
+  },
+  {
+   "id": "climate",
+   "word": "climate",
+   "ar": "مناخ",
+   "definition": "The usual weather in a place.",
+   "example": "This city has a warm climate.",
+   "exampleAr": "تتميز هذه المدينة بمناخ دافئ.",
+   "symbol": "sun"
+  },
+  {
+   "id": "expect",
+   "word": "expect",
+   "ar": "يتوقع",
+   "definition": "To think something will happen.",
+   "example": "I expect the weather to be sunny.",
+   "exampleAr": "أتوقع أن يكون الطقس مشمسًا.",
+   "symbol": "thought"
+  },
+  {
+   "id": "quiet",
+   "word": "quiet",
+   "ar": "هادئ",
+   "definition": "Making little or no noise.",
+   "example": "The beach is quiet in the morning.",
+   "exampleAr": "الشاطئ هادئ في الصباح.",
+   "symbol": "quiet"
+  },
+  {
+   "id": "slippery",
+   "word": "slippery",
+   "ar": "زَلِق",
+   "definition": "Difficult to walk on because it is smooth or wet.",
+   "example": "Be careful. The road is slippery.",
+   "exampleAr": "انتبه. الطريق زلق.",
+   "symbol": "water"
+  },
+  {
+   "id": "trip",
+   "word": "trip",
+   "ar": "رحلة",
+   "definition": "A journey to a place and back.",
+   "example": "We are planning a short trip.",
+   "exampleAr": "نخطط لرحلة قصيرة.",
+   "symbol": "travel"
+  },
+  {
+   "id": "mountain",
+   "word": "mountain",
+   "ar": "جبل",
+   "definition": "A very high area of land.",
+   "example": "We can see a mountain from the hotel.",
+   "exampleAr": "نستطيع رؤية جبل من الفندق.",
+   "symbol": "nature"
+  },
+  {
+   "id": "heat",
+   "word": "heat",
+   "ar": "حرارة",
+   "definition": "Hot weather or a high temperature.",
+   "example": "The heat in the desert is strong at noon.",
+   "exampleAr": "الحرارة في الصحراء قوية وقت الظهر.",
+   "symbol": "sun"
+  },
+  {
+   "id": "humidity",
+   "word": "humidity",
+   "ar": "رطوبة",
+   "definition": "The amount of water in the air.",
+   "example": "The humidity is high near the coast.",
+   "exampleAr": "الرطوبة مرتفعة قرب الساحل.",
+   "symbol": "water"
+  },
+  {
+   "id": "sea",
+   "word": "sea",
+   "ar": "بحر",
+   "definition": "A large area of salt water.",
+   "example": "We swam in the sea all afternoon.",
+   "exampleAr": "سبحنا في البحر طوال فترة العصر.",
+   "symbol": "water"
+  },
+  {
+   "id": "thought",
+   "word": "thought",
+   "ar": "فكرة",
+   "definition": "An idea in your mind.",
+   "example": "I had a thought: let's leave early.",
+   "exampleAr": "خطرت لي فكرة: لنغادر مبكرًا.",
+   "symbol": "thought"
+  },
+  {
+   "id": "wind",
+   "word": "wind",
+   "ar": "رياح",
+   "definition": "Air that moves quickly.",
+   "example": "The wind was too strong for the boat.",
+   "exampleAr": "كانت الرياح أقوى من أن يُبحر القارب.",
+   "symbol": "air"
+  },
+  {
+   "id": "be-over",
+   "word": "be over",
+   "ar": "انتهى؛ مرّ",
+   "definition": "To be finished.",
+   "example": "The storm is over. We can go out now.",
+   "exampleAr": "انتهت العاصفة. يمكننا الخروج الآن.",
+   "symbol": "sun"
+  },
+  {
+   "id": "belong",
+   "word": "belong (to)",
+   "ar": "ينتمي إلى؛ يخص",
+   "definition": "To be owned by someone.",
+   "example": "This blue suitcase belongs to my brother.",
+   "exampleAr": "هذه الحقيبة الزرقاء تخص أخي.",
+   "symbol": "thought"
+  },
+  {
+   "id": "blow",
+   "word": "blow",
+   "ar": "يهبّ؛ ينفخ",
+   "definition": "When wind moves, it blows.",
+   "example": "The wind blew all night.",
+   "exampleAr": "هبّت الرياح طوال الليل.",
+   "symbol": "air"
+  },
+  {
+   "id": "clear-up",
+   "word": "clear up",
+   "ar": "يصفو (الجو)",
+   "definition": "When bad weather ends, it clears up.",
+   "example": "I hope the sky clears up before the trip.",
+   "exampleAr": "أتمنى أن يصفو الجو قبل الرحلة.",
+   "symbol": "sun"
+  },
+  {
+   "id": "could-use",
+   "word": "could use",
+   "ar": "يحتاج إلى؛ يستفيد من",
+   "definition": "To need or want something.",
+   "example": "I could use a cold drink after this walk.",
+   "exampleAr": "أحتاج إلى مشروب بارد بعد هذا المشي.",
+   "symbol": "thought"
+  },
+  {
+   "id": "last",
+   "word": "last",
+   "ar": "يستمر؛ يدوم",
+   "definition": "To continue for a period of time.",
+   "example": "The rain lasted for three days.",
+   "exampleAr": "استمر المطر ثلاثة أيام.",
+   "symbol": "sun"
+  },
+  {
+   "id": "remain",
+   "word": "remain",
+   "ar": "يبقى",
+   "definition": "To stay in the same place or state.",
+   "example": "The weather will remain hot this week.",
+   "exampleAr": "سيبقى الجو حارًا هذا الأسبوع.",
+   "symbol": "home"
+  },
+  {
+   "id": "slip",
+   "word": "slip",
+   "ar": "ينزلق",
+   "definition": "To slide and almost fall.",
+   "example": "Be careful not to slip on the wet floor.",
+   "exampleAr": "احذر أن تنزلق على الأرض المبللة.",
+   "symbol": "water"
+  },
+  {
+   "id": "stay",
+   "word": "stay",
+   "ar": "يقيم؛ يبقى",
+   "definition": "To remain in a place for a time.",
+   "example": "We stayed at a small hotel by the lake.",
+   "exampleAr": "أقمنا في فندق صغير بجانب البحيرة.",
+   "symbol": "home"
+  },
+  {
+   "id": "calm",
+   "word": "calm",
+   "ar": "هادئ؛ ساكن",
+   "definition": "Quiet, with no strong wind or waves.",
+   "example": "The sea was calm in the morning.",
+   "exampleAr": "كان البحر هادئًا في الصباح.",
+   "symbol": "quiet"
+  },
+  {
+   "id": "clear",
+   "word": "clear",
+   "ar": "صافٍ؛ واضح",
+   "definition": "With no clouds.",
+   "example": "The sky is clear tonight. We can see the stars.",
+   "exampleAr": "السماء صافية الليلة. يمكننا رؤية النجوم.",
+   "symbol": "sun"
+  },
+  {
+   "id": "dangerous",
+   "word": "dangerous",
+   "ar": "خطير",
+   "definition": "Likely to hurt you.",
+   "example": "Swimming in deep water alone is dangerous.",
+   "exampleAr": "السباحة وحدك في الماء العميق أمر خطير.",
+   "symbol": "water"
+  },
+  {
+   "id": "deep",
+   "word": "deep",
+   "ar": "عميق",
+   "definition": "Going far down from the top.",
+   "example": "The lake is very deep in the middle.",
+   "exampleAr": "البحيرة عميقة جدًا في وسطها.",
+   "symbol": "water"
+  },
+  {
+   "id": "during",
+   "word": "during",
+   "ar": "خلال",
+   "definition": "At some time while something happens.",
+   "example": "It rained during our trip.",
+   "exampleAr": "أمطرت خلال رحلتنا.",
+   "symbol": "travel"
+  },
+  {
+   "id": "ever",
+   "word": "ever",
+   "ar": "في أي وقت؛ أبدًا",
+   "definition": "At any time in your life.",
+   "example": "Have you ever seen snow?",
+   "exampleAr": "هل رأيت الثلج من قبل؟",
+   "symbol": "travel"
+  },
+  {
+   "id": "except",
+   "word": "except",
+   "ar": "ما عدا",
+   "definition": "But not.",
+   "example": "Everyone came except Sami.",
+   "exampleAr": "حضر الجميع ما عدا سامي.",
+   "symbol": "thought"
+  },
+  {
+   "id": "freezing",
+   "word": "freezing",
+   "ar": "شديد البرودة",
+   "definition": "Very, very cold.",
+   "example": "It is freezing outside. Wear a coat.",
+   "exampleAr": "الجو شديد البرودة في الخارج. البس معطفًا.",
+   "symbol": "air"
+  },
+  {
+   "id": "frightened",
+   "word": "frightened",
+   "ar": "خائف",
+   "definition": "Afraid.",
+   "example": "The child was frightened by the loud thunder.",
+   "exampleAr": "خاف الطفل من صوت الرعد العالي.",
+   "symbol": "thought"
+  },
+  {
+   "id": "humid",
+   "word": "humid",
+   "ar": "رطب",
+   "definition": "With a lot of water in the air.",
+   "example": "Jeddah is hot and humid in summer.",
+   "exampleAr": "جدة حارة ورطبة في الصيف.",
+   "symbol": "water"
+  },
+  {
+   "id": "if",
+   "word": "if",
+   "ar": "إذا؛ لو",
+   "definition": "A word used to give a condition.",
+   "example": "If you are tired, we will rest.",
+   "exampleAr": "إذا كنت متعبًا، سنستريح.",
+   "symbol": "thought"
+  },
+  {
+   "id": "like",
+   "word": "like",
+   "ar": "مثل؛ يحب",
+   "definition": "Similar to; also: to enjoy.",
+   "example": "What is the weather like in Abha?",
+   "exampleAr": "كيف يكون الطقس في أبها؟",
+   "symbol": "thought"
+  },
+  {
+   "id": "no-longer",
+   "word": "no longer",
+   "ar": "لم يعد",
+   "definition": "Not now, although it was true before.",
+   "example": "He no longer lives in Riyadh.",
+   "exampleAr": "لم يعد يسكن في الرياض.",
+   "symbol": "thought"
+  },
+  {
+   "id": "none",
+   "word": "none",
+   "ar": "لا أحد؛ لا شيء",
+   "definition": "Not one; not any.",
+   "example": "None of my friends could come.",
+   "exampleAr": "لم يستطع أحد من أصدقائي الحضور.",
+   "symbol": "thought"
+  },
+  {
+   "id": "occasionally",
+   "word": "occasionally",
+   "ar": "أحيانًا",
+   "definition": "Sometimes, but not often.",
+   "example": "It occasionally rains here in winter.",
+   "exampleAr": "تمطر هنا أحيانًا في الشتاء.",
+   "symbol": "sun"
+  },
+  {
+   "id": "unpleasant",
+   "word": "unpleasant",
+   "ar": "غير مريح؛ كريه",
+   "definition": "Not nice.",
+   "example": "The weather was unpleasant: hot and windy.",
+   "exampleAr": "كان الطقس غير مريح: حارًا وعاصفًا.",
+   "symbol": "air"
+  },
+  {
+   "id": "associate-degree",
+   "word": "associate degree",
+   "ar": "دبلوم متوسط؛ درجة زميل",
+   "definition": "A two-year college qualification.",
+   "example": "She got an associate degree in nursing.",
+   "exampleAr": "حصلت على دبلوم متوسط في التمريض.",
+   "symbol": "school"
+  },
+  {
+   "id": "bachelors-degree",
+   "word": "bachelor's degree",
+   "ar": "بكالوريوس",
+   "definition": "A university degree, usually after four years.",
+   "example": "He has a bachelor's degree in science.",
+   "exampleAr": "يحمل درجة البكالوريوس في العلوم.",
+   "symbol": "school"
+  },
+  {
+   "id": "career",
+   "word": "career",
+   "ar": "مسيرة مهنية",
+   "definition": "The work you do for a long part of your life.",
+   "example": "She wants a career in medicine.",
+   "exampleAr": "تريد مسيرة مهنية في الطب.",
+   "symbol": "school"
+  },
+  {
+   "id": "choice",
+   "word": "choice",
+   "ar": "خيار",
+   "definition": "Something you can choose.",
+   "example": "You have a choice: math or biology.",
+   "exampleAr": "لديك خيار: الرياضيات أو الأحياء.",
+   "symbol": "thought"
+  },
+  {
+   "id": "college",
+   "word": "college",
+   "ar": "كلية",
+   "definition": "A place for study after high school.",
+   "example": "My cousin goes to a technical college.",
+   "exampleAr": "يدرس ابن عمي في كلية تقنية.",
+   "symbol": "school"
+  },
+  {
+   "id": "course",
+   "word": "course",
+   "ar": "مقرر؛ دورة",
+   "definition": "A set of lessons in one subject.",
+   "example": "I'm taking an English course this summer.",
+   "exampleAr": "سأدرس دورة في اللغة الإنجليزية هذا الصيف.",
+   "symbol": "school"
+  },
+  {
+   "id": "decision",
+   "word": "decision",
+   "ar": "قرار",
+   "definition": "A choice you make after thinking.",
+   "example": "Choosing a university is a big decision.",
+   "exampleAr": "اختيار الجامعة قرار كبير.",
+   "symbol": "thought"
+  },
+  {
+   "id": "degree",
+   "word": "degree",
+   "ar": "درجة علمية",
+   "definition": "What you get when you finish university study.",
+   "example": "You need a degree for this job.",
+   "exampleAr": "تحتاج إلى درجة علمية لهذه الوظيفة.",
+   "symbol": "school"
+  },
+  {
+   "id": "diploma",
+   "word": "diploma",
+   "ar": "دبلوم؛ شهادة",
+   "definition": "A paper that shows you finished a course or school.",
+   "example": "He received his high school diploma last year.",
+   "exampleAr": "استلم شهادة الثانوية العامة العام الماضي.",
+   "symbol": "school"
+  },
+  {
+   "id": "discussion",
+   "word": "discussion",
+   "ar": "نقاش",
+   "definition": "A talk about something.",
+   "example": "We had a long discussion about my future.",
+   "exampleAr": "أجرينا نقاشًا طويلًا عن مستقبلي.",
+   "symbol": "thought"
+  },
+  {
+   "id": "education",
+   "word": "education",
+   "ar": "تعليم",
+   "definition": "Teaching and learning.",
+   "example": "Education opens many doors.",
+   "exampleAr": "التعليم يفتح أبوابًا كثيرة.",
+   "symbol": "school"
+  },
+  {
+   "id": "educator",
+   "word": "educator",
+   "ar": "مربٍّ؛ معلم",
+   "definition": "A person who teaches.",
+   "example": "My uncle was an educator for thirty years.",
+   "exampleAr": "كان عمي معلمًا لثلاثين عامًا.",
+   "symbol": "school"
+  },
+  {
+   "id": "elementary-school",
+   "word": "elementary school",
+   "ar": "مدرسة ابتدائية",
+   "definition": "The first school for young children.",
+   "example": "My little sister is in elementary school.",
+   "exampleAr": "أختي الصغيرة في المدرسة الابتدائية.",
+   "symbol": "school"
+  },
+  {
+   "id": "field",
+   "word": "field",
+   "ar": "مجال",
+   "definition": "An area of study or work.",
+   "example": "Computer science is a growing field.",
+   "exampleAr": "علوم الحاسب مجال متنامٍ.",
+   "symbol": "school"
+  },
+  {
+   "id": "future",
+   "word": "future",
+   "ar": "مستقبل",
+   "definition": "The time that will come.",
+   "example": "What are your plans for the future?",
+   "exampleAr": "ما خططك للمستقبل؟",
+   "symbol": "thought"
+  },
+  {
+   "id": "grade",
+   "word": "grade",
+   "ar": "درجة؛ صف",
+   "definition": "A mark for school work; also a year at school.",
+   "example": "I got a good grade on the test.",
+   "exampleAr": "حصلت على درجة جيدة في الاختبار.",
+   "symbol": "school"
+  },
+  {
+   "id": "high-school",
+   "word": "high school",
+   "ar": "مدرسة ثانوية",
+   "definition": "The school after middle school.",
+   "example": "I will finish high school this year.",
+   "exampleAr": "سأنهي المرحلة الثانوية هذا العام.",
+   "symbol": "school"
+  },
+  {
+   "id": "masters-degree",
+   "word": "master's degree",
+   "ar": "ماجستير",
+   "definition": "A university degree after a bachelor's degree.",
+   "example": "She is studying for a master's degree.",
+   "exampleAr": "تدرس للحصول على الماجستير.",
+   "symbol": "school"
+  },
+  {
+   "id": "middle-school",
+   "word": "middle school",
+   "ar": "مدرسة متوسطة",
+   "definition": "The school between elementary and high school.",
+   "example": "We met in middle school.",
+   "exampleAr": "التقينا في المدرسة المتوسطة.",
+   "symbol": "school"
+  },
+  {
+   "id": "offer",
+   "word": "offer",
+   "ar": "عرض؛ يعرض",
+   "definition": "Something someone gives you to accept or refuse; also: to give someone a chance.",
+   "example": "The company offered him a job.",
+   "exampleAr": "عرضت عليه الشركة وظيفة.",
+   "symbol": "thought"
+  },
+  {
+   "id": "phd",
+   "word": "Ph.D.",
+   "ar": "دكتوراه",
+   "definition": "The highest university degree.",
+   "example": "Dr. Huda has a Ph.D. in chemistry.",
+   "exampleAr": "الدكتورة هدى تحمل الدكتوراه في الكيمياء.",
+   "symbol": "school"
+  },
+  {
+   "id": "profession",
+   "word": "profession",
+   "ar": "مهنة",
+   "definition": "A job that needs special study.",
+   "example": "Teaching is an important profession.",
+   "exampleAr": "التدريس مهنة مهمة.",
+   "symbol": "school"
+  },
+  {
+   "id": "professional",
+   "word": "professional",
+   "ar": "محترف؛ مهني",
+   "definition": "Connected with a job; also: a person with special training.",
+   "example": "He is a professional photographer.",
+   "exampleAr": "هو مصوّر محترف.",
+   "symbol": "school"
+  },
+  {
+   "id": "refusal",
+   "word": "refusal",
+   "ar": "رفض",
+   "definition": "Saying no.",
+   "example": "His refusal surprised everyone.",
+   "exampleAr": "فاجأ رفضُه الجميع.",
+   "symbol": "thought"
+  },
+  {
+   "id": "tour",
+   "word": "tour",
+   "ar": "جولة",
+   "definition": "A visit to see a place.",
+   "example": "We took a tour of the university.",
+   "exampleAr": "قمنا بجولة في الجامعة.",
+   "symbol": "travel"
+  },
+  {
+   "id": "tour-of-duty",
+   "word": "tour of duty",
+   "ar": "فترة خدمة",
+   "definition": "A period of work in one place, often in the army.",
+   "example": "His tour of duty lasted two years.",
+   "exampleAr": "استمرت فترة خدمته سنتين.",
+   "symbol": "travel"
+  },
+  {
+   "id": "university",
+   "word": "university",
+   "ar": "جامعة",
+   "definition": "A place for study after high school where you get degrees.",
+   "example": "She was accepted at King Saud University.",
+   "exampleAr": "قُبلت في جامعة الملك سعود.",
+   "symbol": "school"
+  },
+  {
+   "id": "accept",
+   "word": "accept",
+   "ar": "يقبل",
+   "definition": "To say yes to something.",
+   "example": "I accepted the offer.",
+   "exampleAr": "قبلتُ العرض.",
+   "symbol": "thought"
+  },
+  {
+   "id": "change-ones-mind",
+   "word": "change one's mind",
+   "ar": "يغيّر رأيه",
+   "definition": "To make a different decision.",
+   "example": "I wanted law, but I changed my mind.",
+   "exampleAr": "أردت القانون، لكنني غيّرت رأيي.",
+   "symbol": "thought"
+  },
+  {
+   "id": "discuss",
+   "word": "discuss",
+   "ar": "يناقش",
+   "definition": "To talk about something.",
+   "example": "Let's discuss your plans tonight.",
+   "exampleAr": "لنناقش خططك الليلة.",
+   "symbol": "thought"
+  },
+  {
+   "id": "educate",
+   "word": "educate",
+   "ar": "يعلّم؛ يثقّف",
+   "definition": "To teach someone.",
+   "example": "Schools educate young people.",
+   "exampleAr": "المدارس تعلّم الشباب.",
+   "symbol": "school"
+  },
+  {
+   "id": "make-up-ones-mind",
+   "word": "make up one's mind",
+   "ar": "يحسم قراره",
+   "definition": "To decide.",
+   "example": "Have you made up your mind yet?",
+   "exampleAr": "هل حسمت قرارك بعد؟",
+   "symbol": "thought"
+  },
+  {
+   "id": "refuse",
+   "word": "refuse (to)",
+   "ar": "يرفض",
+   "definition": "To say no.",
+   "example": "He refused to wait any longer.",
+   "exampleAr": "رفض أن ينتظر أكثر.",
+   "symbol": "thought"
+  },
+  {
+   "id": "retire",
+   "word": "retire",
+   "ar": "يتقاعد",
+   "definition": "To stop working because you are older.",
+   "example": "My father retired last year.",
+   "exampleAr": "تقاعد والدي العام الماضي.",
+   "symbol": "home"
+  },
+  {
+   "id": "take",
+   "word": "take",
+   "ar": "يأخذ",
+   "definition": "To get or carry; also: to study a course.",
+   "example": "I took three courses last term.",
+   "exampleAr": "درست ثلاثة مقررات في الفصل الماضي.",
+   "symbol": "school"
+  },
+  {
+   "id": "talk-over",
+   "word": "talk over",
+   "ar": "يتباحث في؛ يناقش",
+   "definition": "To discuss something before deciding.",
+   "example": "Let me talk it over with my parents.",
+   "exampleAr": "دعني أناقش الأمر مع والديّ.",
+   "symbol": "thought"
+  },
+  {
+   "id": "think-over",
+   "word": "think over",
+   "ar": "يتأمل مليًا",
+   "definition": "To think carefully before deciding.",
+   "example": "Think it over and call me tomorrow.",
+   "exampleAr": "فكّر في الأمر جيدًا واتصل بي غدًا.",
+   "symbol": "thought"
+  },
+  {
+   "id": "turn-down",
+   "word": "turn down",
+   "ar": "يرفض",
+   "definition": "To say no to an offer.",
+   "example": "She turned down the job in Dubai.",
+   "exampleAr": "رفضت الوظيفة في دبي.",
+   "symbol": "thought"
+  },
+  {
+   "id": "already",
+   "word": "already",
+   "ar": "بالفعل؛ من قبل",
+   "definition": "Before now, sooner than expected.",
+   "example": "I've already finished my homework.",
+   "exampleAr": "أنهيتُ واجبي بالفعل.",
+   "symbol": "thought"
+  },
+  {
+   "id": "confused",
+   "word": "confused",
+   "ar": "مرتبك؛ مشوَّش",
+   "definition": "Not able to understand or decide.",
+   "example": "I'm confused. Which form do I need?",
+   "exampleAr": "أنا مرتبك. أي نموذج أحتاج؟",
+   "symbol": "thought"
+  },
+  {
+   "id": "confusing",
+   "word": "confusing",
+   "ar": "محيّر؛ مربك",
+   "definition": "Making you confused.",
+   "example": "The instructions were confusing.",
+   "exampleAr": "كانت التعليمات مربكة.",
+   "symbol": "thought"
+  },
+  {
+   "id": "instead",
+   "word": "instead",
+   "ar": "بدلًا من ذلك",
+   "definition": "In place of something else.",
+   "example": "There was no bus, so we walked instead.",
+   "exampleAr": "لم تكن هناك حافلة، فمشينا بدلًا من ذلك.",
+   "symbol": "thought"
+  },
+  {
+   "id": "instead-of",
+   "word": "instead of",
+   "ar": "بدلًا من",
+   "definition": "In place of.",
+   "example": "I'll have tea instead of coffee.",
+   "exampleAr": "سآخذ شايًا بدلًا من القهوة.",
+   "symbol": "thought"
+  },
+  {
+   "id": "just",
+   "word": "just",
+   "ar": "للتو؛ فقط",
+   "definition": "A very short time ago; also: only.",
+   "example": "I've just received my results.",
+   "exampleAr": "استلمت نتائجي للتو.",
+   "symbol": "thought"
+  },
+  {
+   "id": "medical",
+   "word": "medical",
+   "ar": "طبي",
+   "definition": "Connected with medicine and doctors.",
+   "example": "He wants to go to medical school.",
+   "exampleAr": "يريد الالتحاق بكلية الطب.",
+   "symbol": "school"
+  },
+  {
+   "id": "so",
+   "word": "so",
+   "ar": "لذلك؛ لهذا",
+   "definition": "For this reason.",
+   "example": "I was tired, so I went to bed early.",
+   "exampleAr": "كنت متعبًا، لذلك نمت مبكرًا.",
+   "symbol": "thought"
+  },
+  {
+   "id": "technical",
+   "word": "technical",
+   "ar": "تقني؛ فني",
+   "definition": "Connected with practical skills and machines.",
+   "example": "She studies at a technical institute.",
+   "exampleAr": "تدرس في معهد تقني.",
+   "symbol": "school"
+  },
+  {
+   "id": "yet",
+   "word": "yet",
+   "ar": "حتى الآن؛ بعد",
+   "definition": "Until now (in questions and negatives).",
+   "example": "I haven't decided yet.",
+   "exampleAr": "لم أقرر بعد.",
+   "symbol": "thought"
+  },
+  {
+   "id": "addition",
+   "word": "addition",
+   "ar": "إضافة؛ ملحق",
+   "definition": "A new part added to a building.",
+   "example": "The new addition has two bedrooms.",
+   "exampleAr": "الملحق الجديد فيه غرفتا نوم.",
+   "symbol": "home"
+  },
+  {
+   "id": "builder",
+   "word": "builder",
+   "ar": "بنّاء؛ مقاول",
+   "definition": "A person who builds houses.",
+   "example": "The builder finished the wall in a week.",
+   "exampleAr": "أنهى البنّاء الجدار في أسبوع.",
+   "symbol": "home"
+  },
+  {
+   "id": "cassette",
+   "word": "cassette",
+   "ar": "شريط كاسيت",
+   "definition": "An old plastic case with tape for sound.",
+   "example": "My grandfather still keeps his old cassettes.",
+   "exampleAr": "ما زال جدي يحتفظ بأشرطة الكاسيت القديمة.",
+   "symbol": "home"
+  },
+  {
+   "id": "cd",
+   "word": "CD",
+   "ar": "قرص مدمج",
+   "definition": "A round disc for music or data.",
+   "example": "Put the CD in the player.",
+   "exampleAr": "ضع القرص في المشغّل.",
+   "symbol": "home"
+  },
+  {
+   "id": "den",
+   "word": "den",
+   "ar": "غرفة جلوس صغيرة",
+   "definition": "A small, comfortable room for relaxing.",
+   "example": "We watch TV in the den.",
+   "exampleAr": "نشاهد التلفاز في غرفة الجلوس.",
+   "symbol": "home"
+  },
+  {
+   "id": "dining-room",
+   "word": "dining room",
+   "ar": "غرفة طعام",
+   "definition": "The room where you eat meals.",
+   "example": "Dinner is ready in the dining room.",
+   "exampleAr": "العشاء جاهز في غرفة الطعام.",
+   "symbol": "home"
+  },
+  {
+   "id": "fire",
+   "word": "fire",
+   "ar": "نار؛ حريق",
+   "definition": "Flames and heat from something burning.",
+   "example": "We sat around the fire in the desert.",
+   "exampleAr": "جلسنا حول النار في البر.",
+   "symbol": "sun"
+  },
+  {
+   "id": "fireplace",
+   "word": "fireplace",
+   "ar": "مدفأة جدارية",
+   "definition": "A place in a wall where you can have a fire.",
+   "example": "The living room has a stone fireplace.",
+   "exampleAr": "في غرفة المعيشة مدفأة حجرية.",
+   "symbol": "home"
+  },
+  {
+   "id": "get-together",
+   "word": "get-together",
+   "ar": "لقاء؛ تجمع",
+   "definition": "A friendly meeting of people.",
+   "example": "We have a family get-together every Friday.",
+   "exampleAr": "لدينا تجمع عائلي كل جمعة.",
+   "symbol": "home"
+  },
+  {
+   "id": "idea",
+   "word": "idea",
+   "ar": "فكرة",
+   "definition": "A plan or thought.",
+   "example": "That's a great idea!",
+   "exampleAr": "هذه فكرة رائعة!",
+   "symbol": "thought"
+  },
+  {
+   "id": "meeting",
+   "word": "meeting",
+   "ar": "اجتماع",
+   "definition": "When people come together to talk.",
+   "example": "The meeting starts at nine.",
+   "exampleAr": "يبدأ الاجتماع الساعة التاسعة.",
+   "symbol": "home"
+  },
+  {
+   "id": "oven",
+   "word": "oven",
+   "ar": "فرن",
+   "definition": "A kitchen box for baking and cooking.",
+   "example": "The bread is in the oven.",
+   "exampleAr": "الخبز في الفرن.",
+   "symbol": "home"
+  },
+  {
+   "id": "patio",
+   "word": "patio",
+   "ar": "فناء؛ ساحة منزلية",
+   "definition": "A flat outdoor area next to a house.",
+   "example": "We drink tea on the patio in the evening.",
+   "exampleAr": "نشرب الشاي في الفناء مساءً.",
+   "symbol": "home"
+  },
+  {
+   "id": "plan",
+   "word": "plan",
+   "ar": "خطة؛ مخطط",
+   "definition": "An idea of what you will do; also: a drawing of a building.",
+   "example": "The builder showed us the plan for the new room.",
+   "exampleAr": "أرانا البنّاء مخطط الغرفة الجديدة.",
+   "symbol": "thought"
+  },
+  {
+   "id": "player",
+   "word": "player",
+   "ar": "مشغّل؛ لاعب",
+   "definition": "A machine that plays music or video; also: a person in a game.",
+   "example": "The DVD player isn't working.",
+   "exampleAr": "مشغّل الأقراص لا يعمل.",
+   "symbol": "home"
+  },
+  {
+   "id": "room",
+   "word": "room",
+   "ar": "غرفة؛ مساحة",
+   "definition": "A part of a house; also: space.",
+   "example": "There isn't enough room for a sofa.",
+   "exampleAr": "لا توجد مساحة كافية لأريكة.",
+   "symbol": "home"
+  },
+  {
+   "id": "shed",
+   "word": "shed",
+   "ar": "سقيفة؛ مخزن خارجي",
+   "definition": "A small building for keeping tools.",
+   "example": "The tools are in the shed.",
+   "exampleAr": "الأدوات في المخزن الخارجي.",
+   "symbol": "home"
+  },
+  {
+   "id": "solution",
+   "word": "solution",
+   "ar": "حل",
+   "definition": "An answer to a problem.",
+   "example": "We found a solution: build upstairs.",
+   "exampleAr": "وجدنا حلًا: نبني في الطابق العلوي.",
+   "symbol": "thought"
+  },
+  {
+   "id": "speaker",
+   "word": "speaker",
+   "ar": "مكبّر صوت؛ متحدث",
+   "definition": "A device that sound comes out of; also: a person who speaks.",
+   "example": "The speakers are too loud.",
+   "exampleAr": "مكبرات الصوت عالية جدًا.",
+   "symbol": "home"
+  },
+  {
+   "id": "stereo",
+   "word": "stereo",
+   "ar": "جهاز ستيريو",
+   "definition": "A machine for playing music.",
+   "example": "He bought a new stereo for the den.",
+   "exampleAr": "اشترى جهاز ستيريو جديدًا لغرفة الجلوس.",
+   "symbol": "home"
+  },
+  {
+   "id": "story",
+   "word": "story",
+   "ar": "طابق؛ قصة",
+   "definition": "A level of a building; also: a tale.",
+   "example": "Our house has two stories.",
+   "exampleAr": "بيتنا من طابقين.",
+   "symbol": "home"
+  },
+  {
+   "id": "suburb",
+   "word": "suburb",
+   "ar": "ضاحية",
+   "definition": "An area with houses outside the city center.",
+   "example": "They live in a quiet suburb.",
+   "exampleAr": "يسكنون في ضاحية هادئة.",
+   "symbol": "home"
+  },
+  {
+   "id": "trouble",
+   "word": "trouble",
+   "ar": "مشكلة؛ متاعب",
+   "definition": "A problem or difficulty.",
+   "example": "We had trouble with the old roof.",
+   "exampleAr": "واجهنا مشكلة مع السقف القديم.",
+   "symbol": "thought"
+  },
+  {
+   "id": "wood",
+   "word": "wood",
+   "ar": "خشب",
+   "definition": "The hard material of trees.",
+   "example": "The door is made of wood.",
+   "exampleAr": "الباب مصنوع من الخشب.",
+   "symbol": "nature"
+  },
+  {
+   "id": "add-on",
+   "word": "add on",
+   "ar": "يضيف إلى؛ يلحق",
+   "definition": "To build an extra part.",
+   "example": "We added on a room for my grandmother.",
+   "exampleAr": "أضفنا غرفة لجدتي.",
+   "symbol": "home"
+  },
+  {
+   "id": "boil",
+   "word": "boil",
+   "ar": "يغلي؛ يسلق",
+   "definition": "To heat liquid until it bubbles.",
+   "example": "Boil the water before you make tea.",
+   "exampleAr": "اغلِ الماء قبل أن تعدّ الشاي.",
+   "symbol": "water"
+  },
+  {
+   "id": "build",
+   "word": "build",
+   "ar": "يبني",
+   "definition": "To make a building.",
+   "example": "They built a new house last year.",
+   "exampleAr": "بنوا بيتًا جديدًا العام الماضي.",
+   "symbol": "home"
+  },
+  {
+   "id": "burn",
+   "word": "burn",
+   "ar": "يحرق؛ يحترق",
+   "definition": "To be on fire; to damage with fire.",
+   "example": "Dry wood burns quickly.",
+   "exampleAr": "الخشب الجاف يحترق بسرعة.",
+   "symbol": "sun"
+  },
+  {
+   "id": "could",
+   "word": "could",
+   "ar": "يمكن أن (احتمال)",
+   "definition": "Used to say something is possible.",
+   "example": "He could be at the mall.",
+   "exampleAr": "قد يكون في المجمع التجاري.",
+   "symbol": "thought"
+  },
+  {
+   "id": "enlarge",
+   "word": "enlarge",
+   "ar": "يوسّع؛ يكبّر",
+   "definition": "To make bigger.",
+   "example": "We enlarged the kitchen.",
+   "exampleAr": "وسّعنا المطبخ.",
+   "symbol": "home"
+  },
+  {
+   "id": "get-together-v",
+   "word": "get together",
+   "ar": "يجتمع؛ يلتقي",
+   "definition": "To meet with friends or family.",
+   "example": "Let's get together on the weekend.",
+   "exampleAr": "لنلتقِ في عطلة نهاية الأسبوع.",
+   "symbol": "home"
+  },
+  {
+   "id": "heat-v",
+   "word": "heat",
+   "ar": "يسخّن؛ يدفّئ",
+   "definition": "To make something warm or hot.",
+   "example": "Heat the soup for two minutes.",
+   "exampleAr": "سخّن الحساء دقيقتين.",
+   "symbol": "sun"
+  },
+  {
+   "id": "leave",
+   "word": "leave",
+   "ar": "يغادر؛ يترك",
+   "definition": "To go away; to let something stay.",
+   "example": "She left her keys on the table.",
+   "exampleAr": "تركت مفاتيحها على الطاولة.",
+   "symbol": "travel"
+  },
+  {
+   "id": "play",
+   "word": "play",
+   "ar": "يشغّل؛ يلعب؛ يعزف",
+   "definition": "To start music; to take part in a game.",
+   "example": "Can you play the CD again?",
+   "exampleAr": "هل يمكنك تشغيل القرص مرة أخرى؟",
+   "symbol": "home"
+  },
+  {
+   "id": "solve",
+   "word": "solve",
+   "ar": "يحل (مشكلة)",
+   "definition": "To find an answer to a problem.",
+   "example": "An extra room will solve our problem.",
+   "exampleAr": "غرفة إضافية ستحل مشكلتنا.",
+   "symbol": "thought"
+  },
+  {
+   "id": "take-place",
+   "word": "take place",
+   "ar": "يحدث؛ يقع",
+   "definition": "To happen.",
+   "example": "The party will take place in the garden.",
+   "exampleAr": "سيقام الحفل في الحديقة.",
+   "symbol": "home"
+  },
+  {
+   "id": "interested",
+   "word": "interested (in)",
+   "ar": "مهتم (بـ)",
+   "definition": "Wanting to know more about something.",
+   "example": "I'm interested in design.",
+   "exampleAr": "أنا مهتم بالتصميم.",
+   "symbol": "thought"
+  },
+  {
+   "id": "near",
+   "word": "near",
+   "ar": "قريب؛ بالقرب من",
+   "definition": "Not far.",
+   "example": "Our house is near the school.",
+   "exampleAr": "بيتنا قريب من المدرسة.",
+   "symbol": "home"
+  },
+  {
+   "id": "perhaps",
+   "word": "perhaps",
+   "ar": "ربما",
+   "definition": "Maybe.",
+   "example": "Perhaps she is in the kitchen.",
+   "exampleAr": "ربما هي في المطبخ.",
+   "symbol": "thought"
+  },
+  {
+   "id": "then",
+   "word": "then",
+   "ar": "ثم؛ بعد ذلك",
+   "definition": "After that; at that time.",
+   "example": "First we painted the walls, then we bought furniture.",
+   "exampleAr": "أولًا دهنّا الجدران، ثم اشترينا الأثاث.",
+   "symbol": "thought"
+  },
+  {
+   "id": "tiring",
+   "word": "tiring",
+   "ar": "متعب؛ مرهق",
+   "definition": "Making you tired.",
+   "example": "Moving house is tiring work.",
+   "exampleAr": "الانتقال إلى بيت جديد عمل مرهق.",
+   "symbol": "home"
+  },
+  {
+   "id": "country",
+   "word": "country",
+   "ar": "ريف؛ بلد",
+   "definition": "Land outside towns; also: a nation.",
+   "example": "We spent the weekend in the country.",
+   "exampleAr": "قضينا عطلة الأسبوع في الريف.",
+   "symbol": "nature"
+  },
+  {
+   "id": "deer",
+   "word": "deer",
+   "ar": "غزال؛ ظباء",
+   "definition": "A wild animal with long legs (plural: deer).",
+   "example": "We saw three deer near the river.",
+   "exampleAr": "رأينا ثلاثة غزلان قرب النهر.",
+   "symbol": "nature"
+  },
+  {
+   "id": "duck",
+   "word": "duck",
+   "ar": "بطة",
+   "definition": "A water bird.",
+   "example": "Ducks swim on the lake.",
+   "exampleAr": "البط يسبح في البحيرة.",
+   "symbol": "nature"
+  },
+  {
+   "id": "fish",
+   "word": "fish",
+   "ar": "سمكة؛ يصطاد السمك",
+   "definition": "An animal that lives in water (plural: fish); also: to try to catch fish.",
+   "example": "My uncle fishes every Friday.",
+   "exampleAr": "يصطاد عمي السمك كل جمعة.",
+   "symbol": "water"
+  },
+  {
+   "id": "fishing-rod",
+   "word": "fishing rod",
+   "ar": "صنارة صيد",
+   "definition": "A long stick with a line for catching fish.",
+   "example": "He bought a new fishing rod.",
+   "exampleAr": "اشترى صنارة صيد جديدة.",
+   "symbol": "water"
+  },
+  {
+   "id": "gun",
+   "word": "gun",
+   "ar": "سلاح ناري؛ بندقية",
+   "definition": "A weapon that fires bullets.",
+   "example": "Hunters must keep their guns safe and locked.",
+   "exampleAr": "يجب على الصيادين حفظ أسلحتهم آمنة ومقفلة.",
+   "symbol": "nature"
+  },
+  {
+   "id": "instructions",
+   "word": "instructions",
+   "ar": "تعليمات",
+   "definition": "Information about how to do something.",
+   "example": "Read the instructions before you start.",
+   "exampleAr": "اقرأ التعليمات قبل أن تبدأ.",
+   "symbol": "thought"
+  },
+  {
+   "id": "line",
+   "word": "line",
+   "ar": "خيط؛ خط؛ صف",
+   "definition": "A thin string, for example on a fishing rod.",
+   "example": "The fish broke the line.",
+   "exampleAr": "قطعت السمكة الخيط.",
+   "symbol": "water"
+  },
+  {
+   "id": "outdoors",
+   "word": "outdoors",
+   "ar": "الهواء الطلق؛ في الخارج",
+   "definition": "Outside, not in a building.",
+   "example": "I love spending time outdoors.",
+   "exampleAr": "أحب قضاء الوقت في الهواء الطلق.",
+   "symbol": "nature"
+  },
+  {
+   "id": "own",
+   "word": "own",
+   "ar": "مِلك خاص؛ يمتلك",
+   "definition": "Belonging to you; also: to have something as yours.",
+   "example": "He has his own boat.",
+   "exampleAr": "لديه قاربه الخاص.",
+   "symbol": "home"
+  },
+  {
+   "id": "pistol",
+   "word": "pistol",
+   "ar": "مسدس",
+   "definition": "A small gun held in one hand.",
+   "example": "A pistol is a small handgun.",
+   "exampleAr": "المسدس سلاح ناري صغير يُمسك باليد.",
+   "symbol": "nature"
+  },
+  {
+   "id": "plenty",
+   "word": "plenty",
+   "ar": "وفرة؛ كثير",
+   "definition": "A lot; more than enough.",
+   "example": "There are plenty of fish in this lake.",
+   "exampleAr": "في هذه البحيرة أسماك كثيرة.",
+   "symbol": "nature"
+  },
+  {
+   "id": "rifle",
+   "word": "rifle",
+   "ar": "بندقية طويلة",
+   "definition": "A long gun.",
+   "example": "The hunter carried a rifle on his shoulder.",
+   "exampleAr": "حمل الصياد بندقية على كتفه.",
+   "symbol": "nature"
+  },
+  {
+   "id": "shot",
+   "word": "shot",
+   "ar": "طلقة؛ رمية",
+   "definition": "The act of firing a gun; also: a try at hitting a target.",
+   "example": "That was a great shot!",
+   "exampleAr": "كانت تلك رمية رائعة!",
+   "symbol": "nature"
+  },
+  {
+   "id": "walk",
+   "word": "walk",
+   "ar": "مشي؛ نزهة",
+   "definition": "A trip on foot.",
+   "example": "Let's go for a walk by the sea.",
+   "exampleAr": "لنذهب في نزهة بجانب البحر.",
+   "symbol": "nature"
+  },
+  {
+   "id": "weapon",
+   "word": "weapon",
+   "ar": "سلاح",
+   "definition": "Something used to hurt or attack.",
+   "example": "Weapons are not allowed in the park.",
+   "exampleAr": "الأسلحة ممنوعة في الحديقة.",
+   "symbol": "nature"
+  },
+  {
+   "id": "catch",
+   "word": "catch",
+   "ar": "يصطاد؛ يمسك؛ يلتقط",
+   "definition": "To take hold of something moving.",
+   "example": "I caught two fish this morning.",
+   "exampleAr": "اصطدت سمكتين هذا الصباح.",
+   "symbol": "water"
+  },
+  {
+   "id": "go-ing",
+   "word": "go + -ing",
+   "ar": "يذهب لممارسة نشاط",
+   "definition": "Used for activities: go fishing, go hunting, go camping.",
+   "example": "We went camping last spring.",
+   "exampleAr": "ذهبنا للتخييم الربيع الماضي.",
+   "symbol": "travel"
+  },
+  {
+   "id": "hunt",
+   "word": "hunt",
+   "ar": "يصطاد (الحيوانات)",
+   "definition": "To chase and catch wild animals.",
+   "example": "Falcons hunt small birds.",
+   "exampleAr": "الصقور تصطاد الطيور الصغيرة.",
+   "symbol": "nature"
+  },
+  {
+   "id": "kill",
+   "word": "kill",
+   "ar": "يقتل؛ يذبح",
+   "definition": "To make something die.",
+   "example": "The cold winter killed the plants.",
+   "exampleAr": "قتل الشتاء البارد النباتات.",
+   "symbol": "nature"
+  },
+  {
+   "id": "practice",
+   "word": "practice",
+   "ar": "يتمرّن؛ يتدرّب",
+   "definition": "To do something many times to improve.",
+   "example": "She practices English every day.",
+   "exampleAr": "تتدرب على الإنجليزية كل يوم.",
+   "symbol": "school"
+  },
+  {
+   "id": "prepare",
+   "word": "prepare",
+   "ar": "يُعدّ؛ يتجهّز",
+   "definition": "To get ready.",
+   "example": "We prepared our tents before the trip.",
+   "exampleAr": "جهّزنا خيامنا قبل الرحلة.",
+   "symbol": "home"
+  },
+  {
+   "id": "shoot",
+   "word": "shoot",
+   "ar": "يطلق النار؛ يرمي",
+   "definition": "To fire a gun or arrow; also: to kick or throw at a goal.",
+   "example": "He shot the ball into the goal.",
+   "exampleAr": "سدّد الكرة في المرمى.",
+   "symbol": "nature"
+  },
+  {
+   "id": "used-to",
+   "word": "used to",
+   "ar": "اعتاد على (ماضٍ)",
+   "definition": "For past habits that are not true now.",
+   "example": "I used to live in Taif.",
+   "exampleAr": "كنت أعيش في الطائف.",
+   "symbol": "thought"
+  },
+  {
+   "id": "would",
+   "word": "would",
+   "ar": "كان (للعادات الماضية)",
+   "definition": "For repeated actions in the past.",
+   "example": "Every summer, we would visit our grandparents.",
+   "exampleAr": "كل صيف، كنا نزور أجدادنا.",
+   "symbol": "thought"
+  },
+  {
+   "id": "all-over",
+   "word": "all over",
+   "ar": "في كل مكان",
+   "definition": "Everywhere in a place.",
+   "example": "There were flowers all over the garden.",
+   "exampleAr": "كانت الزهور في كل أنحاء الحديقة.",
+   "symbol": "nature"
+  },
+  {
+   "id": "farther",
+   "word": "farther",
+   "ar": "أبعد (مسافة)",
+   "definition": "At a greater distance.",
+   "example": "The lake is farther than the river.",
+   "exampleAr": "البحيرة أبعد من النهر.",
+   "symbol": "travel"
+  },
+  {
+   "id": "further",
+   "word": "further",
+   "ar": "أبعد؛ إضافي",
+   "definition": "More far; also: more, extra.",
+   "example": "For further information, ask the guide.",
+   "exampleAr": "لمزيد من المعلومات، اسأل المرشد.",
+   "symbol": "travel"
+  },
+  {
+   "id": "hard",
+   "word": "hard",
+   "ar": "صعب؛ بجهد",
+   "definition": "Difficult; also: with a lot of effort.",
+   "example": "He works hard every day.",
+   "exampleAr": "يعمل بجد كل يوم.",
+   "symbol": "thought"
+  },
+  {
+   "id": "high",
+   "word": "high",
+   "ar": "عالٍ؛ مرتفع",
+   "definition": "Far above the ground.",
+   "example": "The birds flew high over the trees.",
+   "exampleAr": "حلّقت الطيور عاليًا فوق الأشجار.",
+   "symbol": "nature"
+  },
+  {
+   "id": "in-the-open",
+   "word": "in the open",
+   "ar": "في العراء؛ في الخلاء",
+   "definition": "Outside, not covered.",
+   "example": "We slept in the open under the stars.",
+   "exampleAr": "نمنا في العراء تحت النجوم.",
+   "symbol": "nature"
+  },
+  {
+   "id": "indoors",
+   "word": "indoors",
+   "ar": "داخل المبنى",
+   "definition": "Inside a building.",
+   "example": "When it rains, the children play indoors.",
+   "exampleAr": "حين تمطر، يلعب الأطفال داخل البيت.",
+   "symbol": "home"
+  },
+  {
+   "id": "low",
+   "word": "low",
+   "ar": "منخفض؛ قليل",
+   "definition": "Not high.",
+   "example": "The plane was flying low.",
+   "exampleAr": "كانت الطائرة تحلّق على ارتفاع منخفض.",
+   "symbol": "nature"
+  },
+  {
+   "id": "more",
+   "word": "more",
+   "ar": "أكثر",
+   "definition": "A larger amount.",
+   "example": "Please speak more slowly.",
+   "exampleAr": "تحدث ببطء أكثر من فضلك.",
+   "symbol": "thought"
+  },
+  {
+   "id": "once",
+   "word": "once",
+   "ar": "مرة واحدة؛ ذات مرة",
+   "definition": "One time.",
+   "example": "I've been fishing only once.",
+   "exampleAr": "ذهبت لصيد السمك مرة واحدة فقط.",
+   "symbol": "thought"
+  },
+  {
+   "id": "out-of-doors",
+   "word": "out-of-doors",
+   "ar": "خارج المنزل؛ في العراء",
+   "definition": "Outdoors.",
+   "example": "They eat out-of-doors in spring.",
+   "exampleAr": "يتناولون الطعام في الهواء الطلق في الربيع.",
+   "symbol": "nature"
+  },
+  {
+   "id": "several",
+   "word": "several",
+   "ar": "عدة؛ بضعة",
+   "definition": "More than two, but not many.",
+   "example": "We stayed there for several days.",
+   "exampleAr": "بقينا هناك عدة أيام.",
+   "symbol": "thought"
+  },
+  {
+   "id": "slow",
+   "word": "slow",
+   "ar": "بطيء",
+   "definition": "Not fast.",
+   "example": "The old boat was very slow.",
+   "exampleAr": "كان القارب القديم بطيئًا جدًا.",
+   "symbol": "travel"
+  },
+  {
+   "id": "twice",
+   "word": "twice",
+   "ar": "مرتين",
+   "definition": "Two times.",
+   "example": "I've visited Abha twice.",
+   "exampleAr": "زرت أبها مرتين.",
+   "symbol": "thought"
+  },
+  {
+   "id": "whole",
+   "word": "whole",
+   "ar": "كامل؛ كل",
+   "definition": "All of something.",
+   "example": "We spent the whole day at the lake.",
+   "exampleAr": "قضينا اليوم كله عند البحيرة.",
+   "symbol": "thought"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "travel-1",
+   "ar": "نخطط لرحلة",
+   "en": "Let’s plan a trip",
+   "minutes": 7,
+   "unit": "travel",
+   "steps": [
+    {
+     "id": "t-intro",
+     "kind": "intro",
+     "ar": "رحلتك تبدأ بفكرة",
+     "en": "Every trip starts with an idea",
+     "bodyAr": "اليوم ستتعلم كلمات للسفر، وتفهم خطة بسيطة، وتستخدم if لتربط الخطة بالطقس. خذ وقتك، ويمكنك الرجوع في أي وقت.",
+     "bodyEn": "Learn travel words, understand a simple plan, and use if to connect a plan to the weather. Take your time. Your place is saved.",
+     "example": "If it is sunny, we will go to the beach.",
+     "translation": "إذا كان الجو مشمسًا، سنذهب إلى الشاطئ."
+    },
+    {
+     "id": "t-words",
+     "kind": "vocabulary",
+     "ar": "كلمات تأخذها معك",
+     "en": "Words for the journey",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح الصورة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Look at the picture and use the speaker to hear the word. Open the picture for its meaning and example, or bookmark it for later.",
+     "words": [
+      "beach",
+      "breeze",
+      "climate",
+      "trip"
+     ]
+    },
+    {
+     "id": "t-vocab-check",
+     "kind": "choice",
+     "ar": "نبدأ بسؤال بسيط",
+     "en": "A little confidence check",
+     "promptAr": "أي كلمة تعني نسيمًا خفيفًا؟",
+     "promptEn": "Which word means a gentle wind?",
+     "options": [
+      "climate",
+      "breeze",
+      "beach"
+     ],
+     "answer": "breeze",
+     "explanationAr": "breeze تعني نسيمًا خفيفًا. أما climate فتعني المناخ، وbeach تعني الشاطئ.",
+     "explanationEn": "A breeze is a gentle wind. Climate is the usual weather; a beach is beside the sea."
+    },
+    {
+     "id": "t-listen",
+     "kind": "listening",
+     "ar": "اسمع خطة الرحلة",
+     "en": "Listen to the plan",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it. Try listening before revealing the transcript.",
+     "audio": "Maya: Do you have plans for Friday? Omar: Yes. If it is sunny, we will go to the beach. Maya: What if it rains? Omar: We will stay home and read.",
+     "translation": "مايا: هل لديك خطط ليوم الجمعة؟ عمر: نعم. إذا كان الجو مشمسًا، سنذهب إلى الشاطئ. مايا: وماذا لو أمطرت؟ عمر: سنبقى في المنزل ونقرأ."
+    },
+    {
+     "id": "t-listen-check",
+     "kind": "choice",
+     "ar": "ماذا فهمت؟",
+     "en": "What did you hear?",
+     "promptAr": "ماذا سيفعلان إذا كان الجو مشمسًا؟",
+     "promptEn": "What will they do if it is sunny?",
+     "options": [
+      "Stay home and read.",
+      "Go to the beach.",
+      "Go to school."
+     ],
+     "answer": "Go to the beach.",
+     "explanationAr": "الخطة مرتبطة بالطقس: إذا كان مشمسًا سيذهبان إلى الشاطئ، وإذا أمطرت سيبقيان في المنزل.",
+     "explanationEn": "Their plan depends on the weather: the beach if it is sunny, and home if it rains."
+    },
+    {
+     "id": "t-grammar",
+     "kind": "grammar",
+     "ar": "خطة لها شرط",
+     "en": "A plan with a condition",
+     "bodyAr": "نستخدم if عندما يعتمد حدوث شيء على شرط. في هذا المثال: بعد if نستخدم المضارع البسيط، وفي النتيجة نستخدم will ثم الفعل بصورته الأساسية.",
+     "bodyEn": "Use if when an action depends on a condition. In this pattern, use the present simple after if, then will + the base form of the verb for the result.",
+     "example": "If it rains, we will stay home.",
+     "translation": "إذا أمطرت، سنبقى في المنزل.",
+     "formula": "If + present simple, will + verb"
+    },
+    {
+     "id": "t-cloze",
+     "kind": "choice",
+     "ar": "أكمل الخطة",
+     "en": "Complete the plan",
+     "promptAr": "اختر الكلمة المناسبة لإكمال الجملة.",
+     "promptEn": "Choose the word that completes the sentence.",
+     "example": "If it rains, we ___ stay home.",
+     "options": [
+      "will",
+      "are",
+      "was"
+     ],
+     "answer": "will",
+     "explanationAr": "نستخدم will ثم الفعل stay للتعبير عن نتيجة مستقبلية محتملة.",
+     "explanationEn": "Use will + stay for the possible future result."
+    },
+    {
+     "id": "t-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتقول: سنذهب إلى الشاطئ.",
+     "promptEn": "Put the words in order to make a future plan.",
+     "options": [
+      "beach.",
+      "go",
+      "We",
+      "the",
+      "will",
+      "to"
+     ],
+     "answer": "We will go to the beach.",
+     "explanationAr": "الترتيب هو: الفاعل We ثم will ثم الفعل go ثم بقية الجملة.",
+     "explanationEn": "Start with the subject We, then will, then the base verb go, then the destination."
+    },
+    {
+     "id": "t-read",
+     "kind": "choice",
+     "ar": "طبّق على موقف جديد",
+     "en": "Try a new situation",
+     "bodyEn": "Lina wants to visit the mountains on Saturday. If the road is slippery, she will stay in town. She expects rain tonight.",
+     "bodyAr": "لينا تريد زيارة الجبال يوم السبت. إذا كان الطريق زلقًا، فستبقى في المدينة. وهي تتوقع المطر هذه الليلة.",
+     "promptAr": "متى ستبقى لينا في المدينة؟",
+     "promptEn": "When will Lina stay in town?",
+     "options": [
+      "If the road is slippery.",
+      "If the hotel is quiet.",
+      "If the sky is clear."
+     ],
+     "answer": "If the road is slippery.",
+     "explanationAr": "النص يربط البقاء في المدينة بالطريق الزلق. slippery تعني زلقًا.",
+     "explanationEn": "The condition is a slippery road. Look for the clause beginning with if."
+    }
+   ]
+  },
+  {
+   "id": "travel-2",
+   "ar": "كيف الطقس هناك؟",
+   "en": "What's the weather like?",
+   "minutes": 8,
+   "unit": "travel",
+   "steps": [
+    {
+     "id": "t2-intro",
+     "kind": "intro",
+     "ar": "الطقس يغيّر الخطة",
+     "en": "Weather changes the plan",
+     "bodyAr": "في هذه الجلسة ستتعلم كلمات تصف الطقس، وتسأل عنه بسؤال What's the weather like?، وتستخدم كلمات مثل occasionally وduring.",
+     "bodyEn": "Learn words to describe the weather, ask What's the weather like?, and use words like occasionally and during.",
+     "example": "What's the weather like in Abha in summer?",
+     "translation": "كيف يكون الطقس في أبها في الصيف؟"
+    },
+    {
+     "id": "t2-words-1",
+     "kind": "vocabulary",
+     "ar": "كلمات الحر والرطوبة",
+     "en": "Hot and humid words",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "heat",
+      "humidity",
+      "humid",
+      "sea"
+     ]
+    },
+    {
+     "id": "t2-words-2",
+     "kind": "vocabulary",
+     "ar": "كلمات الرياح والبرد",
+     "en": "Wind and cold words",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "wind",
+      "blow",
+      "freezing",
+      "calm",
+      "clear",
+      "clear-up"
+     ]
+    },
+    {
+     "id": "t2-check-1",
+     "kind": "choice",
+     "ar": "اختبر نفسك",
+     "en": "Quick check",
+     "promptAr": "أي كلمة تعني «شديد البرودة»؟",
+     "promptEn": "Which word means very, very cold?",
+     "options": [
+      "humid",
+      "freezing",
+      "calm"
+     ],
+     "answer": "freezing",
+     "explanationAr": "freezing تعني شديد البرودة. humid تعني رطب، وcalm تعني هادئ.",
+     "explanationEn": "Freezing means very cold. Humid means wet air; calm means quiet."
+    },
+    {
+     "id": "t2-listen",
+     "kind": "listening",
+     "ar": "مكالمة عن الطقس",
+     "en": "A call about the weather",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it. Try listening before revealing the transcript.",
+     "audio": "Sara: What's the weather like in Jeddah today? Faisal: It's hot and humid. The heat is terrible at noon. Sara: Here in Abha, it's cool, and occasionally it rains in the afternoon. Faisal: I could use some cool weather!",
+     "translation": "سارة: كيف الطقس في جدة اليوم؟ فيصل: حار ورطب. الحرارة شديدة وقت الظهر. سارة: هنا في أبها الجو لطيف، وأحيانًا تمطر بعد الظهر. فيصل: أحتاج إلى بعض الجو اللطيف!"
+    },
+    {
+     "id": "t2-listen-check",
+     "kind": "choice",
+     "ar": "ماذا فهمت؟",
+     "en": "What did you hear?",
+     "promptAr": "كيف الطقس في أبها؟",
+     "promptEn": "What is the weather like in Abha?",
+     "options": [
+      "Hot and humid.",
+      "Cool, with occasional rain.",
+      "Freezing and windy."
+     ],
+     "answer": "Cool, with occasional rain.",
+     "explanationAr": "قالت سارة إن الجو لطيف وتمطر أحيانًا بعد الظهر.",
+     "explanationEn": "Sara says it's cool and occasionally rains in the afternoon."
+    },
+    {
+     "id": "t2-grammar",
+     "kind": "grammar",
+     "ar": "السؤال عن الطقس",
+     "en": "Asking about the weather",
+     "bodyAr": "نسأل عن وصف الطقس بـ What's the weather like? والجواب يكون بصفة: It's hot / humid / freezing. لاحظ أن like هنا تعني «مثل» وليست «يحب».",
+     "bodyEn": "Ask What's the weather like? to get a description. Answer with an adjective: It's hot, humid or freezing. Here like means similar to, not enjoy.",
+     "example": "What's the weather like? — It's windy and cold.",
+     "translation": "كيف الطقس؟ — عاصف وبارد.",
+     "formula": "What's the weather like? → It's + adjective"
+    },
+    {
+     "id": "t2-cloze",
+     "kind": "choice",
+     "ar": "أكمل الجملة",
+     "en": "Complete the sentence",
+     "promptAr": "اختر الكلمة المناسبة.",
+     "promptEn": "Choose the best word.",
+     "options": [
+      "during",
+      "except",
+      "none"
+     ],
+     "answer": "during",
+     "explanationAr": "during تعني «خلال» وتأتي قبل اسم: during the trip.",
+     "explanationEn": "Use during before a noun to say when: during the trip.",
+     "example": "It rained ___ our trip to Taif."
+    },
+    {
+     "id": "t2-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتسأل عن الطقس.",
+     "promptEn": "Put the words in order to ask about the weather.",
+     "options": [
+      "like?",
+      "weather",
+      "What's",
+      "the"
+     ],
+     "answer": "What's the weather like?",
+     "explanationAr": "نبدأ بـ What's ثم the weather ثم like.",
+     "explanationEn": "Start with What's, then the weather, then like."
+    },
+    {
+     "id": "t2-read",
+     "kind": "choice",
+     "ar": "طبّق على موقف جديد",
+     "en": "Try a new situation",
+     "promptAr": "لماذا سيبقون في الفندق؟",
+     "promptEn": "Why will they stay at the hotel?",
+     "options": [
+      "The wind is blowing hard.",
+      "The sky is clear.",
+      "The sea is calm."
+     ],
+     "answer": "The wind is blowing hard.",
+     "explanationAr": "النص يقول إن الرياح تهب بقوة والبحر غير هادئ.",
+     "explanationEn": "The text says the wind is blowing hard, so the sea isn't calm.",
+     "bodyEn": "The wind is blowing hard this morning, and the sea isn't calm. We will stay at the hotel until the weather clears up.",
+     "bodyAr": "الرياح تهب بقوة هذا الصباح، والبحر ليس هادئًا. سنبقى في الفندق حتى يصفو الجو."
+    }
+   ]
+  },
+  {
+   "id": "travel-3",
+   "ar": "هل جرّبت من قبل؟",
+   "en": "Have you ever...?",
+   "minutes": 8,
+   "unit": "travel",
+   "steps": [
+    {
+     "id": "t3-intro",
+     "kind": "intro",
+     "ar": "تجاربك في السفر",
+     "en": "Your travel experiences",
+     "bodyAr": "سنتحدث عن تجارب حدثت في أي وقت من حياتك باستخدام Have you ever...?، ونتعلم no longer وoccasionally.",
+     "bodyEn": "Talk about experiences at any time in your life with Have you ever...?, and learn no longer and occasionally.",
+     "example": "Have you ever been to the Red Sea?",
+     "translation": "هل سبق أن زرت البحر الأحمر؟"
+    },
+    {
+     "id": "t3-words",
+     "kind": "vocabulary",
+     "ar": "كلمات للتجارب",
+     "en": "Words for experiences",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "ever",
+      "dangerous",
+      "deep",
+      "frightened",
+      "slip",
+      "no-longer"
+     ]
+    },
+    {
+     "id": "t3-check-1",
+     "kind": "choice",
+     "ar": "اختبر نفسك",
+     "en": "Quick check",
+     "promptAr": "أي كلمة تعني «خائف»؟",
+     "promptEn": "Which word means afraid?",
+     "options": [
+      "frightened",
+      "dangerous",
+      "deep"
+     ],
+     "answer": "frightened",
+     "explanationAr": "frightened تعني خائف. dangerous تعني خطير، وdeep تعني عميق.",
+     "explanationEn": "Frightened means afraid. Dangerous can hurt you; deep goes far down."
+    },
+    {
+     "id": "t3-listen",
+     "kind": "listening",
+     "ar": "قصة من البحر",
+     "en": "A story from the sea",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it. Try listening before revealing the transcript.",
+     "audio": "Omar: Have you ever gone diving? Lina: Yes, I have. I went diving in the Red Sea last year. Omar: Were you frightened? Lina: A little. The water was very deep. But I no longer feel afraid of the sea.",
+     "translation": "عمر: هل سبق أن غصتِ؟ لينا: نعم. غصت في البحر الأحمر العام الماضي. عمر: هل كنتِ خائفة؟ لينا: قليلًا. كان الماء عميقًا جدًا. لكنني لم أعد أخاف من البحر."
+    },
+    {
+     "id": "t3-listen-check",
+     "kind": "choice",
+     "ar": "ماذا فهمت؟",
+     "en": "What did you hear?",
+     "promptAr": "كيف تشعر لينا تجاه البحر الآن؟",
+     "promptEn": "How does Lina feel about the sea now?",
+     "options": [
+      "She is still very frightened.",
+      "She is no longer afraid.",
+      "She has never seen it."
+     ],
+     "answer": "She is no longer afraid.",
+     "explanationAr": "قالت لينا: I no longer feel afraid — أي لم تعد تخاف.",
+     "explanationEn": "Lina says she no longer feels afraid."
+    },
+    {
+     "id": "t3-grammar",
+     "kind": "grammar",
+     "ar": "المضارع التام للتجارب",
+     "en": "Present perfect for experiences",
+     "bodyAr": "نسأل عن تجربة في أي وقت دون تحديد الزمن: Have you ever + التصريف الثالث؟ وإذا ذكرنا وقتًا محددًا مثل last year نستخدم الماضي البسيط.",
+     "bodyEn": "Ask about an experience at an unspecified time: Have you ever + past participle? When you give a specific time like last year, use the simple past.",
+     "example": "Have you ever seen a whale? — Yes, I saw one in 2024.",
+     "translation": "هل رأيت حوتًا من قبل؟ — نعم، رأيت واحدًا في 2024.",
+     "formula": "Have you ever + past participle?"
+    },
+    {
+     "id": "t3-cloze",
+     "kind": "choice",
+     "ar": "أكمل الجملة",
+     "en": "Complete the sentence",
+     "promptAr": "اختر الصيغة الصحيحة.",
+     "promptEn": "Choose the correct form.",
+     "options": [
+      "been",
+      "went",
+      "go"
+     ],
+     "answer": "been",
+     "explanationAr": "بعد Have you ever نستخدم التصريف الثالث been.",
+     "explanationEn": "After Have you ever, use the past participle been."
+    },
+    {
+     "id": "t3-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتقول: لم يعد يسكن هنا.",
+     "promptEn": "Put the words in order: He doesn't live here now.",
+     "options": [
+      "here.",
+      "longer",
+      "He",
+      "lives",
+      "no"
+     ],
+     "answer": "He no longer lives here.",
+     "explanationAr": "no longer تأتي قبل الفعل: He no longer lives.",
+     "explanationEn": "Put no longer before the main verb."
+    },
+    {
+     "id": "t3-read",
+     "kind": "choice",
+     "ar": "طبّق على موقف جديد",
+     "en": "Try a new situation",
+     "promptAr": "ماذا يفعل ماجد أحيانًا؟",
+     "promptEn": "What does Majed occasionally do?",
+     "options": [
+      "He swims at night.",
+      "He walks on the rocks.",
+      "He goes fishing."
+     ],
+     "answer": "He goes fishing.",
+     "explanationAr": "occasionally تعني أحيانًا، والنص يقول إنه يذهب للصيد أحيانًا.",
+     "explanationEn": "Occasionally means sometimes; Majed occasionally goes fishing.",
+     "bodyEn": "Majed has visited the coast many times. He no longer walks on the rocks because they are slippery. He occasionally goes fishing with his father.",
+     "bodyAr": "زار ماجد الساحل مرات كثيرة. لم يعد يمشي على الصخور لأنها زلقة. وأحيانًا يذهب لصيد السمك مع والده."
+    }
+   ]
+  },
+  {
+   "id": "education-1",
+   "ar": "مراحل التعليم",
+   "en": "Steps in education",
+   "minutes": 8,
+   "unit": "education",
+   "steps": [
+    {
+     "id": "e1-intro",
+     "kind": "intro",
+     "ar": "رحلتك الدراسية",
+     "en": "Your study journey",
+     "bodyAr": "تتعلم أسماء المراحل الدراسية والشهادات، من المدرسة الابتدائية حتى الدكتوراه.",
+     "bodyEn": "Learn the names of school stages and degrees, from elementary school to a Ph.D.",
+     "example": "After high school, I want to go to university.",
+     "translation": "بعد الثانوية، أريد الالتحاق بالجامعة."
+    },
+    {
+     "id": "e1-words-1",
+     "kind": "vocabulary",
+     "ar": "المراحل الدراسية",
+     "en": "School stages",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "elementary-school",
+      "middle-school",
+      "high-school",
+      "college",
+      "university",
+      "diploma"
+     ]
+    },
+    {
+     "id": "e1-words-2",
+     "kind": "vocabulary",
+     "ar": "الشهادات الجامعية",
+     "en": "University degrees",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "associate-degree",
+      "bachelors-degree",
+      "masters-degree",
+      "phd"
+     ]
+    },
+    {
+     "id": "e1-check",
+     "kind": "choice",
+     "ar": "اختبر نفسك",
+     "en": "Quick check",
+     "promptAr": "أي شهادة تأتي بعد البكالوريوس؟",
+     "promptEn": "Which degree comes after a bachelor's degree?",
+     "options": [
+      "associate degree",
+      "master's degree",
+      "high school diploma"
+     ],
+     "answer": "master's degree",
+     "explanationAr": "الترتيب: بكالوريوس ثم ماجستير ثم دكتوراه.",
+     "explanationEn": "The order is bachelor's, then master's, then Ph.D."
+    },
+    {
+     "id": "e1-words-3",
+     "kind": "vocabulary",
+     "ar": "العمل والمستقبل",
+     "en": "Work and the future",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "career",
+      "field",
+      "profession",
+      "course",
+      "grade",
+      "medical"
+     ]
+    },
+    {
+     "id": "e1-listen",
+     "kind": "listening",
+     "ar": "حديث عن الجامعة",
+     "en": "Talking about university",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it. Try listening before revealing the transcript.",
+     "audio": "Nora: What field are you interested in? Khalid: Medicine. I want a medical career. Nora: That's a long road: a bachelor's degree first, and then more years of training. Khalid: I know. But it's the right profession for me.",
+     "translation": "نورة: ما المجال الذي يهمك؟ خالد: الطب. أريد مسيرة مهنية طبية. نورة: هذا طريق طويل: البكالوريوس أولًا، ثم سنوات أخرى من التدريب. خالد: أعرف. لكنها المهنة المناسبة لي."
+    },
+    {
+     "id": "e1-listen-check",
+     "kind": "choice",
+     "ar": "ماذا فهمت؟",
+     "en": "What did you hear?",
+     "promptAr": "أي مهنة يريد خالد؟",
+     "promptEn": "Which career does Khalid want?",
+     "options": [
+      "A technical career.",
+      "A medical career.",
+      "A career in teaching."
+     ],
+     "answer": "A medical career.",
+     "explanationAr": "قال خالد: I want a medical career.",
+     "explanationEn": "Khalid says he wants a medical career."
+    },
+    {
+     "id": "e1-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتقول: أريد شهادة بكالوريوس.",
+     "promptEn": "Put the words in order.",
+     "options": [
+      "degree.",
+      "want",
+      "bachelor's",
+      "I",
+      "a"
+     ],
+     "answer": "I want a bachelor's degree.",
+     "explanationAr": "الفاعل I ثم الفعل want ثم a bachelor's degree.",
+     "explanationEn": "Subject, verb, then the noun phrase a bachelor's degree."
+    },
+    {
+     "id": "e1-read",
+     "kind": "choice",
+     "ar": "طبّق على موقف جديد",
+     "en": "Try a new situation",
+     "promptAr": "ماذا ستدرس ريم في الكلية التقنية؟",
+     "promptEn": "What will Reem study at the technical college?",
+     "options": [
+      "A two-year course in computers.",
+      "A Ph.D. in chemistry.",
+      "Elementary school subjects."
+     ],
+     "answer": "A two-year course in computers.",
+     "explanationAr": "النص يذكر associate degree لمدة سنتين في الحاسب.",
+     "explanationEn": "She will take a two-year associate degree course in computers.",
+     "bodyEn": "Reem finished high school with good grades. She will go to a technical college and get an associate degree in computers. It takes two years.",
+     "bodyAr": "أنهت ريم الثانوية بدرجات جيدة. ستلتحق بكلية تقنية وتحصل على دبلوم متوسط في الحاسب. مدته سنتان."
+    }
+   ]
+  },
+  {
+   "id": "education-2",
+   "ar": "هل قررت بعد؟",
+   "en": "Have you decided yet?",
+   "minutes": 9,
+   "unit": "education",
+   "steps": [
+    {
+     "id": "e2-intro",
+     "kind": "intro",
+     "ar": "ماذا فعلت حتى الآن؟",
+     "en": "What have you done so far?",
+     "bodyAr": "نستخدم المضارع التام لأشياء حدثت في وقت غير محدد، مع already وjust وyet.",
+     "bodyEn": "Use the present perfect for actions at an unspecified time, with already, just and yet.",
+     "example": "I've already applied, but I haven't decided yet.",
+     "translation": "قدّمت بالفعل، لكنني لم أقرر بعد."
+    },
+    {
+     "id": "e2-words",
+     "kind": "vocabulary",
+     "ar": "كلمات للحديث عن الوقت",
+     "en": "Time words",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "already",
+      "just",
+      "yet",
+      "decision",
+      "offer",
+      "accept"
+     ]
+    },
+    {
+     "id": "e2-grammar-1",
+     "kind": "grammar",
+     "ar": "المضارع التام",
+     "en": "The present perfect",
+     "bodyAr": "نكوّنه بـ have / has + التصريف الثالث. نستخدمه عندما يكون الوقت غير محدد أو له علاقة بالحاضر. لا نذكر معه وقتًا محددًا مثل yesterday.",
+     "bodyEn": "Form it with have / has + past participle. Use it when the time is not given or the result matters now. Don't use it with a finished time like yesterday.",
+     "example": "She has accepted the offer.",
+     "translation": "قبلت العرض.",
+     "formula": "have / has + past participle"
+    },
+    {
+     "id": "e2-check-1",
+     "kind": "choice",
+     "ar": "اختر الصحيح",
+     "en": "Choose the correct one",
+     "promptAr": "أي جملة صحيحة؟",
+     "promptEn": "Which sentence is correct?",
+     "options": [
+      "I have finished my course yesterday.",
+      "I have finished my course.",
+      "I has finished my course."
+     ],
+     "answer": "I have finished my course.",
+     "explanationAr": "لا نستخدم yesterday مع المضارع التام، ونقول I have وليس I has.",
+     "explanationEn": "No yesterday with the present perfect, and use I have, not I has."
+    },
+    {
+     "id": "e2-grammar-2",
+     "kind": "grammar",
+     "ar": "already و just و yet",
+     "en": "Already, just and yet",
+     "bodyAr": "already (بالفعل) وjust (للتو) تأتيان بين have والتصريف الثالث. أما yet (بعد/حتى الآن) فتأتي في آخر الجملة المنفية أو السؤال.",
+     "bodyEn": "Already and just go between have and the participle. Yet goes at the end of negatives and questions.",
+     "example": "I've just heard the news. Have you told your parents yet?",
+     "translation": "سمعت الخبر للتو. هل أخبرت والديك بعد؟",
+     "formula": "have + already / just + p.p. • ... yet?"
+    },
+    {
+     "id": "e2-cloze",
+     "kind": "choice",
+     "ar": "أكمل الجملة",
+     "en": "Complete the sentence",
+     "promptAr": "اختر الكلمة المناسبة.",
+     "promptEn": "Choose the best word.",
+     "options": [
+      "yet",
+      "already",
+      "just"
+     ],
+     "answer": "yet",
+     "explanationAr": "yet تأتي في آخر الجملة المنفية.",
+     "explanationEn": "Use yet at the end of a negative sentence.",
+     "example": "I haven't received my results ___."
+    },
+    {
+     "id": "e2-listen",
+     "kind": "listening",
+     "ar": "عرض من الجامعة",
+     "en": "An offer from the university",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it. Try listening before revealing the transcript.",
+     "audio": "Mother: Have you heard from the university yet? Ahmed: Yes! I've just received an offer. Mother: That's wonderful. Have you accepted it? Ahmed: Not yet. I want to talk it over with Dad first.",
+     "translation": "الأم: هل وصلك رد من الجامعة؟ أحمد: نعم! استلمت عرضًا للتو. الأم: رائع. هل قبلته؟ أحمد: ليس بعد. أريد أن أناقش الأمر مع أبي أولًا."
+    },
+    {
+     "id": "e2-listen-check",
+     "kind": "choice",
+     "ar": "ماذا فهمت؟",
+     "en": "What did you hear?",
+     "promptAr": "لماذا لم يقبل أحمد العرض بعد؟",
+     "promptEn": "Why hasn't Ahmed accepted the offer yet?",
+     "options": [
+      "He wants to discuss it with his father.",
+      "He has turned it down.",
+      "He hasn't received it."
+     ],
+     "answer": "He wants to discuss it with his father.",
+     "explanationAr": "قال أحمد إنه يريد أن يناقش الأمر مع والده: talk it over.",
+     "explanationEn": "He wants to talk it over with his dad first."
+    },
+    {
+     "id": "e2-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتقول: أنهيت واجبي بالفعل.",
+     "promptEn": "Put the words in order.",
+     "options": [
+      "already",
+      "homework.",
+      "I've",
+      "my",
+      "finished"
+     ],
+     "answer": "I've already finished my homework.",
+     "explanationAr": "already بين I've والتصريف الثالث finished.",
+     "explanationEn": "Already goes between I've and finished."
+    }
+   ]
+  },
+  {
+   "id": "education-3",
+   "ar": "قرارات وخيارات",
+   "en": "Decisions and choices",
+   "minutes": 9,
+   "unit": "education",
+   "steps": [
+    {
+     "id": "e3-intro",
+     "kind": "intro",
+     "ar": "كيف تتخذ قرارك؟",
+     "en": "How do you decide?",
+     "bodyAr": "تتعلم أفعالًا للقرارات مثل make up one's mind وturn down، وكلمات الزمن still وno longer وanymore، وأداتي الربط so وor.",
+     "bodyEn": "Learn decision verbs like make up your mind and turn down, time words still, no longer and anymore, and the connectors so and or.",
+     "example": "I was confused, so I talked it over with my teacher.",
+     "translation": "كنت مرتبكًا، لذلك ناقشت الأمر مع معلمي."
+    },
+    {
+     "id": "e3-words-1",
+     "kind": "vocabulary",
+     "ar": "أفعال القرار",
+     "en": "Decision verbs",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "make-up-ones-mind",
+      "change-ones-mind",
+      "turn-down",
+      "refuse",
+      "talk-over",
+      "think-over"
+     ]
+    },
+    {
+     "id": "e3-words-2",
+     "kind": "vocabulary",
+     "ar": "مشاعر وروابط",
+     "en": "Feelings and links",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "confused",
+      "confusing",
+      "instead",
+      "instead-of",
+      "so",
+      "choice"
+     ]
+    },
+    {
+     "id": "e3-check-1",
+     "kind": "choice",
+     "ar": "اختبر نفسك",
+     "en": "Quick check",
+     "promptAr": "أي عبارة تعني «يرفض عرضًا»؟",
+     "promptEn": "Which phrase means to say no to an offer?",
+     "options": [
+      "turn down",
+      "talk over",
+      "make up"
+     ],
+     "answer": "turn down",
+     "explanationAr": "turn down تعني يرفض. talk over تعني يناقش.",
+     "explanationEn": "Turn down means refuse; talk over means discuss."
+    },
+    {
+     "id": "e3-grammar-1",
+     "kind": "grammar",
+     "ar": "still و no longer و anymore",
+     "en": "Still, no longer and anymore",
+     "bodyAr": "still: ما زال الشيء مستمرًا. no longer: لم يعد (قبل الفعل). not ... anymore: لم يعد (في آخر الجملة) وبنفس المعنى.",
+     "bodyEn": "Still: something continues. No longer goes before the verb; not ... anymore goes at the end. Both mean it stopped.",
+     "example": "He still studies law. She doesn't work there anymore.",
+     "translation": "ما زال يدرس القانون. لم تعد تعمل هناك.",
+     "formula": "still • no longer + verb • not ... anymore"
+    },
+    {
+     "id": "e3-check-2",
+     "kind": "choice",
+     "ar": "اختر الصحيح",
+     "en": "Choose the correct one",
+     "promptAr": "أي جملة تعني «لم يعد يدرّس»؟",
+     "promptEn": "Which sentence means he stopped teaching?",
+     "options": [
+      "He still teaches.",
+      "He doesn't teach anymore.",
+      "He teaches more."
+     ],
+     "answer": "He doesn't teach anymore.",
+     "explanationAr": "not ... anymore تعني لم يعد.",
+     "explanationEn": "Not ... anymore means the action stopped."
+    },
+    {
+     "id": "e3-grammar-2",
+     "kind": "grammar",
+     "ar": "so و or",
+     "en": "So and or",
+     "bodyAr": "so تربط السبب بالنتيجة (لذلك). or تقدّم خيارًا (أو).",
+     "bodyEn": "So connects a reason to a result. Or gives a choice.",
+     "example": "The course was full, so I chose another one. Do you want math or science?",
+     "translation": "كان المقرر ممتلئًا، لذلك اخترت غيره. هل تريد الرياضيات أم العلوم؟",
+     "formula": "reason, so result • A or B"
+    },
+    {
+     "id": "e3-cloze",
+     "kind": "choice",
+     "ar": "أكمل الجملة",
+     "en": "Complete the sentence",
+     "promptAr": "اختر أداة الربط المناسبة.",
+     "promptEn": "Choose the connector.",
+     "options": [
+      "so",
+      "or",
+      "instead"
+     ],
+     "answer": "so",
+     "explanationAr": "النتيجة: لم يقبل العرض لأنه بعيد. نستخدم so.",
+     "explanationEn": "The job was far away — a reason — so he turned it down.",
+     "example": "The job was far from home, ___ he turned it down."
+    },
+    {
+     "id": "e3-listen",
+     "kind": "listening",
+     "ar": "تغيير الرأي",
+     "en": "A change of mind",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it. Try listening before revealing the transcript.",
+     "audio": "Huda: Have you made up your mind? Engineering or medicine? Sami: I wanted engineering, but I changed my mind. Huda: Why? Sami: I took a medical course last summer, so now I want to be a doctor instead.",
+     "translation": "هدى: هل حسمت قرارك؟ الهندسة أم الطب؟ سامي: أردت الهندسة، لكنني غيّرت رأيي. هدى: لماذا؟ سامي: درست دورة طبية الصيف الماضي، لذلك أريد أن أصبح طبيبًا بدلًا من ذلك."
+    },
+    {
+     "id": "e3-listen-check",
+     "kind": "choice",
+     "ar": "ماذا فهمت؟",
+     "en": "What did you hear?",
+     "promptAr": "لماذا غيّر سامي رأيه؟",
+     "promptEn": "Why did Sami change his mind?",
+     "options": [
+      "He took a medical course.",
+      "He failed engineering.",
+      "His friend refused to help."
+     ],
+     "answer": "He took a medical course.",
+     "explanationAr": "قال سامي إنه درس دورة طبية، لذلك يريد الطب الآن.",
+     "explanationEn": "He took a medical course, so he wants medicine now."
+    },
+    {
+     "id": "e3-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتقول: غيّرت رأيي.",
+     "promptEn": "Put the words in order.",
+     "options": [
+      "mind.",
+      "changed",
+      "I",
+      "my"
+     ],
+     "answer": "I changed my mind.",
+     "explanationAr": "التعبير هو change one's mind، ومع I نقول my mind.",
+     "explanationEn": "The phrase is change one's mind; with I, use my mind."
+    }
+   ]
+  },
+  {
+   "id": "home-1",
+   "ar": "أضفنا غرفة",
+   "en": "We've added a room",
+   "minutes": 8,
+   "unit": "home",
+   "steps": [
+    {
+     "id": "h1-intro",
+     "kind": "intro",
+     "ar": "بيتنا يكبر",
+     "en": "Our home is growing",
+     "bodyAr": "تتعلم أسماء أجزاء البيت وكلمات البناء، وتصف التغييرات بالمضارع التام: We've added on a room.",
+     "bodyEn": "Learn words for parts of a home and building, and describe changes: We've added on a room.",
+     "example": "We've added on a den and a patio.",
+     "translation": "أضفنا غرفة جلوس وفناءً."
+    },
+    {
+     "id": "h1-words-1",
+     "kind": "vocabulary",
+     "ar": "أجزاء البيت",
+     "en": "Parts of a home",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "den",
+      "dining-room",
+      "fireplace",
+      "patio",
+      "shed",
+      "oven"
+     ]
+    },
+    {
+     "id": "h1-words-2",
+     "kind": "vocabulary",
+     "ar": "البناء والتوسعة",
+     "en": "Building and changes",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "addition",
+      "builder",
+      "add-on",
+      "enlarge",
+      "build",
+      "story"
+     ]
+    },
+    {
+     "id": "h1-check",
+     "kind": "choice",
+     "ar": "اختبر نفسك",
+     "en": "Quick check",
+     "promptAr": "أين نحفظ الأدوات عادة؟",
+     "promptEn": "Where do people usually keep tools?",
+     "options": [
+      "in the shed",
+      "in the oven",
+      "in the dining room"
+     ],
+     "answer": "in the shed",
+     "explanationAr": "shed مخزن صغير خارج البيت للأدوات.",
+     "explanationEn": "A shed is a small outdoor building for tools."
+    },
+    {
+     "id": "h1-listen",
+     "kind": "listening",
+     "ar": "زيارة البيت الجديد",
+     "en": "Visiting the new house",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it. Try listening before revealing the transcript.",
+     "audio": "Faris: Your house looks bigger! Majid: Yes, we've added on a second story. Faris: Who built it? Majid: A local builder. We also enlarged the kitchen and built a patio. Faris: It must have been tiring. Majid: It was, but now we have room for family get-togethers.",
+     "translation": "فارس: بيتك يبدو أكبر! ماجد: نعم، أضفنا طابقًا ثانيًا. فارس: من بناه؟ ماجد: مقاول محلي. ووسّعنا المطبخ أيضًا وبنينا فناءً. فارس: لا بد أنه كان متعبًا. ماجد: كان كذلك، لكن صار لدينا مكان لتجمعات العائلة."
+    },
+    {
+     "id": "h1-listen-check",
+     "kind": "choice",
+     "ar": "ماذا فهمت؟",
+     "en": "What did you hear?",
+     "promptAr": "ماذا أضاف ماجد إلى البيت؟",
+     "promptEn": "What did Majid's family add?",
+     "options": [
+      "A second story and a patio.",
+      "A shed and a fireplace.",
+      "A new oven only."
+     ],
+     "answer": "A second story and a patio.",
+     "explanationAr": "قال ماجد: added on a second story و built a patio.",
+     "explanationEn": "He added a second story and built a patio."
+    },
+    {
+     "id": "h1-grammar",
+     "kind": "grammar",
+     "ar": "وصف التغييرات",
+     "en": "Describing changes",
+     "bodyAr": "عندما نصف تغييرًا نرى نتيجته الآن نستخدم المضارع التام: have / has + التصريف الثالث. انتبه للأفعال الشاذة: build → built.",
+     "bodyEn": "To describe a change with a result now, use the present perfect. Watch irregular verbs: build → built.",
+     "example": "They have built a new dining room.",
+     "translation": "بنوا غرفة طعام جديدة.",
+     "formula": "have / has + built / added / enlarged"
+    },
+    {
+     "id": "h1-cloze",
+     "kind": "choice",
+     "ar": "أكمل الجملة",
+     "en": "Complete the sentence",
+     "promptAr": "اختر الصيغة الصحيحة.",
+     "promptEn": "Choose the correct form.",
+     "options": [
+      "built",
+      "build",
+      "builded"
+     ],
+     "answer": "built",
+     "explanationAr": "build فعل شاذ وتصريفه الثالث built.",
+     "explanationEn": "Build is irregular: build – built – built.",
+     "example": "We have ___ a small shed in the garden."
+    },
+    {
+     "id": "h1-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتقول: وسّعنا المطبخ.",
+     "promptEn": "Put the words in order.",
+     "options": [
+      "kitchen.",
+      "enlarged",
+      "We've",
+      "the"
+     ],
+     "answer": "We've enlarged the kitchen.",
+     "explanationAr": "We've ثم التصريف الثالث enlarged ثم the kitchen.",
+     "explanationEn": "We've + enlarged + the kitchen."
+    }
+   ]
+  },
+  {
+   "id": "home-2",
+   "ar": "ربما يكون هناك",
+   "en": "It could be there",
+   "minutes": 8,
+   "unit": "home",
+   "steps": [
+    {
+     "id": "h2-intro",
+     "kind": "intro",
+     "ar": "نتحدث عن الاحتمالات",
+     "en": "Talking about possibilities",
+     "bodyAr": "عندما لا نكون متأكدين نستخدم could وmay وmight وperhaps.",
+     "bodyEn": "When we aren't sure, we use could, may, might and perhaps.",
+     "example": "Where's the remote? — It could be in the den.",
+     "translation": "أين جهاز التحكم؟ — قد يكون في غرفة الجلوس."
+    },
+    {
+     "id": "h2-words",
+     "kind": "vocabulary",
+     "ar": "كلمات البيت والأجهزة",
+     "en": "Home and devices",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "could",
+      "perhaps",
+      "stereo",
+      "speaker",
+      "player",
+      "cd"
+     ]
+    },
+    {
+     "id": "h2-grammar",
+     "kind": "grammar",
+     "ar": "التعبير عن الاحتمال",
+     "en": "Expressing possibility",
+     "bodyAr": "could / may / might + الفعل الأساسي تعني «قد / ربما». perhaps تأتي غالبًا في بداية الجملة. للسؤال نقول: Where could it be?",
+     "bodyEn": "Could / may / might + base verb show possibility. Perhaps usually starts the sentence. Ask: Where could it be?",
+     "example": "Perhaps he's at the meeting. He might be late.",
+     "translation": "ربما هو في الاجتماع. قد يتأخر.",
+     "formula": "could / may / might + base verb"
+    },
+    {
+     "id": "h2-check",
+     "kind": "choice",
+     "ar": "اختر الصحيح",
+     "en": "Choose the correct one",
+     "promptAr": "أي جملة صحيحة؟",
+     "promptEn": "Which sentence is correct?",
+     "options": [
+      "She could is in the kitchen.",
+      "She could be in the kitchen.",
+      "She could being in the kitchen."
+     ],
+     "answer": "She could be in the kitchen.",
+     "explanationAr": "بعد could يأتي الفعل الأساسي be.",
+     "explanationEn": "After could, use the base verb be."
+    },
+    {
+     "id": "h2-listen",
+     "kind": "listening",
+     "ar": "أين ذهب المفتاح؟",
+     "en": "Where did the key go?",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it. Try listening before revealing the transcript.",
+     "audio": "Mona: I can't find the key to the shed. Where could it be? Adel: It could be on the patio. Mona: I've looked there. Adel: Perhaps it's in the den, near the stereo. Mona: You're right! It was next to the speaker.",
+     "translation": "منى: لا أجد مفتاح المخزن. أين يمكن أن يكون؟ عادل: قد يكون في الفناء. منى: بحثت هناك. عادل: ربما هو في غرفة الجلوس قرب جهاز الستيريو. منى: معك حق! كان بجانب مكبر الصوت."
+    },
+    {
+     "id": "h2-listen-check",
+     "kind": "choice",
+     "ar": "ماذا فهمت؟",
+     "en": "What did you hear?",
+     "promptAr": "أين وجدت منى المفتاح؟",
+     "promptEn": "Where did Mona find the key?",
+     "options": [
+      "On the patio.",
+      "Next to the speaker.",
+      "In the shed."
+     ],
+     "answer": "Next to the speaker.",
+     "explanationAr": "قالت منى في النهاية: It was next to the speaker.",
+     "explanationEn": "At the end, Mona says it was next to the speaker."
+    },
+    {
+     "id": "h2-cloze",
+     "kind": "choice",
+     "ar": "أكمل الجملة",
+     "en": "Complete the sentence",
+     "promptAr": "اختر الكلمة المناسبة.",
+     "promptEn": "Choose the best word.",
+     "options": [
+      "Perhaps",
+      "Then",
+      "Near"
+     ],
+     "answer": "Perhaps",
+     "explanationAr": "Perhaps تعني ربما وتأتي في بداية الجملة.",
+     "explanationEn": "Perhaps means maybe and often begins a sentence.",
+     "example": "___ the builder will come tomorrow."
+    },
+    {
+     "id": "h2-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتسأل: أين يمكن أن يكون؟",
+     "promptEn": "Put the words in order.",
+     "options": [
+      "be?",
+      "could",
+      "Where",
+      "it"
+     ],
+     "answer": "Where could it be?",
+     "explanationAr": "في السؤال: Where ثم could ثم الفاعل it ثم be.",
+     "explanationEn": "Question order: Where + could + it + be."
+    }
+   ]
+  },
+  {
+   "id": "home-3",
+   "ar": "قال إنه سيأتي",
+   "en": "He said he would come",
+   "minutes": 9,
+   "unit": "home",
+   "steps": [
+    {
+     "id": "h3-intro",
+     "kind": "intro",
+     "ar": "ننقل كلام الآخرين",
+     "en": "Reporting what people say",
+     "bodyAr": "تتعلم نقل الكلام بـ said (that)، وتفرّق بين الصفات المنتهية بـ -ing و-ed مثل tiring وtired.",
+     "bodyEn": "Learn to report speech with said (that), and tell -ing and -ed adjectives apart, like tiring and tired.",
+     "example": "The builder said he would finish on Monday.",
+     "translation": "قال البنّاء إنه سينهي يوم الاثنين."
+    },
+    {
+     "id": "h3-words",
+     "kind": "vocabulary",
+     "ar": "كلمات للقاءات والمشكلات",
+     "en": "Meetings and problems",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "meeting",
+      "get-together",
+      "trouble",
+      "solution",
+      "solve",
+      "take-place"
+     ]
+    },
+    {
+     "id": "h3-grammar-1",
+     "kind": "grammar",
+     "ar": "الكلام المنقول",
+     "en": "Reported speech",
+     "bodyAr": "عند نقل الكلام بعد said يرجع الفعل خطوة إلى الماضي: will → would، am/is → was، can → could. وتتغير الضمائر: I → he/she.",
+     "bodyEn": "After said, move the verb one step back: will → would, is → was, can → could. Change pronouns: I → he or she.",
+     "example": "\"I will call you.\" → She said she would call me.",
+     "translation": "«سأتصل بك.» ← قالت إنها ستتصل بي.",
+     "formula": "said (that) + would / was / could"
+    },
+    {
+     "id": "h3-check-1",
+     "kind": "choice",
+     "ar": "اختر الصحيح",
+     "en": "Choose the correct one",
+     "promptAr": "Khalid: \"I am busy.\" — كيف ننقل كلامه؟",
+     "promptEn": "Khalid: \"I am busy.\" How do you report it?",
+     "options": [
+      "Khalid said he was busy.",
+      "Khalid said I am busy.",
+      "Khalid said he will busy."
+     ],
+     "answer": "Khalid said he was busy.",
+     "explanationAr": "am تصبح was، وI تصبح he.",
+     "explanationEn": "Am becomes was, and I becomes he."
+    },
+    {
+     "id": "h3-grammar-2",
+     "kind": "grammar",
+     "ar": "صفات -ing و -ed",
+     "en": "-ing and -ed adjectives",
+     "bodyAr": "الصفة المنتهية بـ -ing تصف الشيء الذي يسبب الشعور (tiring, confusing). والمنتهية بـ -ed تصف شعور الشخص (tired, interested).",
+     "bodyEn": "-ing adjectives describe what causes a feeling (tiring, confusing). -ed adjectives describe how a person feels (tired, interested).",
+     "example": "The work was tiring, so we were tired.",
+     "translation": "كان العمل مرهقًا، لذلك كنا متعبين.",
+     "formula": "thing → -ing • person → -ed"
+    },
+    {
+     "id": "h3-cloze",
+     "kind": "choice",
+     "ar": "أكمل الجملة",
+     "en": "Complete the sentence",
+     "promptAr": "اختر الصفة المناسبة.",
+     "promptEn": "Choose the correct adjective.",
+     "options": [
+      "interested",
+      "interesting",
+      "interest"
+     ],
+     "answer": "interested",
+     "explanationAr": "نصف شعور الشخص، فنستخدم interested in.",
+     "explanationEn": "This is how Rana feels, so use interested.",
+     "example": "Rana is ___ in interior design."
+    },
+    {
+     "id": "h3-listen",
+     "kind": "listening",
+     "ar": "أخبار المقاول",
+     "en": "News from the builder",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it. Try listening before revealing the transcript.",
+     "audio": "Dad: Did the builder call? Son: Yes. He said he would come tomorrow. He said the trouble with the roof was small. Dad: Good. Did he say when the work would take place? Son: He said they could start on Sunday.",
+     "translation": "الأب: هل اتصل المقاول؟ الابن: نعم. قال إنه سيأتي غدًا. وقال إن مشكلة السقف صغيرة. الأب: جيد. هل قال متى سيتم العمل؟ الابن: قال إنهم يستطيعون البدء يوم الأحد."
+    },
+    {
+     "id": "h3-listen-check",
+     "kind": "choice",
+     "ar": "ماذا فهمت؟",
+     "en": "What did you hear?",
+     "promptAr": "متى يستطيع العمال البدء؟",
+     "promptEn": "When can they start the work?",
+     "options": [
+      "On Sunday.",
+      "Tomorrow.",
+      "Next month."
+     ],
+     "answer": "On Sunday.",
+     "explanationAr": "قال الابن: He said they could start on Sunday.",
+     "explanationEn": "The son reports: they could start on Sunday."
+    },
+    {
+     "id": "h3-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتقول: قالت إنها ستأتي.",
+     "promptEn": "Put the words in order.",
+     "options": [
+      "come.",
+      "she",
+      "said",
+      "would",
+      "She"
+     ],
+     "answer": "She said she would come.",
+     "explanationAr": "She said ثم she would come. لاحظ will أصبحت would.",
+     "explanationEn": "She said + she would come. Will becomes would."
+    }
+   ]
+  },
+  {
+   "id": "outdoors-1",
+   "ar": "في الهواء الطلق",
+   "en": "In the great outdoors",
+   "minutes": 8,
+   "unit": "outdoors",
+   "steps": [
+    {
+     "id": "o1-intro",
+     "kind": "intro",
+     "ar": "الطبيعة تناديك",
+     "en": "Nature is calling",
+     "bodyAr": "تتعلم كلمات الطبيعة والصيد، والتعبير go + -ing مثل go fishing وgo camping.",
+     "bodyEn": "Learn words for nature and hunting, and the pattern go + -ing, like go fishing and go camping.",
+     "example": "Let's go fishing on the weekend.",
+     "translation": "لنذهب لصيد السمك في عطلة نهاية الأسبوع."
+    },
+    {
+     "id": "o1-words-1",
+     "kind": "vocabulary",
+     "ar": "الطبيعة والحيوانات",
+     "en": "Nature and animals",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "country",
+      "outdoors",
+      "deer",
+      "duck",
+      "fish",
+      "plenty"
+     ]
+    },
+    {
+     "id": "o1-words-2",
+     "kind": "vocabulary",
+     "ar": "أدوات الرحلة",
+     "en": "Trip equipment",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "fishing-rod",
+      "line",
+      "catch",
+      "instructions",
+      "prepare",
+      "go-ing"
+     ]
+    },
+    {
+     "id": "o1-check",
+     "kind": "choice",
+     "ar": "اختبر نفسك",
+     "en": "Quick check",
+     "promptAr": "ماذا تحتاج لصيد السمك؟",
+     "promptEn": "What do you need to fish?",
+     "options": [
+      "a fishing rod",
+      "a fireplace",
+      "a stereo"
+     ],
+     "answer": "a fishing rod",
+     "explanationAr": "fishing rod صنارة الصيد.",
+     "explanationEn": "A fishing rod is used to catch fish."
+    },
+    {
+     "id": "o1-grammar",
+     "kind": "grammar",
+     "ar": "go + -ing",
+     "en": "Go + -ing",
+     "bodyAr": "نستخدم go + الفعل مع ing للأنشطة: go fishing، go hunting، go camping. في الماضي: went fishing.",
+     "bodyEn": "Use go + verb-ing for activities: go fishing, go hunting, go camping. Past: went fishing.",
+     "example": "We went camping in the desert last winter.",
+     "translation": "ذهبنا للتخييم في البر الشتاء الماضي.",
+     "formula": "go / went + verb-ing"
+    },
+    {
+     "id": "o1-cloze",
+     "kind": "choice",
+     "ar": "أكمل الجملة",
+     "en": "Complete the sentence",
+     "promptAr": "اختر الصيغة الصحيحة.",
+     "promptEn": "Choose the correct form.",
+     "options": [
+      "fishing",
+      "fish",
+      "to fish"
+     ],
+     "answer": "fishing",
+     "explanationAr": "بعد go للأنشطة نستخدم ing.",
+     "explanationEn": "After go for activities, use -ing.",
+     "example": "My father and I go ___ every Friday."
+    },
+    {
+     "id": "o1-listen",
+     "kind": "listening",
+     "ar": "رحلة صيد",
+     "en": "A fishing trip",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it. Try listening before revealing the transcript.",
+     "audio": "Yousef: Did you catch anything? Ali: Yes, plenty! I caught five fish. Yousef: Wow. I've only been fishing once. Ali: Come with us next time. Read the instructions for the rod, and I'll show you how to prepare the line.",
+     "translation": "يوسف: هل اصطدت شيئًا؟ علي: نعم، الكثير! اصطدت خمس سمكات. يوسف: رائع. ذهبت للصيد مرة واحدة فقط. علي: تعال معنا المرة القادمة. اقرأ تعليمات الصنارة، وسأريك كيف تجهّز الخيط."
+    },
+    {
+     "id": "o1-listen-check",
+     "kind": "choice",
+     "ar": "ماذا فهمت؟",
+     "en": "What did you hear?",
+     "promptAr": "كم مرة ذهب يوسف للصيد؟",
+     "promptEn": "How many times has Yousef been fishing?",
+     "options": [
+      "Once.",
+      "Twice.",
+      "Several times."
+     ],
+     "answer": "Once.",
+     "explanationAr": "قال يوسف: I've only been fishing once — مرة واحدة.",
+     "explanationEn": "Yousef says he has only been fishing once."
+    },
+    {
+     "id": "o1-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتقول: ذهبنا للتخييم.",
+     "promptEn": "Put the words in order.",
+     "options": [
+      "camping.",
+      "went",
+      "We"
+     ],
+     "answer": "We went camping.",
+     "explanationAr": "We ثم went ثم camping.",
+     "explanationEn": "We + went + camping."
+    }
+   ]
+  },
+  {
+   "id": "outdoors-2",
+   "ar": "كنا نفعل ذلك",
+   "en": "We used to do that",
+   "minutes": 9,
+   "unit": "outdoors",
+   "steps": [
+    {
+     "id": "o2-intro",
+     "kind": "intro",
+     "ar": "ذكريات الماضي",
+     "en": "Memories of the past",
+     "bodyAr": "نتحدث عن عادات ماضية لم تعد موجودة باستخدام used to وwould.",
+     "bodyEn": "Talk about past habits that are no longer true with used to and would.",
+     "example": "When I was young, I used to go hunting with my grandfather.",
+     "translation": "عندما كنت صغيرًا، كنت أذهب للصيد مع جدي."
+    },
+    {
+     "id": "o2-words",
+     "kind": "vocabulary",
+     "ar": "كلمات للعادات والذكريات",
+     "en": "Habits and memories",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "used-to",
+      "would",
+      "hunt",
+      "walk",
+      "whole",
+      "in-the-open"
+     ]
+    },
+    {
+     "id": "o2-grammar-1",
+     "kind": "grammar",
+     "ar": "used to للعادات الماضية",
+     "en": "Used to for past habits",
+     "bodyAr": "used to + الفعل الأساسي تعني «كان يفعل» في الماضي ولم يعد. في النفي والسؤال: didn't use to / Did you use to...?",
+     "bodyEn": "Used to + base verb shows a past habit or state that has stopped. Negative and question: didn't use to / Did you use to...?",
+     "example": "I used to live in the country. Did you use to fish?",
+     "translation": "كنت أعيش في الريف. هل كنت تصطاد السمك؟",
+     "formula": "used to + base verb"
+    },
+    {
+     "id": "o2-check-1",
+     "kind": "choice",
+     "ar": "اختر الصحيح",
+     "en": "Choose the correct one",
+     "promptAr": "أي جملة صحيحة؟",
+     "promptEn": "Which sentence is correct?",
+     "options": [
+      "He used to hunts ducks.",
+      "He used to hunt ducks.",
+      "He use to hunting ducks."
+     ],
+     "answer": "He used to hunt ducks.",
+     "explanationAr": "بعد used to يأتي الفعل الأساسي hunt.",
+     "explanationEn": "After used to, use the base verb hunt."
+    },
+    {
+     "id": "o2-grammar-2",
+     "kind": "grammar",
+     "ar": "would للأفعال المتكررة",
+     "en": "Would for repeated actions",
+     "bodyAr": "would + الفعل الأساسي تصف أفعالًا تكررت في الماضي. لكن لا نستخدم would لحالات مثل live أو have؛ هنا نستخدم used to.",
+     "bodyEn": "Would + base verb describes repeated past actions. Don't use would for states like live or have — use used to.",
+     "example": "Every summer, we would sleep in the open.",
+     "translation": "كل صيف، كنا ننام في العراء.",
+     "formula": "would + base verb (actions only)"
+    },
+    {
+     "id": "o2-cloze",
+     "kind": "choice",
+     "ar": "أكمل الجملة",
+     "en": "Complete the sentence",
+     "promptAr": "اختر الكلمة المناسبة.",
+     "promptEn": "Choose the best word.",
+     "options": [
+      "used to",
+      "would",
+      "will"
+     ],
+     "answer": "used to",
+     "explanationAr": "live حالة وليست فعلًا متكررًا، لذلك نستخدم used to.",
+     "explanationEn": "Live is a state, so use used to, not would.",
+     "example": "My grandfather ___ live near the mountains."
+    },
+    {
+     "id": "o2-listen",
+     "kind": "listening",
+     "ar": "حكاية الجد",
+     "en": "Grandfather's story",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it. Try listening before revealing the transcript.",
+     "audio": "Grandson: Did you use to go hunting, Grandpa? Grandfather: Yes. When I was young, we would leave early and walk the whole day. We would sleep in the open. Grandson: Do you still hunt? Grandfather: No, I don't anymore. Now I just go for a walk every evening.",
+     "translation": "الحفيد: هل كنت تذهب للصيد يا جدي؟ الجد: نعم. عندما كنت شابًا، كنا نخرج مبكرًا ونمشي اليوم كله. وكنا ننام في العراء. الحفيد: هل ما زلت تصطاد؟ الجد: لا، لم أعد كذلك. الآن أتمشى فقط كل مساء."
+    },
+    {
+     "id": "o2-listen-check",
+     "kind": "choice",
+     "ar": "ماذا فهمت؟",
+     "en": "What did you hear?",
+     "promptAr": "ماذا يفعل الجد الآن؟",
+     "promptEn": "What does the grandfather do now?",
+     "options": [
+      "He goes hunting every day.",
+      "He goes for a walk every evening.",
+      "He sleeps in the open."
+     ],
+     "answer": "He goes for a walk every evening.",
+     "explanationAr": "قال الجد إنه لم يعد يصطاد ويتمشى كل مساء.",
+     "explanationEn": "He doesn't hunt anymore; he goes for a walk every evening."
+    },
+    {
+     "id": "o2-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتقول: كنت أعيش في الريف.",
+     "promptEn": "Put the words in order.",
+     "options": [
+      "country.",
+      "used",
+      "the",
+      "I",
+      "to",
+      "live",
+      "in"
+     ],
+     "answer": "I used to live in the country.",
+     "explanationAr": "I ثم used to ثم الفعل live ثم in the country.",
+     "explanationEn": "I + used to + live + in the country."
+    }
+   ]
+  },
+  {
+   "id": "outdoors-3",
+   "ar": "أسرع وأبعد",
+   "en": "Faster and farther",
+   "minutes": 8,
+   "unit": "outdoors",
+   "steps": [
+    {
+     "id": "o3-intro",
+     "kind": "intro",
+     "ar": "نقارن بين الأفعال",
+     "en": "Comparing actions",
+     "bodyAr": "نقارن كيف يفعل الناس الأشياء: faster، harder، more slowly، farther، ونتعلم once وtwice.",
+     "bodyEn": "Compare how people do things: faster, harder, more slowly, farther — and learn once and twice.",
+     "example": "Nawaf runs faster than his brother.",
+     "translation": "نواف يركض أسرع من أخيه."
+    },
+    {
+     "id": "o3-words",
+     "kind": "vocabulary",
+     "ar": "كلمات للمقارنة",
+     "en": "Comparison words",
+     "bodyAr": "شاهد الصورة، واسمع النطق من زر الصوت. افتح البطاقة للمعنى والمثال، واحفظ ما تريد مراجعته.",
+     "bodyEn": "Use the speaker to hear each word. Open a card for its meaning and example, or bookmark it for later.",
+     "words": [
+      "farther",
+      "further",
+      "hard",
+      "slow",
+      "more",
+      "high",
+      "low",
+      "twice"
+     ]
+    },
+    {
+     "id": "o3-grammar",
+     "kind": "grammar",
+     "ar": "مقارنة الظروف",
+     "en": "Comparative adverbs",
+     "bodyAr": "الظروف القصيرة نضيف لها -er: fast → faster، hard → harder. والطويلة نضع قبلها more: slowly → more slowly. والشاذة: well → better، far → farther/further. ثم نضع than.",
+     "bodyEn": "Short adverbs add -er: faster, harder. Longer ones use more: more slowly. Irregular: well → better, far → farther / further. Then add than.",
+     "example": "She shoots more carefully than I do.",
+     "translation": "هي ترمي بحذر أكثر مني.",
+     "formula": "verb + adverb-er / more + adverb + than"
+    },
+    {
+     "id": "o3-check",
+     "kind": "choice",
+     "ar": "اختر الصحيح",
+     "en": "Choose the correct one",
+     "promptAr": "أي جملة صحيحة؟",
+     "promptEn": "Which sentence is correct?",
+     "options": [
+      "He walks more slowly than me.",
+      "He walks slowlier than me.",
+      "He walks more slow than me."
+     ],
+     "answer": "He walks more slowly than me.",
+     "explanationAr": "slowly ظرف طويل فنقول more slowly.",
+     "explanationEn": "Slowly is a longer adverb, so use more slowly."
+    },
+    {
+     "id": "o3-cloze",
+     "kind": "choice",
+     "ar": "أكمل الجملة",
+     "en": "Complete the sentence",
+     "promptAr": "اختر الكلمة المناسبة.",
+     "promptEn": "Choose the best word.",
+     "options": [
+      "farther",
+      "harder",
+      "lower"
+     ],
+     "answer": "farther",
+     "explanationAr": "نتحدث عن مسافة، فنستخدم farther.",
+     "explanationEn": "This is about distance, so use farther.",
+     "example": "The lake is ___ from the city than the river."
+    },
+    {
+     "id": "o3-listen",
+     "kind": "listening",
+     "ar": "سباق إلى البحيرة",
+     "en": "A race to the lake",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it. Try listening before revealing the transcript.",
+     "audio": "Coach: You both practiced hard this week. Nawaf, you ran faster than last time. Turki: And me? Coach: You ran more slowly, but you went farther. You ran around the lake twice!",
+     "translation": "المدرب: تدربتما بجد هذا الأسبوع. نواف، ركضت أسرع من المرة الماضية. تركي: وأنا؟ المدرب: ركضت أبطأ، لكنك قطعت مسافة أبعد. ركضت حول البحيرة مرتين!"
+    },
+    {
+     "id": "o3-listen-check",
+     "kind": "choice",
+     "ar": "ماذا فهمت؟",
+     "en": "What did you hear?",
+     "promptAr": "كم مرة ركض تركي حول البحيرة؟",
+     "promptEn": "How many times did Turki run around the lake?",
+     "options": [
+      "Once.",
+      "Twice.",
+      "Several times."
+     ],
+     "answer": "Twice.",
+     "explanationAr": "قال المدرب: You ran around the lake twice.",
+     "explanationEn": "The coach says Turki ran around the lake twice."
+    },
+    {
+     "id": "o3-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتقول: يعمل بجد أكثر مني.",
+     "promptEn": "Put the words in order.",
+     "options": [
+      "me.",
+      "harder",
+      "He",
+      "than",
+      "works"
+     ],
+     "answer": "He works harder than me.",
+     "explanationAr": "He works ثم harder than ثم me.",
+     "explanationEn": "He works + harder than + me."
+    }
+   ]
+  },
+  {
+   "id": "review-1",
+   "ar": "مراجعة المفردات",
+   "en": "Vocabulary review",
+   "minutes": 7,
+   "unit": "review",
+   "steps": [
+    {
+     "id": "r1-intro",
+     "kind": "intro",
+     "ar": "نربط الوحدات معًا",
+     "en": "Bringing the units together",
+     "bodyAr": "مراجعة سريعة لأهم كلمات الوحدات الأربع: السفر، التعليم، المنزل، والطبيعة.",
+     "bodyEn": "A quick review of key words from the four units: travel, education, home and the outdoors.",
+     "example": "If the weather clears up, we'll go fishing near our new house.",
+     "translation": "إذا صفا الجو، سنذهب للصيد قرب بيتنا الجديد."
+    },
+    {
+     "id": "r1-q1",
+     "kind": "choice",
+     "ar": "الوحدة 1",
+     "en": "Unit 1",
+     "promptAr": "أي كلمة تعني «الماء في الهواء»؟",
+     "promptEn": "Which word means the water in the air?",
+     "options": [
+      "humidity",
+      "heat",
+      "breeze"
+     ],
+     "answer": "humidity",
+     "explanationAr": "humidity تعني الرطوبة.",
+     "explanationEn": "Humidity is the amount of water in the air."
+    },
+    {
+     "id": "r1-q2",
+     "kind": "choice",
+     "ar": "الوحدة 2",
+     "en": "Unit 2",
+     "promptAr": "ماذا تسمي العمل الذي تفعله معظم حياتك؟",
+     "promptEn": "What do you call the work you do for most of your life?",
+     "options": [
+      "career",
+      "course",
+      "tour"
+     ],
+     "answer": "career",
+     "explanationAr": "career تعني المسيرة المهنية.",
+     "explanationEn": "A career is your long-term work."
+    },
+    {
+     "id": "r1-q3",
+     "kind": "choice",
+     "ar": "الوحدة 3",
+     "en": "Unit 3",
+     "promptAr": "أين نجلس خارج البيت مباشرة؟",
+     "promptEn": "Where do you sit just outside the house?",
+     "options": [
+      "patio",
+      "oven",
+      "den"
+     ],
+     "answer": "patio",
+     "explanationAr": "patio فناء خارجي بجانب البيت.",
+     "explanationEn": "A patio is a flat area next to the house."
+    },
+    {
+     "id": "r1-q4",
+     "kind": "choice",
+     "ar": "الوحدة 4",
+     "en": "Unit 4",
+     "promptAr": "أي كلمة تعني «مرتين»؟",
+     "promptEn": "Which word means two times?",
+     "options": [
+      "twice",
+      "once",
+      "several"
+     ],
+     "answer": "twice",
+     "explanationAr": "twice مرتين، once مرة واحدة.",
+     "explanationEn": "Twice is two times; once is one time."
+    },
+    {
+     "id": "r1-q5",
+     "kind": "choice",
+     "ar": "عبارات",
+     "en": "Phrases",
+     "promptAr": "أي عبارة تعني «يحسم قراره»؟",
+     "promptEn": "Which phrase means to decide?",
+     "options": [
+      "make up one's mind",
+      "turn down",
+      "clear up"
+     ],
+     "answer": "make up one's mind",
+     "explanationAr": "make up one's mind تعني يحسم قراره.",
+     "explanationEn": "Make up one's mind means decide."
+    },
+    {
+     "id": "r1-q6",
+     "kind": "choice",
+     "ar": "عبارات",
+     "en": "Phrases",
+     "promptAr": "أي عبارة تعني «يحدث»؟",
+     "promptEn": "Which phrase means happen?",
+     "options": [
+      "take place",
+      "add on",
+      "get together"
+     ],
+     "answer": "take place",
+     "explanationAr": "take place تعني يحدث أو يُقام.",
+     "explanationEn": "Take place means happen."
+    }
+   ]
+  },
+  {
+   "id": "review-2",
+   "ar": "مراجعة القواعد",
+   "en": "Grammar review",
+   "minutes": 9,
+   "unit": "review",
+   "steps": [
+    {
+     "id": "r2-intro",
+     "kind": "intro",
+     "ar": "القواعد في مكان واحد",
+     "en": "All the patterns together",
+     "bodyAr": "نراجع الجمل الشرطية، والمضارع التام، والاحتمال، والكلام المنقول، وused to، ومقارنة الظروف.",
+     "bodyEn": "Review conditionals, the present perfect, possibility, reported speech, used to and comparative adverbs.",
+     "example": "She said she had never gone fishing, but she used to hike.",
+     "translation": "قالت إنها لم تذهب للصيد أبدًا، لكنها كانت تمارس المشي الجبلي."
+    },
+    {
+     "id": "r2-q1",
+     "kind": "choice",
+     "ar": "الجملة الشرطية",
+     "en": "Conditionals",
+     "promptAr": "اختر الصيغة الصحيحة.",
+     "promptEn": "Choose the correct form.",
+     "options": [
+      "rains",
+      "will rain",
+      "rained"
+     ],
+     "answer": "rains",
+     "explanationAr": "بعد if نستخدم المضارع البسيط، وليس will.",
+     "explanationEn": "Use the present simple after if, not will.",
+     "example": "If it ___, we will stay home."
+    },
+    {
+     "id": "r2-q2",
+     "kind": "choice",
+     "ar": "المضارع التام",
+     "en": "Present perfect",
+     "promptAr": "اختر الكلمة المناسبة.",
+     "promptEn": "Choose the best word.",
+     "options": [
+      "yet",
+      "already",
+      "ever"
+     ],
+     "answer": "already",
+     "explanationAr": "already تأتي بين have والتصريف الثالث في جملة مثبتة.",
+     "explanationEn": "Already goes between have and the participle in a positive sentence.",
+     "example": "I have ___ sent my application."
+    },
+    {
+     "id": "r2-q3",
+     "kind": "choice",
+     "ar": "الاحتمال",
+     "en": "Possibility",
+     "promptAr": "أي جملة تعبّر عن احتمال؟",
+     "promptEn": "Which sentence shows possibility?",
+     "options": [
+      "He could be at home.",
+      "He is at home.",
+      "He was at home."
+     ],
+     "answer": "He could be at home.",
+     "explanationAr": "could be تعني «قد يكون».",
+     "explanationEn": "Could be means it is possible."
+    },
+    {
+     "id": "r2-q4",
+     "kind": "choice",
+     "ar": "الكلام المنقول",
+     "en": "Reported speech",
+     "promptAr": "Nada: \"I will help.\" — كيف ننقل كلامها؟",
+     "promptEn": "Nada: \"I will help.\" How do you report it?",
+     "options": [
+      "Nada said she would help.",
+      "Nada said she will helps.",
+      "Nada said I would help."
+     ],
+     "answer": "Nada said she would help.",
+     "explanationAr": "will تصبح would، وI تصبح she.",
+     "explanationEn": "Will becomes would, and I becomes she."
+    },
+    {
+     "id": "r2-q5",
+     "kind": "choice",
+     "ar": "العادات الماضية",
+     "en": "Past habits",
+     "promptAr": "اختر الصيغة الصحيحة.",
+     "promptEn": "Choose the correct form.",
+     "options": [
+      "use to",
+      "used to",
+      "using to"
+     ],
+     "answer": "use to",
+     "explanationAr": "بعد did في السؤال نقول use to بدون d.",
+     "explanationEn": "After did, use use to without d.",
+     "example": "Did you ___ go camping?"
+    },
+    {
+     "id": "r2-q6",
+     "kind": "choice",
+     "ar": "مقارنة الظروف",
+     "en": "Comparative adverbs",
+     "promptAr": "اختر الصيغة الصحيحة.",
+     "promptEn": "Choose the correct form.",
+     "options": [
+      "faster",
+      "more fast",
+      "fastly"
+     ],
+     "answer": "faster",
+     "explanationAr": "fast ظرف قصير فنضيف -er.",
+     "explanationEn": "Fast is short, so add -er: faster.",
+     "example": "Turki swims ___ than his cousin."
+    },
+    {
+     "id": "r2-q7",
+     "kind": "choice",
+     "ar": "أدوات الربط",
+     "en": "Connectors",
+     "promptAr": "اختر أداة الربط المناسبة.",
+     "promptEn": "Choose the connector.",
+     "options": [
+      "or",
+      "so",
+      "then"
+     ],
+     "answer": "or",
+     "explanationAr": "نقدّم خيارًا بين شيئين، فنستخدم or.",
+     "explanationEn": "We're giving a choice, so use or.",
+     "example": "Do you want to study medicine ___ engineering?"
+    },
+    {
+     "id": "r2-order",
+     "kind": "order",
+     "ar": "رتّب جملتك",
+     "en": "Build your sentence",
+     "promptAr": "رتّب الكلمات لتقول: هل سبق أن ذهبت للصيد؟",
+     "promptEn": "Put the words in order.",
+     "options": [
+      "fishing?",
+      "ever",
+      "Have",
+      "been",
+      "you"
+     ],
+     "answer": "Have you ever been fishing?",
+     "explanationAr": "Have ثم you ثم ever ثم been ثم fishing.",
+     "explanationEn": "Have + you + ever + been + fishing?"
+    }
+   ]
+  },
+  {
+   "id": "foundation-1",
+   "ar": "جسر البداية",
+   "en": "Your starting bridge",
+   "minutes": 4,
+   "unit": "foundation",
+   "steps": [
+    {
+     "id": "f-intro",
+     "kind": "intro",
+     "ar": "نبدأ بما تحتاجه الآن",
+     "en": "Start with what you need today",
+     "bodyAr": "هذا جسر تمهيدي قصير لجلسة السفر، وليس منهج تأسيس كاملًا. سنتدرب على الضمائر وجملة بسيطة عن المستقبل، ثم يمكنك تجربة الدرس بالسرعة المناسبة لك.",
+     "bodyEn": "This short bridge prepares you for the travel session. It is not a complete beginner course. Start with pronouns and a simple future sentence, then try the lesson at your own pace.",
+     "example": "I = أنا    •    We = نحن    •    They = هم",
+     "translation": "يمكنك سماع الأمثلة وإعادة المحاولة دون خسارة أي شيء."
+    },
+    {
+     "id": "f-pronoun",
+     "kind": "choice",
+     "ar": "من يتحدث؟",
+     "en": "Who is speaking?",
+     "promptAr": "اختر الضمير الذي يعني «نحن».",
+     "promptEn": "Which pronoun means a group including the speaker?",
+     "options": [
+      "I",
+      "We",
+      "He"
+     ],
+     "answer": "We",
+     "explanationAr": "We تعني نحن. I تعني أنا، وHe تعني هو.",
+     "explanationEn": "We means the speaker and at least one other person. I is one speaker; he is another male person."
+    },
+    {
+     "id": "f-future",
+     "kind": "grammar",
+     "ar": "جملة عن المستقبل",
+     "en": "A sentence about the future",
+     "bodyAr": "بعد will يأتي الفعل بصورته الأساسية. لا نضيف s إلى الفعل هنا. مثلًا: We will go تعني سنذهب.",
+     "bodyEn": "After will, use the base form of the verb. Do not add s. For example: We will go.",
+     "example": "We will go to the beach.",
+     "translation": "سنذهب إلى الشاطئ.",
+     "formula": "We + will + go"
+    },
+    {
+     "id": "f-check",
+     "kind": "choice",
+     "ar": "خطوتك الأولى",
+     "en": "Your first step",
+     "promptAr": "اختر الجملة الصحيحة للتعبير عن المستقبل.",
+     "promptEn": "Choose the correct future sentence.",
+     "options": [
+      "We will goes.",
+      "We will go.",
+      "We will going."
+     ],
+     "answer": "We will go.",
+     "explanationAr": "بعد will نستخدم go بصورته الأساسية، بدون s أو ing.",
+     "explanationEn": "Use the base verb go after will, without s or ing."
+    }
+   ]
+  }
+ ]
+}
