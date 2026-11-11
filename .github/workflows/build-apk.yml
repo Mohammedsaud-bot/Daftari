@@ -1,10 +1,11 @@
 name: Build APK
-on: [workflow_dispatch, push]
+on: [workflow_dispatch, push, workflow_call]
 jobs:
   apk:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with: {ref: main}
       - uses: actions/setup-java@v4
         with: {distribution: temurin, java-version: 17}
       - uses: subosito/flutter-action@v2
