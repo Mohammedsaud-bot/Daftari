@@ -885,6 +885,7 @@ class UnitCard extends StatelessWidget {
       'travel' => 'travel-kit',
       'education' => 'education-art',
       'home' => 'home-art',
+      'review' => 'w-checklist',
       _ => 'nature-art',
     };
     return LiftCard(
@@ -1097,6 +1098,7 @@ class LessonsPage extends StatelessWidget {
                           'education' => 'education-art',
                           'home' => 'home-art',
                           'outdoors' => 'nature-art',
+                          'review' => 'w-checklist',
                           _ => 'study-book',
                         }}.png',
                         width: 54,

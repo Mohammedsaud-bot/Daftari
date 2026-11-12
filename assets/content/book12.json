@@ -143,7 +143,8 @@
    "definition": "Hot weather or a high temperature.",
    "example": "The heat in the desert is strong at noon.",
    "exampleAr": "الحرارة في الصحراء قوية وقت الظهر.",
-   "symbol": "sun"
+   "symbol": "sun",
+   "image": "w-heat"
   },
   {
    "id": "humidity",
@@ -152,7 +153,8 @@
    "definition": "The amount of water in the air.",
    "example": "The humidity is high near the coast.",
    "exampleAr": "الرطوبة مرتفعة قرب الساحل.",
-   "symbol": "water"
+   "symbol": "water",
+   "image": "w-humidity"
   },
   {
    "id": "sea",
@@ -161,7 +163,8 @@
    "definition": "A large area of salt water.",
    "example": "We swam in the sea all afternoon.",
    "exampleAr": "سبحنا في البحر طوال فترة العصر.",
-   "symbol": "water"
+   "symbol": "water",
+   "image": "w-sea"
   },
   {
    "id": "thought",
@@ -170,7 +173,8 @@
    "definition": "An idea in your mind.",
    "example": "I had a thought: let's leave early.",
    "exampleAr": "خطرت لي فكرة: لنغادر مبكرًا.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-idea"
   },
   {
    "id": "wind",
@@ -179,7 +183,8 @@
    "definition": "Air that moves quickly.",
    "example": "The wind was too strong for the boat.",
    "exampleAr": "كانت الرياح أقوى من أن يُبحر القارب.",
-   "symbol": "air"
+   "symbol": "air",
+   "image": "w-wind"
   },
   {
    "id": "be-over",
@@ -188,7 +193,8 @@
    "definition": "To be finished.",
    "example": "The storm is over. We can go out now.",
    "exampleAr": "انتهت العاصفة. يمكننا الخروج الآن.",
-   "symbol": "sun"
+   "symbol": "sun",
+   "image": "w-clear"
   },
   {
    "id": "belong",
@@ -197,7 +203,8 @@
    "definition": "To be owned by someone.",
    "example": "This blue suitcase belongs to my brother.",
    "exampleAr": "هذه الحقيبة الزرقاء تخص أخي.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-key"
   },
   {
    "id": "blow",
@@ -206,7 +213,8 @@
    "definition": "When wind moves, it blows.",
    "example": "The wind blew all night.",
    "exampleAr": "هبّت الرياح طوال الليل.",
-   "symbol": "air"
+   "symbol": "air",
+   "image": "w-wind"
   },
   {
    "id": "clear-up",
@@ -215,7 +223,8 @@
    "definition": "When bad weather ends, it clears up.",
    "example": "I hope the sky clears up before the trip.",
    "exampleAr": "أتمنى أن يصفو الجو قبل الرحلة.",
-   "symbol": "sun"
+   "symbol": "sun",
+   "image": "w-clear"
   },
   {
    "id": "could-use",
@@ -224,7 +233,8 @@
    "definition": "To need or want something.",
    "example": "I could use a cold drink after this walk.",
    "exampleAr": "أحتاج إلى مشروب بارد بعد هذا المشي.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-idea"
   },
   {
    "id": "last",
@@ -233,7 +243,8 @@
    "definition": "To continue for a period of time.",
    "example": "The rain lasted for three days.",
    "exampleAr": "استمر المطر ثلاثة أيام.",
-   "symbol": "sun"
+   "symbol": "sun",
+   "image": "w-calendar"
   },
   {
    "id": "remain",
@@ -242,7 +253,8 @@
    "definition": "To stay in the same place or state.",
    "example": "The weather will remain hot this week.",
    "exampleAr": "سيبقى الجو حارًا هذا الأسبوع.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-clear"
   },
   {
    "id": "slip",
@@ -251,7 +263,8 @@
    "definition": "To slide and almost fall.",
    "example": "Be careful not to slip on the wet floor.",
    "exampleAr": "احذر أن تنزلق على الأرض المبللة.",
-   "symbol": "water"
+   "symbol": "water",
+   "image": "w-slip"
   },
   {
    "id": "stay",
@@ -260,7 +273,8 @@
    "definition": "To remain in a place for a time.",
    "example": "We stayed at a small hotel by the lake.",
    "exampleAr": "أقمنا في فندق صغير بجانب البحيرة.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-hotel"
   },
   {
    "id": "calm",
@@ -269,7 +283,8 @@
    "definition": "Quiet, with no strong wind or waves.",
    "example": "The sea was calm in the morning.",
    "exampleAr": "كان البحر هادئًا في الصباح.",
-   "symbol": "quiet"
+   "symbol": "quiet",
+   "image": "w-calm"
   },
   {
    "id": "clear",
@@ -278,7 +293,8 @@
    "definition": "With no clouds.",
    "example": "The sky is clear tonight. We can see the stars.",
    "exampleAr": "السماء صافية الليلة. يمكننا رؤية النجوم.",
-   "symbol": "sun"
+   "symbol": "sun",
+   "image": "w-clear"
   },
   {
    "id": "dangerous",
@@ -287,7 +303,8 @@
    "definition": "Likely to hurt you.",
    "example": "Swimming in deep water alone is dangerous.",
    "exampleAr": "السباحة وحدك في الماء العميق أمر خطير.",
-   "symbol": "water"
+   "symbol": "water",
+   "image": "w-danger"
   },
   {
    "id": "deep",
@@ -296,7 +313,8 @@
    "definition": "Going far down from the top.",
    "example": "The lake is very deep in the middle.",
    "exampleAr": "البحيرة عميقة جدًا في وسطها.",
-   "symbol": "water"
+   "symbol": "water",
+   "image": "w-deep"
   },
   {
    "id": "during",
@@ -305,7 +323,8 @@
    "definition": "At some time while something happens.",
    "example": "It rained during our trip.",
    "exampleAr": "أمطرت خلال رحلتنا.",
-   "symbol": "travel"
+   "symbol": "travel",
+   "image": "w-calendar"
   },
   {
    "id": "ever",
@@ -314,7 +333,8 @@
    "definition": "At any time in your life.",
    "example": "Have you ever seen snow?",
    "exampleAr": "هل رأيت الثلج من قبل؟",
-   "symbol": "travel"
+   "symbol": "travel",
+   "image": "w-clock"
   },
   {
    "id": "except",
@@ -323,7 +343,8 @@
    "definition": "But not.",
    "example": "Everyone came except Sami.",
    "exampleAr": "حضر الجميع ما عدا سامي.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-refuse"
   },
   {
    "id": "freezing",
@@ -332,7 +353,8 @@
    "definition": "Very, very cold.",
    "example": "It is freezing outside. Wear a coat.",
    "exampleAr": "الجو شديد البرودة في الخارج. البس معطفًا.",
-   "symbol": "air"
+   "symbol": "air",
+   "image": "w-freezing"
   },
   {
    "id": "frightened",
@@ -341,7 +363,8 @@
    "definition": "Afraid.",
    "example": "The child was frightened by the loud thunder.",
    "exampleAr": "خاف الطفل من صوت الرعد العالي.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-danger"
   },
   {
    "id": "humid",
@@ -350,7 +373,8 @@
    "definition": "With a lot of water in the air.",
    "example": "Jeddah is hot and humid in summer.",
    "exampleAr": "جدة حارة ورطبة في الصيف.",
-   "symbol": "water"
+   "symbol": "water",
+   "image": "w-humidity"
   },
   {
    "id": "if",
@@ -359,7 +383,8 @@
    "definition": "A word used to give a condition.",
    "example": "If you are tired, we will rest.",
    "exampleAr": "إذا كنت متعبًا، سنستريح.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-idea"
   },
   {
    "id": "like",
@@ -368,7 +393,8 @@
    "definition": "Similar to; also: to enjoy.",
    "example": "What is the weather like in Abha?",
    "exampleAr": "كيف يكون الطقس في أبها؟",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-discussion"
   },
   {
    "id": "no-longer",
@@ -377,7 +403,8 @@
    "definition": "Not now, although it was true before.",
    "example": "He no longer lives in Riyadh.",
    "exampleAr": "لم يعد يسكن في الرياض.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-clock"
   },
   {
    "id": "none",
@@ -386,7 +413,8 @@
    "definition": "Not one; not any.",
    "example": "None of my friends could come.",
    "exampleAr": "لم يستطع أحد من أصدقائي الحضور.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-refuse"
   },
   {
    "id": "occasionally",
@@ -395,7 +423,8 @@
    "definition": "Sometimes, but not often.",
    "example": "It occasionally rains here in winter.",
    "exampleAr": "تمطر هنا أحيانًا في الشتاء.",
-   "symbol": "sun"
+   "symbol": "sun",
+   "image": "w-calendar"
   },
   {
    "id": "unpleasant",
@@ -404,7 +433,8 @@
    "definition": "Not nice.",
    "example": "The weather was unpleasant: hot and windy.",
    "exampleAr": "كان الطقس غير مريح: حارًا وعاصفًا.",
-   "symbol": "air"
+   "symbol": "air",
+   "image": "w-wind"
   },
   {
    "id": "associate-degree",
@@ -413,7 +443,8 @@
    "definition": "A two-year college qualification.",
    "example": "She got an associate degree in nursing.",
    "exampleAr": "حصلت على دبلوم متوسط في التمريض.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-degree"
   },
   {
    "id": "bachelors-degree",
@@ -422,7 +453,8 @@
    "definition": "A university degree, usually after four years.",
    "example": "He has a bachelor's degree in science.",
    "exampleAr": "يحمل درجة البكالوريوس في العلوم.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-degree"
   },
   {
    "id": "career",
@@ -431,7 +463,8 @@
    "definition": "The work you do for a long part of your life.",
    "example": "She wants a career in medicine.",
    "exampleAr": "تريد مسيرة مهنية في الطب.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-career"
   },
   {
    "id": "choice",
@@ -440,7 +473,8 @@
    "definition": "Something you can choose.",
    "example": "You have a choice: math or biology.",
    "exampleAr": "لديك خيار: الرياضيات أو الأحياء.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-decision"
   },
   {
    "id": "college",
@@ -449,7 +483,8 @@
    "definition": "A place for study after high school.",
    "example": "My cousin goes to a technical college.",
    "exampleAr": "يدرس ابن عمي في كلية تقنية.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-university"
   },
   {
    "id": "course",
@@ -458,7 +493,8 @@
    "definition": "A set of lessons in one subject.",
    "example": "I'm taking an English course this summer.",
    "exampleAr": "سأدرس دورة في اللغة الإنجليزية هذا الصيف.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-course"
   },
   {
    "id": "decision",
@@ -467,7 +503,8 @@
    "definition": "A choice you make after thinking.",
    "example": "Choosing a university is a big decision.",
    "exampleAr": "اختيار الجامعة قرار كبير.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-decision"
   },
   {
    "id": "degree",
@@ -476,7 +513,8 @@
    "definition": "What you get when you finish university study.",
    "example": "You need a degree for this job.",
    "exampleAr": "تحتاج إلى درجة علمية لهذه الوظيفة.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-degree"
   },
   {
    "id": "diploma",
@@ -485,7 +523,8 @@
    "definition": "A paper that shows you finished a course or school.",
    "example": "He received his high school diploma last year.",
    "exampleAr": "استلم شهادة الثانوية العامة العام الماضي.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-diploma"
   },
   {
    "id": "discussion",
@@ -494,7 +533,8 @@
    "definition": "A talk about something.",
    "example": "We had a long discussion about my future.",
    "exampleAr": "أجرينا نقاشًا طويلًا عن مستقبلي.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-discussion"
   },
   {
    "id": "education",
@@ -503,7 +543,8 @@
    "definition": "Teaching and learning.",
    "example": "Education opens many doors.",
    "exampleAr": "التعليم يفتح أبوابًا كثيرة.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-degree"
   },
   {
    "id": "educator",
@@ -512,7 +553,8 @@
    "definition": "A person who teaches.",
    "example": "My uncle was an educator for thirty years.",
    "exampleAr": "كان عمي معلمًا لثلاثين عامًا.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-educator"
   },
   {
    "id": "elementary-school",
@@ -521,7 +563,8 @@
    "definition": "The first school for young children.",
    "example": "My little sister is in elementary school.",
    "exampleAr": "أختي الصغيرة في المدرسة الابتدائية.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-school"
   },
   {
    "id": "field",
@@ -530,7 +573,8 @@
    "definition": "An area of study or work.",
    "example": "Computer science is a growing field.",
    "exampleAr": "علوم الحاسب مجال متنامٍ.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-course"
   },
   {
    "id": "future",
@@ -539,7 +583,8 @@
    "definition": "The time that will come.",
    "example": "What are your plans for the future?",
    "exampleAr": "ما خططك للمستقبل؟",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-rocket"
   },
   {
    "id": "grade",
@@ -548,7 +593,8 @@
    "definition": "A mark for school work; also a year at school.",
    "example": "I got a good grade on the test.",
    "exampleAr": "حصلت على درجة جيدة في الاختبار.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-grade"
   },
   {
    "id": "high-school",
@@ -557,7 +603,8 @@
    "definition": "The school after middle school.",
    "example": "I will finish high school this year.",
    "exampleAr": "سأنهي المرحلة الثانوية هذا العام.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-school"
   },
   {
    "id": "masters-degree",
@@ -566,7 +613,8 @@
    "definition": "A university degree after a bachelor's degree.",
    "example": "She is studying for a master's degree.",
    "exampleAr": "تدرس للحصول على الماجستير.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-degree"
   },
   {
    "id": "middle-school",
@@ -575,7 +623,8 @@
    "definition": "The school between elementary and high school.",
    "example": "We met in middle school.",
    "exampleAr": "التقينا في المدرسة المتوسطة.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-school"
   },
   {
    "id": "offer",
@@ -584,7 +633,8 @@
    "definition": "Something someone gives you to accept or refuse; also: to give someone a chance.",
    "example": "The company offered him a job.",
    "exampleAr": "عرضت عليه الشركة وظيفة.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-accept"
   },
   {
    "id": "phd",
@@ -593,7 +643,8 @@
    "definition": "The highest university degree.",
    "example": "Dr. Huda has a Ph.D. in chemistry.",
    "exampleAr": "الدكتورة هدى تحمل الدكتوراه في الكيمياء.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-degree"
   },
   {
    "id": "profession",
@@ -602,7 +653,8 @@
    "definition": "A job that needs special study.",
    "example": "Teaching is an important profession.",
    "exampleAr": "التدريس مهنة مهمة.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-career"
   },
   {
    "id": "professional",
@@ -611,7 +663,8 @@
    "definition": "Connected with a job; also: a person with special training.",
    "example": "He is a professional photographer.",
    "exampleAr": "هو مصوّر محترف.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-career"
   },
   {
    "id": "refusal",
@@ -620,7 +673,8 @@
    "definition": "Saying no.",
    "example": "His refusal surprised everyone.",
    "exampleAr": "فاجأ رفضُه الجميع.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-refuse"
   },
   {
    "id": "tour",
@@ -629,7 +683,8 @@
    "definition": "A visit to see a place.",
    "example": "We took a tour of the university.",
    "exampleAr": "قمنا بجولة في الجامعة.",
-   "symbol": "travel"
+   "symbol": "travel",
+   "image": "w-map"
   },
   {
    "id": "tour-of-duty",
@@ -638,7 +693,8 @@
    "definition": "A period of work in one place, often in the army.",
    "example": "His tour of duty lasted two years.",
    "exampleAr": "استمرت فترة خدمته سنتين.",
-   "symbol": "travel"
+   "symbol": "travel",
+   "image": "w-map"
   },
   {
    "id": "university",
@@ -647,7 +703,8 @@
    "definition": "A place for study after high school where you get degrees.",
    "example": "She was accepted at King Saud University.",
    "exampleAr": "قُبلت في جامعة الملك سعود.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-university"
   },
   {
    "id": "accept",
@@ -656,7 +713,8 @@
    "definition": "To say yes to something.",
    "example": "I accepted the offer.",
    "exampleAr": "قبلتُ العرض.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-accept"
   },
   {
    "id": "change-ones-mind",
@@ -665,7 +723,8 @@
    "definition": "To make a different decision.",
    "example": "I wanted law, but I changed my mind.",
    "exampleAr": "أردت القانون، لكنني غيّرت رأيي.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-decision"
   },
   {
    "id": "discuss",
@@ -674,7 +733,8 @@
    "definition": "To talk about something.",
    "example": "Let's discuss your plans tonight.",
    "exampleAr": "لنناقش خططك الليلة.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-discussion"
   },
   {
    "id": "educate",
@@ -683,7 +743,8 @@
    "definition": "To teach someone.",
    "example": "Schools educate young people.",
    "exampleAr": "المدارس تعلّم الشباب.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-degree"
   },
   {
    "id": "make-up-ones-mind",
@@ -692,7 +753,8 @@
    "definition": "To decide.",
    "example": "Have you made up your mind yet?",
    "exampleAr": "هل حسمت قرارك بعد؟",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-decision"
   },
   {
    "id": "refuse",
@@ -701,7 +763,8 @@
    "definition": "To say no.",
    "example": "He refused to wait any longer.",
    "exampleAr": "رفض أن ينتظر أكثر.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-refuse"
   },
   {
    "id": "retire",
@@ -710,7 +773,8 @@
    "definition": "To stop working because you are older.",
    "example": "My father retired last year.",
    "exampleAr": "تقاعد والدي العام الماضي.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-career"
   },
   {
    "id": "take",
@@ -719,7 +783,8 @@
    "definition": "To get or carry; also: to study a course.",
    "example": "I took three courses last term.",
    "exampleAr": "درست ثلاثة مقررات في الفصل الماضي.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-course"
   },
   {
    "id": "talk-over",
@@ -728,7 +793,8 @@
    "definition": "To discuss something before deciding.",
    "example": "Let me talk it over with my parents.",
    "exampleAr": "دعني أناقش الأمر مع والديّ.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-discussion"
   },
   {
    "id": "think-over",
@@ -737,7 +803,8 @@
    "definition": "To think carefully before deciding.",
    "example": "Think it over and call me tomorrow.",
    "exampleAr": "فكّر في الأمر جيدًا واتصل بي غدًا.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-decision"
   },
   {
    "id": "turn-down",
@@ -746,7 +813,8 @@
    "definition": "To say no to an offer.",
    "example": "She turned down the job in Dubai.",
    "exampleAr": "رفضت الوظيفة في دبي.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-refuse"
   },
   {
    "id": "already",
@@ -755,7 +823,8 @@
    "definition": "Before now, sooner than expected.",
    "example": "I've already finished my homework.",
    "exampleAr": "أنهيتُ واجبي بالفعل.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-clock"
   },
   {
    "id": "confused",
@@ -764,7 +833,8 @@
    "definition": "Not able to understand or decide.",
    "example": "I'm confused. Which form do I need?",
    "exampleAr": "أنا مرتبك. أي نموذج أحتاج؟",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-confused"
   },
   {
    "id": "confusing",
@@ -773,7 +843,8 @@
    "definition": "Making you confused.",
    "example": "The instructions were confusing.",
    "exampleAr": "كانت التعليمات مربكة.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-confused"
   },
   {
    "id": "instead",
@@ -782,7 +853,8 @@
    "definition": "In place of something else.",
    "example": "There was no bus, so we walked instead.",
    "exampleAr": "لم تكن هناك حافلة، فمشينا بدلًا من ذلك.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-decision"
   },
   {
    "id": "instead-of",
@@ -791,7 +863,8 @@
    "definition": "In place of.",
    "example": "I'll have tea instead of coffee.",
    "exampleAr": "سآخذ شايًا بدلًا من القهوة.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-decision"
   },
   {
    "id": "just",
@@ -800,7 +873,8 @@
    "definition": "A very short time ago; also: only.",
    "example": "I've just received my results.",
    "exampleAr": "استلمت نتائجي للتو.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-clock"
   },
   {
    "id": "medical",
@@ -809,7 +883,8 @@
    "definition": "Connected with medicine and doctors.",
    "example": "He wants to go to medical school.",
    "exampleAr": "يريد الالتحاق بكلية الطب.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-medical"
   },
   {
    "id": "so",
@@ -818,7 +893,8 @@
    "definition": "For this reason.",
    "example": "I was tired, so I went to bed early.",
    "exampleAr": "كنت متعبًا، لذلك نمت مبكرًا.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-decision"
   },
   {
    "id": "technical",
@@ -827,7 +903,8 @@
    "definition": "Connected with practical skills and machines.",
    "example": "She studies at a technical institute.",
    "exampleAr": "تدرس في معهد تقني.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-technical"
   },
   {
    "id": "yet",
@@ -836,7 +913,8 @@
    "definition": "Until now (in questions and negatives).",
    "example": "I haven't decided yet.",
    "exampleAr": "لم أقرر بعد.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-clock"
   },
   {
    "id": "addition",
@@ -845,7 +923,8 @@
    "definition": "A new part added to a building.",
    "example": "The new addition has two bedrooms.",
    "exampleAr": "الملحق الجديد فيه غرفتا نوم.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-build"
   },
   {
    "id": "builder",
@@ -854,7 +933,8 @@
    "definition": "A person who builds houses.",
    "example": "The builder finished the wall in a week.",
    "exampleAr": "أنهى البنّاء الجدار في أسبوع.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-builder"
   },
   {
    "id": "cassette",
@@ -863,7 +943,8 @@
    "definition": "An old plastic case with tape for sound.",
    "example": "My grandfather still keeps his old cassettes.",
    "exampleAr": "ما زال جدي يحتفظ بأشرطة الكاسيت القديمة.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-cd"
   },
   {
    "id": "cd",
@@ -872,7 +953,8 @@
    "definition": "A round disc for music or data.",
    "example": "Put the CD in the player.",
    "exampleAr": "ضع القرص في المشغّل.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-cd"
   },
   {
    "id": "den",
@@ -881,7 +963,8 @@
    "definition": "A small, comfortable room for relaxing.",
    "example": "We watch TV in the den.",
    "exampleAr": "نشاهد التلفاز في غرفة الجلوس.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-sofa"
   },
   {
    "id": "dining-room",
@@ -890,7 +973,8 @@
    "definition": "The room where you eat meals.",
    "example": "Dinner is ready in the dining room.",
    "exampleAr": "العشاء جاهز في غرفة الطعام.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-dining"
   },
   {
    "id": "fire",
@@ -899,7 +983,8 @@
    "definition": "Flames and heat from something burning.",
    "example": "We sat around the fire in the desert.",
    "exampleAr": "جلسنا حول النار في البر.",
-   "symbol": "sun"
+   "symbol": "sun",
+   "image": "w-fire"
   },
   {
    "id": "fireplace",
@@ -908,7 +993,8 @@
    "definition": "A place in a wall where you can have a fire.",
    "example": "The living room has a stone fireplace.",
    "exampleAr": "في غرفة المعيشة مدفأة حجرية.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-fireplace"
   },
   {
    "id": "get-together",
@@ -917,7 +1003,8 @@
    "definition": "A friendly meeting of people.",
    "example": "We have a family get-together every Friday.",
    "exampleAr": "لدينا تجمع عائلي كل جمعة.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-meeting"
   },
   {
    "id": "idea",
@@ -926,7 +1013,8 @@
    "definition": "A plan or thought.",
    "example": "That's a great idea!",
    "exampleAr": "هذه فكرة رائعة!",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-idea"
   },
   {
    "id": "meeting",
@@ -935,7 +1023,8 @@
    "definition": "When people come together to talk.",
    "example": "The meeting starts at nine.",
    "exampleAr": "يبدأ الاجتماع الساعة التاسعة.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-meeting"
   },
   {
    "id": "oven",
@@ -944,7 +1033,8 @@
    "definition": "A kitchen box for baking and cooking.",
    "example": "The bread is in the oven.",
    "exampleAr": "الخبز في الفرن.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-oven"
   },
   {
    "id": "patio",
@@ -953,7 +1043,8 @@
    "definition": "A flat outdoor area next to a house.",
    "example": "We drink tea on the patio in the evening.",
    "exampleAr": "نشرب الشاي في الفناء مساءً.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-patio"
   },
   {
    "id": "plan",
@@ -962,7 +1053,8 @@
    "definition": "An idea of what you will do; also: a drawing of a building.",
    "example": "The builder showed us the plan for the new room.",
    "exampleAr": "أرانا البنّاء مخطط الغرفة الجديدة.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-plan"
   },
   {
    "id": "player",
@@ -971,7 +1063,8 @@
    "definition": "A machine that plays music or video; also: a person in a game.",
    "example": "The DVD player isn't working.",
    "exampleAr": "مشغّل الأقراص لا يعمل.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-stereo"
   },
   {
    "id": "room",
@@ -980,7 +1073,8 @@
    "definition": "A part of a house; also: space.",
    "example": "There isn't enough room for a sofa.",
    "exampleAr": "لا توجد مساحة كافية لأريكة.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-sofa"
   },
   {
    "id": "shed",
@@ -989,7 +1083,8 @@
    "definition": "A small building for keeping tools.",
    "example": "The tools are in the shed.",
    "exampleAr": "الأدوات في المخزن الخارجي.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-shed"
   },
   {
    "id": "solution",
@@ -998,7 +1093,8 @@
    "definition": "An answer to a problem.",
    "example": "We found a solution: build upstairs.",
    "exampleAr": "وجدنا حلًا: نبني في الطابق العلوي.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-puzzle"
   },
   {
    "id": "speaker",
@@ -1007,7 +1103,8 @@
    "definition": "A device that sound comes out of; also: a person who speaks.",
    "example": "The speakers are too loud.",
    "exampleAr": "مكبرات الصوت عالية جدًا.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-stereo"
   },
   {
    "id": "stereo",
@@ -1016,7 +1113,8 @@
    "definition": "A machine for playing music.",
    "example": "He bought a new stereo for the den.",
    "exampleAr": "اشترى جهاز ستيريو جديدًا لغرفة الجلوس.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-stereo"
   },
   {
    "id": "story",
@@ -1025,7 +1123,8 @@
    "definition": "A level of a building; also: a tale.",
    "example": "Our house has two stories.",
    "exampleAr": "بيتنا من طابقين.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-story"
   },
   {
    "id": "suburb",
@@ -1034,7 +1133,8 @@
    "definition": "An area with houses outside the city center.",
    "example": "They live in a quiet suburb.",
    "exampleAr": "يسكنون في ضاحية هادئة.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-suburb"
   },
   {
    "id": "trouble",
@@ -1043,7 +1143,8 @@
    "definition": "A problem or difficulty.",
    "example": "We had trouble with the old roof.",
    "exampleAr": "واجهنا مشكلة مع السقف القديم.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-puzzle"
   },
   {
    "id": "wood",
@@ -1052,7 +1153,8 @@
    "definition": "The hard material of trees.",
    "example": "The door is made of wood.",
    "exampleAr": "الباب مصنوع من الخشب.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-wood"
   },
   {
    "id": "add-on",
@@ -1061,7 +1163,8 @@
    "definition": "To build an extra part.",
    "example": "We added on a room for my grandmother.",
    "exampleAr": "أضفنا غرفة لجدتي.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-build"
   },
   {
    "id": "boil",
@@ -1070,7 +1173,8 @@
    "definition": "To heat liquid until it bubbles.",
    "example": "Boil the water before you make tea.",
    "exampleAr": "اغلِ الماء قبل أن تعدّ الشاي.",
-   "symbol": "water"
+   "symbol": "water",
+   "image": "w-boil"
   },
   {
    "id": "build",
@@ -1079,7 +1183,8 @@
    "definition": "To make a building.",
    "example": "They built a new house last year.",
    "exampleAr": "بنوا بيتًا جديدًا العام الماضي.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-build"
   },
   {
    "id": "burn",
@@ -1088,7 +1193,8 @@
    "definition": "To be on fire; to damage with fire.",
    "example": "Dry wood burns quickly.",
    "exampleAr": "الخشب الجاف يحترق بسرعة.",
-   "symbol": "sun"
+   "symbol": "sun",
+   "image": "w-fire"
   },
   {
    "id": "could",
@@ -1097,7 +1203,8 @@
    "definition": "Used to say something is possible.",
    "example": "He could be at the mall.",
    "exampleAr": "قد يكون في المجمع التجاري.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-idea"
   },
   {
    "id": "enlarge",
@@ -1106,7 +1213,8 @@
    "definition": "To make bigger.",
    "example": "We enlarged the kitchen.",
    "exampleAr": "وسّعنا المطبخ.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-build"
   },
   {
    "id": "get-together-v",
@@ -1115,7 +1223,8 @@
    "definition": "To meet with friends or family.",
    "example": "Let's get together on the weekend.",
    "exampleAr": "لنلتقِ في عطلة نهاية الأسبوع.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-meeting"
   },
   {
    "id": "heat-v",
@@ -1124,7 +1233,8 @@
    "definition": "To make something warm or hot.",
    "example": "Heat the soup for two minutes.",
    "exampleAr": "سخّن الحساء دقيقتين.",
-   "symbol": "sun"
+   "symbol": "sun",
+   "image": "w-heat"
   },
   {
    "id": "leave",
@@ -1133,7 +1243,8 @@
    "definition": "To go away; to let something stay.",
    "example": "She left her keys on the table.",
    "exampleAr": "تركت مفاتيحها على الطاولة.",
-   "symbol": "travel"
+   "symbol": "travel",
+   "image": "w-map"
   },
   {
    "id": "play",
@@ -1142,7 +1253,8 @@
    "definition": "To start music; to take part in a game.",
    "example": "Can you play the CD again?",
    "exampleAr": "هل يمكنك تشغيل القرص مرة أخرى؟",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-stereo"
   },
   {
    "id": "solve",
@@ -1151,7 +1263,8 @@
    "definition": "To find an answer to a problem.",
    "example": "An extra room will solve our problem.",
    "exampleAr": "غرفة إضافية ستحل مشكلتنا.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-puzzle"
   },
   {
    "id": "take-place",
@@ -1160,7 +1273,8 @@
    "definition": "To happen.",
    "example": "The party will take place in the garden.",
    "exampleAr": "سيقام الحفل في الحديقة.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-calendar"
   },
   {
    "id": "interested",
@@ -1169,7 +1283,8 @@
    "definition": "Wanting to know more about something.",
    "example": "I'm interested in design.",
    "exampleAr": "أنا مهتم بالتصميم.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-interested"
   },
   {
    "id": "near",
@@ -1178,7 +1293,8 @@
    "definition": "Not far.",
    "example": "Our house is near the school.",
    "exampleAr": "بيتنا قريب من المدرسة.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-map"
   },
   {
    "id": "perhaps",
@@ -1187,7 +1303,8 @@
    "definition": "Maybe.",
    "example": "Perhaps she is in the kitchen.",
    "exampleAr": "ربما هي في المطبخ.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-idea"
   },
   {
    "id": "then",
@@ -1196,7 +1313,8 @@
    "definition": "After that; at that time.",
    "example": "First we painted the walls, then we bought furniture.",
    "exampleAr": "أولًا دهنّا الجدران، ثم اشترينا الأثاث.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-clock"
   },
   {
    "id": "tiring",
@@ -1205,7 +1323,8 @@
    "definition": "Making you tired.",
    "example": "Moving house is tiring work.",
    "exampleAr": "الانتقال إلى بيت جديد عمل مرهق.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-tiring"
   },
   {
    "id": "country",
@@ -1214,7 +1333,8 @@
    "definition": "Land outside towns; also: a nation.",
    "example": "We spent the weekend in the country.",
    "exampleAr": "قضينا عطلة الأسبوع في الريف.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-country"
   },
   {
    "id": "deer",
@@ -1223,7 +1343,8 @@
    "definition": "A wild animal with long legs (plural: deer).",
    "example": "We saw three deer near the river.",
    "exampleAr": "رأينا ثلاثة غزلان قرب النهر.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-deer"
   },
   {
    "id": "duck",
@@ -1232,7 +1353,8 @@
    "definition": "A water bird.",
    "example": "Ducks swim on the lake.",
    "exampleAr": "البط يسبح في البحيرة.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-duck"
   },
   {
    "id": "fish",
@@ -1241,7 +1363,8 @@
    "definition": "An animal that lives in water (plural: fish); also: to try to catch fish.",
    "example": "My uncle fishes every Friday.",
    "exampleAr": "يصطاد عمي السمك كل جمعة.",
-   "symbol": "water"
+   "symbol": "water",
+   "image": "w-fish"
   },
   {
    "id": "fishing-rod",
@@ -1250,7 +1373,8 @@
    "definition": "A long stick with a line for catching fish.",
    "example": "He bought a new fishing rod.",
    "exampleAr": "اشترى صنارة صيد جديدة.",
-   "symbol": "water"
+   "symbol": "water",
+   "image": "w-fishing"
   },
   {
    "id": "gun",
@@ -1259,7 +1383,8 @@
    "definition": "A weapon that fires bullets.",
    "example": "Hunters must keep their guns safe and locked.",
    "exampleAr": "يجب على الصيادين حفظ أسلحتهم آمنة ومقفلة.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-target"
   },
   {
    "id": "instructions",
@@ -1268,7 +1393,8 @@
    "definition": "Information about how to do something.",
    "example": "Read the instructions before you start.",
    "exampleAr": "اقرأ التعليمات قبل أن تبدأ.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-checklist"
   },
   {
    "id": "line",
@@ -1277,7 +1403,8 @@
    "definition": "A thin string, for example on a fishing rod.",
    "example": "The fish broke the line.",
    "exampleAr": "قطعت السمكة الخيط.",
-   "symbol": "water"
+   "symbol": "water",
+   "image": "w-fishing"
   },
   {
    "id": "outdoors",
@@ -1286,7 +1413,8 @@
    "definition": "Outside, not in a building.",
    "example": "I love spending time outdoors.",
    "exampleAr": "أحب قضاء الوقت في الهواء الطلق.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-camp"
   },
   {
    "id": "own",
@@ -1295,7 +1423,8 @@
    "definition": "Belonging to you; also: to have something as yours.",
    "example": "He has his own boat.",
    "exampleAr": "لديه قاربه الخاص.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-key"
   },
   {
    "id": "pistol",
@@ -1304,7 +1433,8 @@
    "definition": "A small gun held in one hand.",
    "example": "A pistol is a small handgun.",
    "exampleAr": "المسدس سلاح ناري صغير يُمسك باليد.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-target"
   },
   {
    "id": "plenty",
@@ -1313,7 +1443,8 @@
    "definition": "A lot; more than enough.",
    "example": "There are plenty of fish in this lake.",
    "exampleAr": "في هذه البحيرة أسماك كثيرة.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-plenty"
   },
   {
    "id": "rifle",
@@ -1322,7 +1453,8 @@
    "definition": "A long gun.",
    "example": "The hunter carried a rifle on his shoulder.",
    "exampleAr": "حمل الصياد بندقية على كتفه.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-target"
   },
   {
    "id": "shot",
@@ -1331,7 +1463,8 @@
    "definition": "The act of firing a gun; also: a try at hitting a target.",
    "example": "That was a great shot!",
    "exampleAr": "كانت تلك رمية رائعة!",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-target"
   },
   {
    "id": "walk",
@@ -1340,7 +1473,8 @@
    "definition": "A trip on foot.",
    "example": "Let's go for a walk by the sea.",
    "exampleAr": "لنذهب في نزهة بجانب البحر.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-walk"
   },
   {
    "id": "weapon",
@@ -1349,7 +1483,8 @@
    "definition": "Something used to hurt or attack.",
    "example": "Weapons are not allowed in the park.",
    "exampleAr": "الأسلحة ممنوعة في الحديقة.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-target"
   },
   {
    "id": "catch",
@@ -1358,7 +1493,8 @@
    "definition": "To take hold of something moving.",
    "example": "I caught two fish this morning.",
    "exampleAr": "اصطدت سمكتين هذا الصباح.",
-   "symbol": "water"
+   "symbol": "water",
+   "image": "w-fish"
   },
   {
    "id": "go-ing",
@@ -1367,7 +1503,8 @@
    "definition": "Used for activities: go fishing, go hunting, go camping.",
    "example": "We went camping last spring.",
    "exampleAr": "ذهبنا للتخييم الربيع الماضي.",
-   "symbol": "travel"
+   "symbol": "travel",
+   "image": "w-map"
   },
   {
    "id": "hunt",
@@ -1376,7 +1513,8 @@
    "definition": "To chase and catch wild animals.",
    "example": "Falcons hunt small birds.",
    "exampleAr": "الصقور تصطاد الطيور الصغيرة.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-deer"
   },
   {
    "id": "kill",
@@ -1385,7 +1523,8 @@
    "definition": "To make something die.",
    "example": "The cold winter killed the plants.",
    "exampleAr": "قتل الشتاء البارد النباتات.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-deer"
   },
   {
    "id": "practice",
@@ -1394,7 +1533,8 @@
    "definition": "To do something many times to improve.",
    "example": "She practices English every day.",
    "exampleAr": "تتدرب على الإنجليزية كل يوم.",
-   "symbol": "school"
+   "symbol": "school",
+   "image": "w-practice"
   },
   {
    "id": "prepare",
@@ -1403,7 +1543,8 @@
    "definition": "To get ready.",
    "example": "We prepared our tents before the trip.",
    "exampleAr": "جهّزنا خيامنا قبل الرحلة.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-camp"
   },
   {
    "id": "shoot",
@@ -1412,7 +1553,8 @@
    "definition": "To fire a gun or arrow; also: to kick or throw at a goal.",
    "example": "He shot the ball into the goal.",
    "exampleAr": "سدّد الكرة في المرمى.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-target"
   },
   {
    "id": "used-to",
@@ -1421,7 +1563,8 @@
    "definition": "For past habits that are not true now.",
    "example": "I used to live in Taif.",
    "exampleAr": "كنت أعيش في الطائف.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-clock"
   },
   {
    "id": "would",
@@ -1430,7 +1573,8 @@
    "definition": "For repeated actions in the past.",
    "example": "Every summer, we would visit our grandparents.",
    "exampleAr": "كل صيف، كنا نزور أجدادنا.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-clock"
   },
   {
    "id": "all-over",
@@ -1439,7 +1583,8 @@
    "definition": "Everywhere in a place.",
    "example": "There were flowers all over the garden.",
    "exampleAr": "كانت الزهور في كل أنحاء الحديقة.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-country"
   },
   {
    "id": "farther",
@@ -1448,7 +1593,8 @@
    "definition": "At a greater distance.",
    "example": "The lake is farther than the river.",
    "exampleAr": "البحيرة أبعد من النهر.",
-   "symbol": "travel"
+   "symbol": "travel",
+   "image": "w-distance"
   },
   {
    "id": "further",
@@ -1457,7 +1603,8 @@
    "definition": "More far; also: more, extra.",
    "example": "For further information, ask the guide.",
    "exampleAr": "لمزيد من المعلومات، اسأل المرشد.",
-   "symbol": "travel"
+   "symbol": "travel",
+   "image": "w-distance"
   },
   {
    "id": "hard",
@@ -1466,7 +1613,8 @@
    "definition": "Difficult; also: with a lot of effort.",
    "example": "He works hard every day.",
    "exampleAr": "يعمل بجد كل يوم.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-stopwatch"
   },
   {
    "id": "high",
@@ -1475,7 +1623,8 @@
    "definition": "Far above the ground.",
    "example": "The birds flew high over the trees.",
    "exampleAr": "حلّقت الطيور عاليًا فوق الأشجار.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-updown"
   },
   {
    "id": "in-the-open",
@@ -1484,7 +1633,8 @@
    "definition": "Outside, not covered.",
    "example": "We slept in the open under the stars.",
    "exampleAr": "نمنا في العراء تحت النجوم.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-camp"
   },
   {
    "id": "indoors",
@@ -1493,7 +1643,8 @@
    "definition": "Inside a building.",
    "example": "When it rains, the children play indoors.",
    "exampleAr": "حين تمطر، يلعب الأطفال داخل البيت.",
-   "symbol": "home"
+   "symbol": "home",
+   "image": "w-window"
   },
   {
    "id": "low",
@@ -1502,7 +1653,8 @@
    "definition": "Not high.",
    "example": "The plane was flying low.",
    "exampleAr": "كانت الطائرة تحلّق على ارتفاع منخفض.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-updown"
   },
   {
    "id": "more",
@@ -1511,7 +1663,8 @@
    "definition": "A larger amount.",
    "example": "Please speak more slowly.",
    "exampleAr": "تحدث ببطء أكثر من فضلك.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-stopwatch"
   },
   {
    "id": "once",
@@ -1520,7 +1673,8 @@
    "definition": "One time.",
    "example": "I've been fishing only once.",
    "exampleAr": "ذهبت لصيد السمك مرة واحدة فقط.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-count"
   },
   {
    "id": "out-of-doors",
@@ -1529,7 +1683,8 @@
    "definition": "Outdoors.",
    "example": "They eat out-of-doors in spring.",
    "exampleAr": "يتناولون الطعام في الهواء الطلق في الربيع.",
-   "symbol": "nature"
+   "symbol": "nature",
+   "image": "w-camp"
   },
   {
    "id": "several",
@@ -1538,7 +1693,8 @@
    "definition": "More than two, but not many.",
    "example": "We stayed there for several days.",
    "exampleAr": "بقينا هناك عدة أيام.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-count"
   },
   {
    "id": "slow",
@@ -1547,7 +1703,8 @@
    "definition": "Not fast.",
    "example": "The old boat was very slow.",
    "exampleAr": "كان القارب القديم بطيئًا جدًا.",
-   "symbol": "travel"
+   "symbol": "travel",
+   "image": "w-stopwatch"
   },
   {
    "id": "twice",
@@ -1556,7 +1713,8 @@
    "definition": "Two times.",
    "example": "I've visited Abha twice.",
    "exampleAr": "زرت أبها مرتين.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-count"
   },
   {
    "id": "whole",
@@ -1565,7 +1723,8 @@
    "definition": "All of something.",
    "example": "We spent the whole day at the lake.",
    "exampleAr": "قضينا اليوم كله عند البحيرة.",
-   "symbol": "thought"
+   "symbol": "thought",
+   "image": "w-country"
   }
  ],
  "lessons": [

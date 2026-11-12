@@ -2,13 +2,14 @@ import json, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from words_data import WORDS
 from lessons_data import LESSONS
+from word_images import WORD_IMAGE
 path = os.path.join(os.path.dirname(__file__), '..', 'assets', 'content', 'book12.json')
 d = json.load(open(path, encoding='utf-8'))
 base_ids = {w['id'] for w in d['words']}
 for unit, items in WORDS.items():
     for (i, word, ar, sym, df, ex, exar) in items:
         assert i not in base_ids, i
-        d['words'].append(dict(id=i, word=word, ar=ar, definition=df, example=ex, exampleAr=exar, symbol=sym))
+        d['words'].append(dict(id=i, word=word, ar=ar, definition=df, example=ex, exampleAr=exar, symbol=sym, image=WORD_IMAGE[i]))
         base_ids.add(i)
 keep = [l for l in d['lessons'] if l['id'] in ('travel-1', 'foundation-1')]
 d['lessons'] = keep[:1] + LESSONS + keep[1:]

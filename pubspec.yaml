@@ -1,7 +1,7 @@
 name: daftari
 description: "Daftari • دفتر المذاكرة"
 publish_to: 'none'
-version: 0.3.1+6
+version: 0.3.2+7
 
 environment:
   sdk: ^3.9.0

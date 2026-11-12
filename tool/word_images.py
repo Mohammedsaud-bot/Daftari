@@ -1,0 +1,26 @@
+# Picture for each vocabulary word (files: assets/images/w-<name>.png)
+GROUPS = {
+ 'heat': 'heat heat-v', 'humidity': 'humidity humid', 'sea': 'sea', 'wind': 'wind blow unpleasant',
+ 'freezing': 'freezing', 'clear': 'clear clear-up be-over remain', 'danger': 'dangerous frightened',
+ 'deep': 'deep', 'slip': 'slip', 'hotel': 'stay', 'calendar': 'take-place during last occasionally',
+ 'idea': 'thought idea if could perhaps could-use', 'calm': 'calm', 'key': 'belong own',
+ 'school': 'elementary-school middle-school high-school', 'university': 'college university',
+ 'degree': 'degree bachelors-degree masters-degree phd associate-degree education educate graduation',
+ 'diploma': 'diploma', 'career': 'career profession professional retire', 'course': 'course take field',
+ 'grade': 'grade', 'decision': 'decision choice make-up-ones-mind change-ones-mind think-over instead instead-of so',
+ 'accept': 'accept offer', 'refuse': 'refuse refusal turn-down none except',
+ 'discussion': 'discussion discuss talk-over like', 'confused': 'confused confusing',
+ 'medical': 'medical', 'technical': 'technical', 'clock': 'already just yet then no-longer used-to would ever',
+ 'map': 'tour tour-of-duty leave go-ing near', 'rocket': 'future', 'fire': 'fire burn',
+ 'oven': 'oven', 'dining': 'dining-room', 'sofa': 'den room', 'patio': 'patio', 'shed': 'shed',
+ 'builder': 'builder', 'build': 'build add-on addition enlarge', 'plan': 'plan',
+ 'stereo': 'stereo speaker player play', 'cd': 'cd cassette', 'story': 'story', 'suburb': 'suburb',
+ 'wood': 'wood', 'boil': 'boil', 'meeting': 'meeting get-together get-together-v', 'puzzle': 'trouble solution solve',
+ 'fish': 'fish catch', 'fishing': 'fishing-rod line', 'duck': 'duck', 'deer': 'deer hunt kill',
+ 'camp': 'outdoors out-of-doors in-the-open prepare', 'target': 'shoot shot gun pistol rifle weapon',
+ 'walk': 'walk', 'country': 'country all-over whole', 'stopwatch': 'slow hard more',
+ 'distance': 'farther further', 'updown': 'high low', 'count': 'once twice several',
+ 'checklist': 'instructions', 'window': 'indoors', 'plenty': 'plenty', 'practice': 'practice',
+ 'fireplace': 'fireplace', 'educator': 'educator', 'tiring': 'tiring', 'interested': 'interested',
+}
+WORD_IMAGE = {w: f'w-{g}' for g, ws in GROUPS.items() for w in ws.split()}

@@ -107,6 +107,7 @@ class PictureWordCard extends StatelessWidget {
       'mountain' => 'nature-art',
       'slippery' => 'mountain-scene',
       'quiet' => 'beach-scene',
+      _ when word.data['image'] is String => word.data['image'] as String,
       _ => switch (word.symbol) {
         'school' => 'education-art',
         'home' => 'home-art',
