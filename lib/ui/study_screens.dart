@@ -486,7 +486,10 @@ class _LessonScreenState extends State<LessonScreen> {
               ),
               const SizedBox(height: 6),
               Text(
-                s.t('مايا × عمر', 'MAYA × OMAR'),
+                s.t(
+                  step['speakersAr'] ?? 'مايا × عمر',
+                  step['speakersEn'] ?? 'MAYA × OMAR',
+                ),
                 style: const TextStyle(
                   color: blue,
                   fontSize: 14,
@@ -514,10 +517,12 @@ class _LessonScreenState extends State<LessonScreen> {
               ),
               const SizedBox(height: 12),
               Text(
-                s.t(
-                  'أصوات ElevenLabs • متاحة دون اتصال',
-                  'ElevenLabs voices • available offline',
-                ),
+                step['speakersAr'] == null
+                    ? s.t(
+                        'أصوات ElevenLabs • متاحة دون اتصال',
+                        'ElevenLabs voices • available offline',
+                      )
+                    : s.t('بصوت الجهاز', 'Device voice'),
                 style: const TextStyle(color: muted, fontSize: 12),
               ),
             ],

@@ -1725,6 +1725,15 @@
    "exampleAr": "قضينا اليوم كله عند البحيرة.",
    "symbol": "thought",
    "image": "w-country"
+  },
+  {
+   "id": "anymore",
+   "word": "anymore",
+   "ar": "لم يعد (في النفي)",
+   "definition": "Not now, although it was true before. Use it with not at the end of a sentence.",
+   "example": "Sam graduated last year. He isn't a student anymore.",
+   "exampleAr": "تخرّج سام السنة الماضية. لم يعد طالبًا.",
+   "symbol": "school"
   }
  ],
  "lessons": [
@@ -2159,6 +2168,824 @@
      "explanationEn": "Occasionally means sometimes; Majed occasionally goes fishing.",
      "bodyEn": "Majed has visited the coast many times. He no longer walks on the rocks because they are slippery. He occasionally goes fishing with his father.",
      "bodyAr": "زار ماجد الساحل مرات كثيرة. لم يعد يمشي على الصخور لأنها زلقة. وأحيانًا يذهب لصيد السمك مع والده."
+    }
+   ]
+  },
+  {
+   "id": "alc-rule-1",
+   "unit": "travel",
+   "ar": "القاعدة: الشرط الحقيقي مع if",
+   "en": "Real conditional: if + present",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-rule-1-g",
+     "kind": "grammar",
+     "ar": "الشرط الحقيقي مع if",
+     "en": "Real conditional: if + present",
+     "bodyAr": "نستخدمه لشي ممكن يصير في الحاضر أو المستقبل. جملة if فيها مضارع بسيط (حتى لو نتكلم عن المستقبل)، والجملة الرئيسية فيها will أو فعل مساعد. إذا بدأنا بـ if نحط فاصلة.",
+     "bodyEn": "Real conditional: if + present. Study the formula and the example, then practise with ten questions.",
+     "example": "If the weather is nice, we will go to the beach.",
+     "translation": "إذا الجو حلو، بنروح البحر",
+     "formula": "If + present, will / be going to / can / may / might / should + verb"
+    },
+    {
+     "id": "alc-rule-1-ex",
+     "kind": "intro",
+     "ar": "أمثلة من القاعدة",
+     "en": "More examples",
+     "bodyAr": "• If it rains, the roads may become slippery.\n   إذا مطرت، يمكن الطرق تصير زلقة\n• You should call the police if you have an accident.\n   المفروض تتصل بالشرطة إذا صار لك حادث",
+     "bodyEn": "• If it rains, the roads may become slippery.\n• You should call the police if you have an accident.",
+     "example": "You should call the police if you have an accident.",
+     "translation": "المفروض تتصل بالشرطة إذا صار لك حادث"
+    },
+    {
+     "id": "alc-rule-1-tip",
+     "kind": "intro",
+     "ar": "انتبه من هذا الخطأ",
+     "en": "Common mistake",
+     "bodyAr": "❌ If it will rain, we'll stay home.\n✅ If it rains, we'll stay home.\n\n💡 لا تحط will بعد if. والفاصلة بس إذا جملة if جت أول.",
+     "bodyEn": "Wrong: If it will rain, we'll stay home.\nRight: If it rains, we'll stay home.",
+     "example": "If it rains, we'll stay home.",
+     "translation": "لا تحط will بعد if. والفاصلة بس إذا جملة if جت أول."
+    },
+    {
+     "id": "alc-rule-1-q1",
+     "kind": "choice",
+     "ar": "الشرط الحقيقي مع if",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "If the weather ___ nice, we'll go to the beach.",
+     "options": [
+      "will be",
+      "was being",
+      "is",
+      "be"
+     ],
+     "answer": "is",
+     "explanationAr": "بعد if مضارع بسيط: is.",
+     "explanationEn": "Correct answer: is"
+    },
+    {
+     "id": "alc-rule-1-q2",
+     "kind": "choice",
+     "ar": "الشرط الحقيقي مع if",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "If Sara is sick, we ___ bother her.",
+     "options": [
+      "shouldn't to",
+      "not should",
+      "don't should",
+      "shouldn't"
+     ],
+     "answer": "shouldn't",
+     "explanationAr": "نصيحة: shouldn't + فعل.",
+     "explanationEn": "Correct answer: shouldn't"
+    },
+    {
+     "id": "alc-rule-1-q3",
+     "kind": "choice",
+     "ar": "الشرط الحقيقي مع if",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "If it rains tonight, the roads ___ slippery.",
+     "options": [
+      "may become",
+      "became",
+      "becomes to",
+      "becoming"
+     ],
+     "answer": "may become",
+     "explanationAr": "may + فعل مجرد.",
+     "explanationEn": "Correct answer: may become"
+    },
+    {
+     "id": "alc-rule-1-q4",
+     "kind": "choice",
+     "ar": "الشرط الحقيقي مع if",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Bill ___ a map if he gets lost.",
+     "options": [
+      "will buy",
+      "buying",
+      "buys to",
+      "bought"
+     ],
+     "answer": "will buy",
+     "explanationAr": "النتيجة بالمستقبل: will buy.",
+     "explanationEn": "Correct answer: will buy"
+    },
+    {
+     "id": "alc-rule-1-q5",
+     "kind": "choice",
+     "ar": "الشرط الحقيقي مع if",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "If you ___ a red light, you might hit another car.",
+     "options": [
+      "ran",
+      "running",
+      "will run",
+      "run"
+     ],
+     "answer": "run",
+     "explanationAr": "بعد if مضارع: run.",
+     "explanationEn": "Correct answer: run"
+    },
+    {
+     "id": "alc-rule-1-q6",
+     "kind": "choice",
+     "ar": "الشرط الحقيقي مع if",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Choose the correct sentence.",
+     "options": [
+      "If Joe wants to go he, can come with us.",
+      "If Joe wants to go, he can come with us.",
+      "If, Joe wants to go he can come with us.",
+      "If Joe will want to go, he can come with us."
+     ],
+     "answer": "If Joe wants to go, he can come with us.",
+     "explanationAr": "الفاصلة بعد جملة if، وما فيه will.",
+     "explanationEn": "Correct answer: If Joe wants to go, he can come with us."
+    },
+    {
+     "id": "alc-rule-1-q7",
+     "kind": "choice",
+     "ar": "الشرط الحقيقي مع if",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "What ___ you do if it snows tomorrow?",
+     "options": [
+      "do",
+      "did",
+      "will",
+      "are"
+     ],
+     "answer": "will",
+     "explanationAr": "السؤال: What will you do if…?",
+     "explanationEn": "Correct answer: will"
+    },
+    {
+     "id": "alc-rule-1-q8",
+     "kind": "choice",
+     "ar": "الشرط الحقيقي مع if",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "If Kate ___ a test tomorrow, she should study tonight.",
+     "options": [
+      "has",
+      "will have",
+      "having",
+      "have"
+     ],
+     "answer": "has",
+     "explanationAr": "Kate مفرد ← has.",
+     "explanationEn": "Correct answer: has"
+    },
+    {
+     "id": "alc-rule-1-q9",
+     "kind": "choice",
+     "ar": "الشرط الحقيقي مع if",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I won't get a ticket if I ___ the law.",
+     "options": [
+      "didn't broke",
+      "don't break",
+      "won't break",
+      "not break"
+     ],
+     "answer": "don't break",
+     "explanationAr": "النفي بالمضارع: don't break.",
+     "explanationEn": "Correct answer: don't break"
+    },
+    {
+     "id": "alc-rule-1-q10",
+     "kind": "choice",
+     "ar": "الشرط الحقيقي مع if",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "If you expect to go to France, you ___ learn French.",
+     "options": [
+      "shoulds",
+      "should to",
+      "are should",
+      "should"
+     ],
+     "answer": "should",
+     "explanationAr": "should + فعل مجرد.",
+     "explanationEn": "Correct answer: should"
+    }
+   ]
+  },
+  {
+   "id": "alc-rule-2",
+   "unit": "travel",
+   "ar": "القاعدة: المضارع التام مع for و since",
+   "en": "Present perfect: for / since",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-rule-2-g",
+     "kind": "grammar",
+     "ar": "المضارع التام مع for و since",
+     "en": "Present perfect: for / since",
+     "bodyAr": "نستخدمه لشي بدأ في الماضي وما زال مستمر للحين. for + مدة (ten years, two months)، و since + نقطة بداية (2001, Monday, I was a child). والسؤال: How long have you…?",
+     "bodyEn": "Present perfect: for / since. Study the formula and the example, then practise with ten questions.",
+     "example": "I have studied English for five years.",
+     "translation": "أدرس إنجليزي من خمس سنين",
+     "formula": "have / has + past participle + for (مدة) / since (بداية)"
+    },
+    {
+     "id": "alc-rule-2-ex",
+     "kind": "intro",
+     "ar": "أمثلة من القاعدة",
+     "en": "More examples",
+     "bodyAr": "• She has lived here since 2010.\n   ساكنة هنا من 2010\n• How long have you been here?\n   من متى وأنت هنا؟",
+     "bodyEn": "• She has lived here since 2010.\n• How long have you been here?",
+     "example": "How long have you been here?",
+     "translation": "من متى وأنت هنا؟"
+    },
+    {
+     "id": "alc-rule-2-tip",
+     "kind": "intro",
+     "ar": "انتبه من هذا الخطأ",
+     "en": "Common mistake",
+     "bodyAr": "❌ I live here since 2010.\n✅ I have lived here since 2010.\n\n💡 for ← مدة. since ← بداية. he / she / it ← has.\n\nfor + مدة | since + بداية\nfor ten years | since 2001\nfor two months | since Monday\nfor a long time | since I was a child",
+     "bodyEn": "Wrong: I live here since 2010.\nRight: I have lived here since 2010.",
+     "example": "I have lived here since 2010.",
+     "translation": "for ← مدة. since ← بداية. he / she / it ← has."
+    },
+    {
+     "id": "alc-rule-2-q1",
+     "kind": "choice",
+     "ar": "المضارع التام مع for و since",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Major Hollie has flown airplanes ___ ten years.",
+     "options": [
+      "ago",
+      "for",
+      "since",
+      "during"
+     ],
+     "answer": "for",
+     "explanationAr": "مدة ← for.",
+     "explanationEn": "Correct answer: for"
+    },
+    {
+     "id": "alc-rule-2-q2",
+     "kind": "choice",
+     "ar": "المضارع التام مع for و since",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "John has owned his car ___ 2001.",
+     "options": [
+      "for",
+      "from",
+      "since",
+      "ago"
+     ],
+     "answer": "since",
+     "explanationAr": "بداية ← since.",
+     "explanationEn": "Correct answer: since"
+    },
+    {
+     "id": "alc-rule-2-q3",
+     "kind": "choice",
+     "ar": "المضارع التام مع for و since",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We ___ here for two months.",
+     "options": [
+      "has been",
+      "are",
+      "were being",
+      "have been"
+     ],
+     "answer": "have been",
+     "explanationAr": "We ← have been.",
+     "explanationEn": "Correct answer: have been"
+    },
+    {
+     "id": "alc-rule-2-q4",
+     "kind": "choice",
+     "ar": "المضارع التام مع for و since",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "She ___ English since 1990.",
+     "options": [
+      "is teaching",
+      "teaches",
+      "have taught",
+      "has taught"
+     ],
+     "answer": "has taught",
+     "explanationAr": "She ← has taught.",
+     "explanationEn": "Correct answer: has taught"
+    },
+    {
+     "id": "alc-rule-2-q5",
+     "kind": "choice",
+     "ar": "المضارع التام مع for و since",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "How long ___ you lived in this city?",
+     "options": [
+      "has",
+      "are",
+      "have",
+      "did"
+     ],
+     "answer": "have",
+     "explanationAr": "How long have you…?",
+     "explanationEn": "Correct answer: have"
+    },
+    {
+     "id": "alc-rule-2-q6",
+     "kind": "choice",
+     "ar": "المضارع التام مع for و since",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Paul has played football ___ he was ten.",
+     "options": [
+      "since",
+      "ago",
+      "for",
+      "when"
+     ],
+     "answer": "since",
+     "explanationAr": "since + جملة بداية.",
+     "explanationEn": "Correct answer: since"
+    },
+    {
+     "id": "alc-rule-2-q7",
+     "kind": "choice",
+     "ar": "المضارع التام مع for و since",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "The storm ___ all morning.",
+     "options": [
+      "have lasted",
+      "lasting",
+      "has lasted",
+      "is last"
+     ],
+     "answer": "has lasted",
+     "explanationAr": "The storm مفرد ← has.",
+     "explanationEn": "Correct answer: has lasted"
+    },
+    {
+     "id": "alc-rule-2-q8",
+     "kind": "choice",
+     "ar": "المضارع التام مع for و since",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I haven't seen her ___ a long time.",
+     "options": [
+      "since",
+      "before",
+      "ago",
+      "for"
+     ],
+     "answer": "for",
+     "explanationAr": "مدة ← for.",
+     "explanationEn": "Correct answer: for"
+    },
+    {
+     "id": "alc-rule-2-q9",
+     "kind": "choice",
+     "ar": "المضارع التام مع for و since",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Choose the correct sentence.",
+     "options": [
+      "Laura didn't worked here since several years.",
+      "Laura hasn't work here for several years.",
+      "Laura hasn't worked here for several years.",
+      "Laura hasn't worked here since several years."
+     ],
+     "answer": "Laura hasn't worked here for several years.",
+     "explanationAr": "hasn't + worked + for (مدة).",
+     "explanationEn": "Correct answer: Laura hasn't worked here for several years."
+    },
+    {
+     "id": "alc-rule-2-q10",
+     "kind": "choice",
+     "ar": "المضارع التام مع for و since",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "The house ___ to my family for 50 years.",
+     "options": [
+      "belongs since",
+      "has belonged",
+      "have belonged",
+      "is belonging"
+     ],
+     "answer": "has belonged",
+     "explanationAr": "has + belonged.",
+     "explanationEn": "Correct answer: has belonged"
+    }
+   ]
+  },
+  {
+   "id": "alc-book-1",
+   "unit": "travel",
+   "ar": "تمارين الكتاب: التقييم — Exercise E",
+   "en": "Evaluation · Lesson 1 · Exercise E",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-book-1-intro",
+     "kind": "intro",
+     "ar": "تمارين الكتاب: التقييم",
+     "en": "Evaluation · Lesson 1 · Exercise E",
+     "bodyAr": "أسئلة اختيار من قسم التقييم (Evaluation) في آخر كتاب 12، الدرس 1 — Exercise E. عددها 17 سؤال.",
+     "bodyEn": "Multiple-choice questions from the Evaluation section of Book 12, Lesson 1, Exercise E."
+    },
+    {
+     "id": "alc-book-1-q1",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Is that movie on TV finished yet? — Yes, it was ___ about 15 minutes ago.",
+     "options": [
+      "over",
+      "up",
+      "off",
+      "in"
+     ],
+     "answer": "over",
+     "explanationAr": "be over = انتهى.",
+     "explanationEn": "Correct answer: over"
+    },
+    {
+     "id": "alc-book-1-q2",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "How long was the movie? — It ___ about three hours.",
+     "options": [
+      "stayed",
+      "lasted",
+      "belonged",
+      "satisfied"
+     ],
+     "answer": "lasted",
+     "explanationAr": "last = يستمر.",
+     "explanationEn": "Correct answer: lasted"
+    },
+    {
+     "id": "alc-book-1-q3",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Is Linda still in Italy? — Yes, she wants to ___ there until her course ends.",
+     "options": [
+      "blow",
+      "slip",
+      "connect",
+      "stay"
+     ],
+     "answer": "stay",
+     "explanationAr": "stay = تبقى.",
+     "explanationEn": "Correct answer: stay"
+    },
+    {
+     "id": "alc-book-1-q4",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "What happened to Paul? — He ___ on the wet floor and broke his arm.",
+     "options": [
+      "expected",
+      "refunded",
+      "slipped",
+      "remained"
+     ],
+     "answer": "slipped",
+     "explanationAr": "slip = يتزحلق.",
+     "explanationEn": "Correct answer: slipped"
+    },
+    {
+     "id": "alc-book-1-q5",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "All of the students are still here. ___ of them left early.",
+     "options": [
+      "A few",
+      "None",
+      "One",
+      "All"
+     ],
+     "answer": "None",
+     "explanationAr": "ما أحد طلع ← None.",
+     "explanationEn": "Correct answer: None"
+    },
+    {
+     "id": "alc-book-1-q6",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "It looks like the ___ has blown away the clouds.",
+     "options": [
+      "humidity",
+      "wind",
+      "beach",
+      "heat"
+     ],
+     "answer": "wind",
+     "explanationAr": "الريح تهب ← wind.",
+     "explanationEn": "Correct answer: wind"
+    },
+    {
+     "id": "alc-book-1-q7",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Does the meeting begin at 5:00 or 5:30? — At 5:30. — Thanks for ___.",
+     "options": [
+      "giving back",
+      "clearing that up",
+      "expecting that to",
+      "being over"
+     ],
+     "answer": "clearing that up",
+     "explanationAr": "clear up = توضيح.",
+     "explanationEn": "Correct answer: clearing that up"
+    },
+    {
+     "id": "alc-book-1-q8",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Are these your magazines? — No, they ___ to Pat.",
+     "options": [
+      "slip",
+      "stay",
+      "blow",
+      "belong"
+     ],
+     "answer": "belong",
+     "explanationAr": "belong to = ملك لـ.",
+     "explanationEn": "Correct answer: belong"
+    },
+    {
+     "id": "alc-book-1-q9",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Where are you going on vacation? — I want to go to the ___ and enjoy the beach.",
+     "options": [
+      "heat",
+      "wind",
+      "sea",
+      "mountains"
+     ],
+     "answer": "sea",
+     "explanationAr": "البحر والشاطئ ← sea.",
+     "explanationEn": "Correct answer: sea"
+    },
+    {
+     "id": "alc-book-1-q10",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Is the water in the lake still cold? — Yes, it's ___ outside.",
+     "options": [
+      "humid",
+      "raining",
+      "deep",
+      "freezing"
+     ],
+     "answer": "freezing",
+     "explanationAr": "freezing = برد شديد.",
+     "explanationEn": "Correct answer: freezing"
+    },
+    {
+     "id": "alc-book-1-q11",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "After it snowed, the roads were ___.",
+     "options": [
+      "clear",
+      "hot",
+      "deep",
+      "slippery"
+     ],
+     "answer": "slippery",
+     "explanationAr": "بعد الثلج ← slippery.",
+     "explanationEn": "Correct answer: slippery"
+    },
+    {
+     "id": "alc-book-1-q12",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "An icy road can be ___ to drive on.",
+     "options": [
+      "frightened",
+      "quiet",
+      "dangerous",
+      "easy"
+     ],
+     "answer": "dangerous",
+     "explanationAr": "dangerous = خطير.",
+     "explanationEn": "Correct answer: dangerous"
+    },
+    {
+     "id": "alc-book-1-q13",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "How long have you lived here? — I ___ here for 10 years.",
+     "options": [
+      "will live",
+      "am living",
+      "have lived",
+      "live"
+     ],
+     "answer": "have lived",
+     "explanationAr": "for + مدة ← مضارع تام.",
+     "explanationEn": "Correct answer: have lived"
+    },
+    {
+     "id": "alc-book-1-q14",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Do you ever go to the movies? — Yes, ___. I go only a few times a year.",
+     "options": [
+      "always",
+      "occasionally",
+      "often",
+      "no longer"
+     ],
+     "answer": "occasionally",
+     "explanationAr": "قليل ← occasionally.",
+     "explanationEn": "Correct answer: occasionally"
+    },
+    {
+     "id": "alc-book-1-q15",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Was everyone in class today? — Yes, everyone ___ Kathy. She's sick.",
+     "options": [
+      "if",
+      "expect",
+      "ever",
+      "except"
+     ],
+     "answer": "except",
+     "explanationAr": "except = ما عدا.",
+     "explanationEn": "Correct answer: except"
+    },
+    {
+     "id": "alc-book-1-q16",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Sam has ___ in the office after 5:00 p.m. to finish his work.",
+     "options": [
+      "lasted",
+      "slipped",
+      "cleared up",
+      "remained"
+     ],
+     "answer": "remained",
+     "explanationAr": "remain = بقي.",
+     "explanationEn": "Correct answer: remained"
+    },
+    {
+     "id": "alc-book-1-q17",
+     "kind": "choice",
+     "ar": "التقييم · Exercise E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "How ___ is the river? — About fifteen feet.",
+     "options": [
+      "calm",
+      "deep",
+      "humid",
+      "quiet"
+     ],
+     "answer": "deep",
+     "explanationAr": "العمق ← deep.",
+     "explanationEn": "Correct answer: deep"
+    }
+   ]
+  },
+  {
+   "id": "alc-book-2",
+   "unit": "travel",
+   "ar": "تمارين الكتاب: الواجب — Exercise I",
+   "en": "Homework · Lesson 1 · Exercise I",
+   "minutes": 4,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-book-2-intro",
+     "kind": "intro",
+     "ar": "تمارين الكتاب: الواجب",
+     "en": "Homework · Lesson 1 · Exercise I",
+     "bodyAr": "أسئلة اختيار من قسم الواجب (Homework) في آخر كتاب 12، الدرس 1 — Exercise I. عددها 2 سؤال.",
+     "bodyEn": "Multiple-choice questions from the Homework section of Book 12, Lesson 1, Exercise I."
+    },
+    {
+     "id": "alc-book-2-q1",
+     "kind": "choice",
+     "ar": "الواجب · Exercise I",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Judy declined the lemon pie when Tom brought it because she was full. \"Declined\" means:",
+     "options": [
+      "She did not want any.",
+      "She cooked it.",
+      "She wanted more."
+     ],
+     "answer": "She did not want any.",
+     "explanationAr": "كانت شبعانة ← رفضت.",
+     "explanationEn": "Correct answer: She did not want any."
+    },
+    {
+     "id": "alc-book-2-q2",
+     "kind": "choice",
+     "ar": "الواجب · Exercise I",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "She sketched the house in two minutes with a pencil. \"Sketched\" means:",
+     "options": [
+      "She drew it quickly.",
+      "She looked at it.",
+      "She cleaned it."
+     ],
+     "answer": "She drew it quickly.",
+     "explanationAr": "بقلم في دقيقتين ← رسمته بسرعة.",
+     "explanationEn": "Correct answer: She drew it quickly."
     }
    ]
   },
@@ -2605,6 +3432,1482 @@
    ]
   },
   {
+   "id": "alc-rule-3",
+   "unit": "education",
+   "ar": "القاعدة: المضارع التام لماضٍ غير محدد",
+   "en": "Present perfect: indefinite past (ever / never)",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-rule-3-g",
+     "kind": "grammar",
+     "ar": "المضارع التام لماضٍ غير محدد",
+     "en": "Present perfect: indefinite past (ever / never)",
+     "bodyAr": "نستخدمه لتجربة صارت في وقت ما في الماضي بدون ما نحدد متى. مع ever (قد؟) و never (أبدًا)، و before، و two times. إذا ذكرنا وقت محدد (yesterday, last year) نرجع للماضي البسيط.",
+     "bodyEn": "Present perfect: indefinite past (ever / never). Study the formula and the example, then practise with ten questions.",
+     "example": "I've been to Italy.",
+     "translation": "قد رحت إيطاليا",
+     "formula": "Have you ever + past participle? I have / I've never + past participle"
+    },
+    {
+     "id": "alc-rule-3-ex",
+     "kind": "intro",
+     "ar": "أمثلة من القاعدة",
+     "en": "More examples",
+     "bodyAr": "• Have you ever cooked Mexican food?\n   قد طبخت أكل مكسيكي؟\n• They have never seen an ocean.\n   ما قد شافوا محيط أبدًا",
+     "bodyEn": "• Have you ever cooked Mexican food?\n• They have never seen an ocean.",
+     "example": "They have never seen an ocean.",
+     "translation": "ما قد شافوا محيط أبدًا"
+    },
+    {
+     "id": "alc-rule-3-tip",
+     "kind": "intro",
+     "ar": "انتبه من هذا الخطأ",
+     "en": "Common mistake",
+     "bodyAr": "❌ I have seen that movie last week.\n✅ I saw that movie last week.\n\n💡 وقت محدد (yesterday) ← ماضي بسيط. بدون وقت ← مضارع تام.",
+     "bodyEn": "Wrong: I have seen that movie last week.\nRight: I saw that movie last week.",
+     "example": "I saw that movie last week.",
+     "translation": "وقت محدد (yesterday) ← ماضي بسيط. بدون وقت ← مضارع تام."
+    },
+    {
+     "id": "alc-rule-3-q1",
+     "kind": "choice",
+     "ar": "المضارع التام لماضٍ غير محدد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "___ you ever been to France?",
+     "options": [
+      "Have",
+      "Has",
+      "Are",
+      "Did"
+     ],
+     "answer": "Have",
+     "explanationAr": "Have you ever been…?",
+     "explanationEn": "Correct answer: Have"
+    },
+    {
+     "id": "alc-rule-3-q2",
+     "kind": "choice",
+     "ar": "المضارع التام لماضٍ غير محدد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Pat and Bill have never ___ an ocean.",
+     "options": [
+      "see",
+      "seen",
+      "saw",
+      "seeing"
+     ],
+     "answer": "seen",
+     "explanationAr": "التصريف الثالث: seen.",
+     "explanationEn": "Correct answer: seen"
+    },
+    {
+     "id": "alc-rule-3-q3",
+     "kind": "choice",
+     "ar": "المضارع التام لماضٍ غير محدد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Mrs. Meyers ___ New York many times.",
+     "options": [
+      "has visited",
+      "visit",
+      "to visit",
+      "visiting"
+     ],
+     "answer": "has visited",
+     "explanationAr": "has + visited (من كتاب الطالب).",
+     "explanationEn": "Correct answer: has visited"
+    },
+    {
+     "id": "alc-rule-3-q4",
+     "kind": "choice",
+     "ar": "المضارع التام لماضٍ غير محدد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Has Ben ever ___ to another country?",
+     "options": [
+      "flew",
+      "fly",
+      "flown",
+      "flying"
+     ],
+     "answer": "flown",
+     "explanationAr": "fly ← flown.",
+     "explanationEn": "Correct answer: flown"
+    },
+    {
+     "id": "alc-rule-3-q5",
+     "kind": "choice",
+     "ar": "المضارع التام لماضٍ غير محدد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I ___ that movie last week.",
+     "options": [
+      "seen",
+      "saw",
+      "has seen",
+      "have seen"
+     ],
+     "answer": "saw",
+     "explanationAr": "last week وقت محدد ← saw.",
+     "explanationEn": "Correct answer: saw"
+    },
+    {
+     "id": "alc-rule-3-q6",
+     "kind": "choice",
+     "ar": "المضارع التام لماضٍ غير محدد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Have you ___ American football?",
+     "options": [
+      "played",
+      "playing",
+      "play",
+      "plays"
+     ],
+     "answer": "played",
+     "explanationAr": "have + played.",
+     "explanationEn": "Correct answer: played"
+    },
+    {
+     "id": "alc-rule-3-q7",
+     "kind": "choice",
+     "ar": "المضارع التام لماضٍ غير محدد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Carl ___ never been to Japan.",
+     "options": [
+      "is",
+      "have",
+      "did",
+      "has"
+     ],
+     "answer": "has",
+     "explanationAr": "Carl مفرد ← has.",
+     "explanationEn": "Correct answer: has"
+    },
+    {
+     "id": "alc-rule-3-q8",
+     "kind": "choice",
+     "ar": "المضارع التام لماضٍ غير محدد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "\"Have you ever cooked Thai food?\" — \"No, I ___.\"",
+     "options": [
+      "wasn't",
+      "don't",
+      "didn't",
+      "haven't"
+     ],
+     "answer": "haven't",
+     "explanationAr": "الجواب: No, I haven't.",
+     "explanationEn": "Correct answer: haven't"
+    },
+    {
+     "id": "alc-rule-3-q9",
+     "kind": "choice",
+     "ar": "المضارع التام لماضٍ غير محدد",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Choose the correct sentence.",
+     "options": [
+      "She has teaching at a high school before.",
+      "She's taught at a high school before.",
+      "She's teach at a high school before.",
+      "She taught at a high school since before."
+     ],
+     "answer": "She's taught at a high school before.",
+     "explanationAr": "has + taught.",
+     "explanationEn": "Correct answer: She's taught at a high school before."
+    },
+    {
+     "id": "alc-rule-3-q10",
+     "kind": "choice",
+     "ar": "المضارع التام لماضٍ غير محدد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "The Deans have ___ a new car before.",
+     "options": [
+      "buyed",
+      "buying",
+      "buy",
+      "bought"
+     ],
+     "answer": "bought",
+     "explanationAr": "buy ← bought.",
+     "explanationEn": "Correct answer: bought"
+    }
+   ]
+  },
+  {
+   "id": "alc-rule-4",
+   "unit": "education",
+   "ar": "القاعدة: already / yet / still / no longer / anymore",
+   "en": "Adverbs of time: already, yet, still, no longer, anymore, any longer",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-rule-4-g",
+     "kind": "grammar",
+     "ar": "already / yet / still / no longer / anymore",
+     "en": "Adverbs of time: already, yet, still, no longer, anymore, any longer",
+     "bodyAr": "already = خلاص صار (مثبت، قبل التصريف الثالث). yet = للحين ما صار (نفي أو سؤال، آخر الجملة). still = ما زال مستمر. no longer = ما عاد (قبل الفعل). anymore / any longer = ما عاد (مع not، آخر الجملة).",
+     "bodyEn": "Adverbs of time: already, yet, still, no longer, anymore, any longer. Study the formula and the example, then practise with ten questions.",
+     "example": "I've already seen the doctor.",
+     "translation": "خلاص شفت الدكتور",
+     "formula": "already (+) yet (− / ?) still (مستمر) no longer / not … anymore / not … any longer (وقف)"
+    },
+    {
+     "id": "alc-rule-4-ex",
+     "kind": "intro",
+     "ar": "أمثلة من القاعدة",
+     "en": "More examples",
+     "bodyAr": "• The nurse hasn't called my name yet.\n   الممرضة للحين ما نادت اسمي\n• Are you still waiting?\n   ما زلت تنتظر؟\n• He no longer works here. = He doesn't work here anymore.\n   ما عاد يشتغل هنا",
+     "bodyEn": "• The nurse hasn't called my name yet.\n• Are you still waiting?\n• He no longer works here. = He doesn't work here anymore.",
+     "example": "He no longer works here. = He doesn't work here anymore.",
+     "translation": "ما عاد يشتغل هنا"
+    },
+    {
+     "id": "alc-rule-4-tip",
+     "kind": "intro",
+     "ar": "انتبه من هذا الخطأ",
+     "en": "Common mistake",
+     "bodyAr": "❌ He doesn't no longer work here.\n✅ He no longer works here.\n\n💡 no longer معناها نفي بنفسها، فلا تحط معها not.\n\nالكلمة | المعنى | مكانها\nalready | خلاص | قبل التصريف الثالث\nyet | للحين ما | آخر الجملة (نفي / سؤال)\nstill | ما زال | قبل الفعل\nno longer | ما عاد | قبل الفعل (بدون not)\nnot … anymore | ما عاد | آخر الجملة",
+     "bodyEn": "Wrong: He doesn't no longer work here.\nRight: He no longer works here.",
+     "example": "He no longer works here.",
+     "translation": "no longer معناها نفي بنفسها، فلا تحط معها not."
+    },
+    {
+     "id": "alc-rule-4-q1",
+     "kind": "choice",
+     "ar": "already / yet / still / no longer / anymore",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "The Hills ___ live in Denver. They moved last month.",
+     "options": [
+      "yet",
+      "no longer",
+      "already",
+      "anymore"
+     ],
+     "answer": "no longer",
+     "explanationAr": "قبل الفعل بدون not ← no longer.",
+     "explanationEn": "Correct answer: no longer"
+    },
+    {
+     "id": "alc-rule-4-q2",
+     "kind": "choice",
+     "ar": "already / yet / still / no longer / anymore",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Sam graduated last year. He isn't a student ___.",
+     "options": [
+      "already",
+      "anymore",
+      "still",
+      "no longer"
+     ],
+     "answer": "anymore",
+     "explanationAr": "آخر الجملة مع isn't ← anymore.",
+     "explanationEn": "Correct answer: anymore"
+    },
+    {
+     "id": "alc-rule-4-q3",
+     "kind": "choice",
+     "ar": "already / yet / still / no longer / anymore",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Ann isn't here. She's ___ gone home.",
+     "options": [
+      "yet",
+      "anymore",
+      "still",
+      "already"
+     ],
+     "answer": "already",
+     "explanationAr": "خلاص راحت ← already.",
+     "explanationEn": "Correct answer: already"
+    },
+    {
+     "id": "alc-rule-4-q4",
+     "kind": "choice",
+     "ar": "already / yet / still / no longer / anymore",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Al hasn't made up his mind ___.",
+     "options": [
+      "still",
+      "already",
+      "no longer",
+      "yet"
+     ],
+     "answer": "yet",
+     "explanationAr": "نفي + آخر الجملة ← yet.",
+     "explanationEn": "Correct answer: yet"
+    },
+    {
+     "id": "alc-rule-4-q5",
+     "kind": "choice",
+     "ar": "already / yet / still / no longer / anymore",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Eric learned to drive, but he ___ doesn't have a license.",
+     "options": [
+      "yet",
+      "no longer",
+      "already",
+      "still"
+     ],
+     "answer": "still",
+     "explanationAr": "ما زال ما عنده ← still.",
+     "explanationEn": "Correct answer: still"
+    },
+    {
+     "id": "alc-rule-4-q6",
+     "kind": "choice",
+     "ar": "already / yet / still / no longer / anymore",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "It rained yesterday, and it's ___ raining today.",
+     "options": [
+      "yet",
+      "already",
+      "anymore",
+      "still"
+     ],
+     "answer": "still",
+     "explanationAr": "مستمر ← still.",
+     "explanationEn": "Correct answer: still"
+    },
+    {
+     "id": "alc-rule-4-q7",
+     "kind": "choice",
+     "ar": "already / yet / still / no longer / anymore",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Sgt Hill is a civilian now. He's ___ in the Army.",
+     "options": [
+      "already",
+      "anymore",
+      "yet",
+      "no longer"
+     ],
+     "answer": "no longer",
+     "explanationAr": "ما عاد ← no longer.",
+     "explanationEn": "Correct answer: no longer"
+    },
+    {
+     "id": "alc-rule-4-q8",
+     "kind": "choice",
+     "ar": "already / yet / still / no longer / anymore",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Has the bus left ___?",
+     "options": [
+      "yet",
+      "anymore",
+      "still",
+      "no longer"
+     ],
+     "answer": "yet",
+     "explanationAr": "سؤال ← yet.",
+     "explanationEn": "Correct answer: yet"
+    },
+    {
+     "id": "alc-rule-4-q9",
+     "kind": "choice",
+     "ar": "already / yet / still / no longer / anymore",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Jim doesn't work at night ___.",
+     "options": [
+      "already",
+      "yet",
+      "still",
+      "any longer"
+     ],
+     "answer": "any longer",
+     "explanationAr": "not … any longer.",
+     "explanationEn": "Correct answer: any longer"
+    },
+    {
+     "id": "alc-rule-4-q10",
+     "kind": "choice",
+     "ar": "already / yet / still / no longer / anymore",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Choose the correct sentence.",
+     "options": [
+      "He doesn't live here anymore.",
+      "He doesn't live here already.",
+      "He doesn't no longer live here.",
+      "He lives here anymore."
+     ],
+     "answer": "He doesn't live here anymore.",
+     "explanationAr": "not + anymore.",
+     "explanationEn": "Correct answer: He doesn't live here anymore."
+    }
+   ]
+  },
+  {
+   "id": "alc-rule-5",
+   "unit": "education",
+   "ar": "القاعدة: ربط الجمل: so و or",
+   "en": "Coordinating conjunctions: so, or (and, but)",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-rule-5-g",
+     "kind": "grammar",
+     "ar": "ربط الجمل: so و or",
+     "en": "Coordinating conjunctions: so, or (and, but)",
+     "bodyAr": "so = عشان كذا (نتيجة). or = أو (اختيار). but = بس / لكن (عكس). and = و (إضافة). لما نربط جملتين كاملتين نحط فاصلة قبل أداة الربط.",
+     "bodyEn": "Coordinating conjunctions: so, or (and, but). Study the formula and the example, then practise with ten questions.",
+     "example": "It rained, so we left.",
+     "translation": "مطرت، عشان كذا مشينا",
+     "formula": "clause, so + result clause, or + choice clause, but + contrast clause, and + addition"
+    },
+    {
+     "id": "alc-rule-5-ex",
+     "kind": "intro",
+     "ar": "أمثلة من القاعدة",
+     "en": "More examples",
+     "bodyAr": "• I can pay with cash, or I can use my credit card.\n   أدفع كاش أو بالبطاقة\n• Did he go, or did he stay?\n   راح ولا جلس؟",
+     "bodyEn": "• I can pay with cash, or I can use my credit card.\n• Did he go, or did he stay?",
+     "example": "Did he go, or did he stay?",
+     "translation": "راح ولا جلس؟"
+    },
+    {
+     "id": "alc-rule-5-tip",
+     "kind": "intro",
+     "ar": "انتبه من هذا الخطأ",
+     "en": "Common mistake",
+     "bodyAr": "❌ I was tired, but I went to bed.\n✅ I was tired, so I went to bed.\n\n💡 اسأل نفسك: الجزء الثاني نتيجة؟ ← so. اختيار؟ ← or. عكس المتوقع؟ ← but.\n\nالأداة | المعنى\nand | إضافة\nbut | عكس\nor | اختيار\nso | نتيجة",
+     "bodyEn": "Wrong: I was tired, but I went to bed.\nRight: I was tired, so I went to bed.",
+     "example": "I was tired, so I went to bed.",
+     "translation": "اسأل نفسك: الجزء الثاني نتيجة؟ ← so. اختيار؟ ← or. عكس المتوقع؟ ← but."
+    },
+    {
+     "id": "alc-rule-5-q1",
+     "kind": "choice",
+     "ar": "ربط الجمل: so و or",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I didn't have any cash, ___ I used my credit card.",
+     "options": [
+      "but",
+      "so",
+      "because",
+      "or"
+     ],
+     "answer": "so",
+     "explanationAr": "نتيجة ← so.",
+     "explanationEn": "Correct answer: so"
+    },
+    {
+     "id": "alc-rule-5-q2",
+     "kind": "choice",
+     "ar": "ربط الجمل: so و or",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We can go to the mall, ___ we can go to the beach.",
+     "options": [
+      "but",
+      "so",
+      "or",
+      "because"
+     ],
+     "answer": "or",
+     "explanationAr": "اختيار ← or.",
+     "explanationEn": "Correct answer: or"
+    },
+    {
+     "id": "alc-rule-5-q3",
+     "kind": "choice",
+     "ar": "ربط الجمل: so و or",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "The room was empty, ___ I turned off the light.",
+     "options": [
+      "or",
+      "so",
+      "yet",
+      "but"
+     ],
+     "answer": "so",
+     "explanationAr": "نتيجة ← so (من تقييم الكتاب).",
+     "explanationEn": "Correct answer: so"
+    },
+    {
+     "id": "alc-rule-5-q4",
+     "kind": "choice",
+     "ar": "ربط الجمل: so و or",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Jill works at a bank, ___ she wants to become a nurse.",
+     "options": [
+      "but",
+      "or",
+      "and",
+      "so"
+     ],
+     "answer": "but",
+     "explanationAr": "عكس ← but.",
+     "explanationEn": "Correct answer: but"
+    },
+    {
+     "id": "alc-rule-5-q5",
+     "kind": "choice",
+     "ar": "ربط الجمل: so و or",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Al's only worked here a week, ___ he doesn't know many people.",
+     "options": [
+      "or",
+      "because",
+      "but",
+      "so"
+     ],
+     "answer": "so",
+     "explanationAr": "نتيجة ← so.",
+     "explanationEn": "Correct answer: so"
+    },
+    {
+     "id": "alc-rule-5-q6",
+     "kind": "choice",
+     "ar": "ربط الجمل: so و or",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Did you study, ___ did you watch TV?",
+     "options": [
+      "so",
+      "or",
+      "but",
+      "and"
+     ],
+     "answer": "or",
+     "explanationAr": "سؤال اختيار ← or.",
+     "explanationEn": "Correct answer: or"
+    },
+    {
+     "id": "alc-rule-5-q7",
+     "kind": "choice",
+     "ar": "ربط الجمل: so و or",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "It's freezing, ___ the water hasn't frozen yet.",
+     "options": [
+      "because",
+      "so",
+      "or",
+      "but"
+     ],
+     "answer": "but",
+     "explanationAr": "عكس المتوقع ← but.",
+     "explanationEn": "Correct answer: but"
+    },
+    {
+     "id": "alc-rule-5-q8",
+     "kind": "choice",
+     "ar": "ربط الجمل: so و or",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Choose the correct sentence.",
+     "options": [
+      "It rained, so we stayed home.",
+      "It rained, so, we stayed home.",
+      "It rained so we, stayed home.",
+      "It rained so, we stayed home."
+     ],
+     "answer": "It rained, so we stayed home.",
+     "explanationAr": "الفاصلة قبل so.",
+     "explanationEn": "Correct answer: It rained, so we stayed home."
+    },
+    {
+     "id": "alc-rule-5-q9",
+     "kind": "choice",
+     "ar": "ربط الجمل: so و or",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Jan wants to be a teacher, ___ she's taking education courses.",
+     "options": [
+      "than",
+      "but",
+      "so",
+      "or"
+     ],
+     "answer": "so",
+     "explanationAr": "نتيجة ← so.",
+     "explanationEn": "Correct answer: so"
+    },
+    {
+     "id": "alc-rule-5-q10",
+     "kind": "choice",
+     "ar": "ربط الجمل: so و or",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We might drive to Chicago, ___ we may take the train.",
+     "options": [
+      "because",
+      "so",
+      "than",
+      "or"
+     ],
+     "answer": "or",
+     "explanationAr": "اختيار ← or.",
+     "explanationEn": "Correct answer: or"
+    }
+   ]
+  },
+  {
+   "id": "alc-book-3",
+   "unit": "education",
+   "ar": "تمارين الكتاب: التقييم — Exercise H",
+   "en": "Evaluation · Lesson 2 · Exercise H",
+   "minutes": 9,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-book-3-intro",
+     "kind": "intro",
+     "ar": "تمارين الكتاب: التقييم",
+     "en": "Evaluation · Lesson 2 · Exercise H",
+     "bodyAr": "أسئلة اختيار من قسم التقييم (Evaluation) في آخر كتاب 12، الدرس 2 — Exercise H. عددها 19 سؤال.",
+     "bodyEn": "Multiple-choice questions from the Evaluation section of Book 12, Lesson 2, Exercise H."
+    },
+    {
+     "id": "alc-book-3-q1",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Were you in Hawaii last year? — Yes, I had a ___ there for a year.",
+     "options": [
+      "tour of duty",
+      "sign of refusal",
+      "change of mind",
+      "right of way"
+     ],
+     "answer": "tour of duty",
+     "explanationAr": "tour of duty = فترة خدمة.",
+     "explanationEn": "Correct answer: tour of duty"
+    },
+    {
+     "id": "alc-book-3-q2",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Mrs. Meyers ___ New York many times.",
+     "options": [
+      "to visit",
+      "visiting",
+      "visit",
+      "has visited"
+     ],
+     "answer": "has visited",
+     "explanationAr": "many times ← has visited.",
+     "explanationEn": "Correct answer: has visited"
+    },
+    {
+     "id": "alc-book-3-q3",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "What did you talk about in class? — We had a ___ about Central America.",
+     "options": [
+      "discussion",
+      "refusal",
+      "decision",
+      "commercial"
+     ],
+     "answer": "discussion",
+     "explanationAr": "discussion = نقاش.",
+     "explanationEn": "Correct answer: discussion"
+    },
+    {
+     "id": "alc-book-3-q4",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I thought Mike was going to take you. — He changed ___ when he realized he had to study.",
+     "options": [
+      "professions",
+      "his mind",
+      "tires",
+      "his job"
+     ],
+     "answer": "his mind",
+     "explanationAr": "change one's mind.",
+     "explanationEn": "Correct answer: his mind"
+    },
+    {
+     "id": "alc-book-3-q5",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Some parents ___ their children at home instead of sending them to school.",
+     "options": [
+      "study",
+      "accept",
+      "educate",
+      "retire"
+     ],
+     "answer": "educate",
+     "explanationAr": "educate = يعلّم.",
+     "explanationEn": "Correct answer: educate"
+    },
+    {
+     "id": "alc-book-3-q6",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Were the instructions ___? — No, they weren't. I'm still confused.",
+     "options": [
+      "happy",
+      "clear",
+      "unpleasant",
+      "deep"
+     ],
+     "answer": "clear",
+     "explanationAr": "واضحة ← clear.",
+     "explanationEn": "Correct answer: clear"
+    },
+    {
+     "id": "alc-book-3-q7",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Are you going to take the job in Dallas? — Yes, I ___ it.",
+     "options": [
+      "accepted",
+      "refused",
+      "offered",
+      "decided"
+     ],
+     "answer": "accepted",
+     "explanationAr": "قبلت ← accepted.",
+     "explanationEn": "Correct answer: accepted"
+    },
+    {
+     "id": "alc-book-3-q8",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Where does your father work? — He doesn't work anymore. He ___ last year.",
+     "options": [
+      "retired",
+      "refused",
+      "started",
+      "accepted"
+     ],
+     "answer": "retired",
+     "explanationAr": "تقاعد ← retired.",
+     "explanationEn": "Correct answer: retired"
+    },
+    {
+     "id": "alc-book-3-q9",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Did Jim take the job in New York? — No, he ___.",
+     "options": [
+      "thought it over",
+      "changed your mind",
+      "turned it down",
+      "made up its mind"
+     ],
+     "answer": "turned it down",
+     "explanationAr": "رفضها ← turned it down.",
+     "explanationEn": "Correct answer: turned it down"
+    },
+    {
+     "id": "alc-book-3-q10",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Are you still teaching? — No, I have another ___. I now work for a bank.",
+     "options": [
+      "career",
+      "future",
+      "channel",
+      "course"
+     ],
+     "answer": "career",
+     "explanationAr": "career = مهنة.",
+     "explanationEn": "Correct answer: career"
+    },
+    {
+     "id": "alc-book-3-q11",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Are you going to college? — Yes, I'm ___ some interesting classes.",
+     "options": [
+      "offering",
+      "taking",
+      "refusing",
+      "refunding"
+     ],
+     "answer": "taking",
+     "explanationAr": "take a class.",
+     "explanationEn": "Correct answer: taking"
+    },
+    {
+     "id": "alc-book-3-q12",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Have you seen the new movie about Texas? — Yes, I've ___ seen it.",
+     "options": [
+      "already",
+      "yet",
+      "still",
+      "no longer"
+     ],
+     "answer": "already",
+     "explanationAr": "already.",
+     "explanationEn": "Correct answer: already"
+    },
+    {
+     "id": "alc-book-3-q13",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Amy is fifteen years old. She goes to a(n) ___ school.",
+     "options": [
+      "grade",
+      "elementary",
+      "middle",
+      "high"
+     ],
+     "answer": "high",
+     "explanationAr": "15 سنة ← high school.",
+     "explanationEn": "Correct answer: high"
+    },
+    {
+     "id": "alc-book-3-q14",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Mr. Grant's a dentist. That's his ___.",
+     "options": [
+      "profession",
+      "education",
+      "college",
+      "name"
+     ],
+     "answer": "profession",
+     "explanationAr": "profession = مهنة.",
+     "explanationEn": "Correct answer: profession"
+    },
+    {
+     "id": "alc-book-3-q15",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "The room was empty, ___ I turned off the light.",
+     "options": [
+      "so",
+      "yet",
+      "but",
+      "or"
+     ],
+     "answer": "so",
+     "explanationAr": "نتيجة ← so.",
+     "explanationEn": "Correct answer: so"
+    },
+    {
+     "id": "alc-book-3-q16",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Carl is a ___ soccer player. He makes a lot of money.",
+     "options": [
+      "medical",
+      "professional",
+      "horizontal",
+      "vertical"
+     ],
+     "answer": "professional",
+     "explanationAr": "محترف ← professional.",
+     "explanationEn": "Correct answer: professional"
+    },
+    {
+     "id": "alc-book-3-q17",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "When we make plans for the next five years, we make plans for the ___.",
+     "options": [
+      "time",
+      "degree",
+      "future",
+      "field"
+     ],
+     "answer": "future",
+     "explanationAr": "المستقبل ← future.",
+     "explanationEn": "Correct answer: future"
+    },
+    {
+     "id": "alc-book-3-q18",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Jim went to college. After four years he got a(n) ___.",
+     "options": [
+      "associate diploma",
+      "master's diploma",
+      "bachelor's degree",
+      "associate degree"
+     ],
+     "answer": "bachelor's degree",
+     "explanationAr": "4 سنين ← bachelor's.",
+     "explanationEn": "Correct answer: bachelor's degree"
+    },
+    {
+     "id": "alc-book-3-q19",
+     "kind": "choice",
+     "ar": "التقييم · Exercise H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Do you want me to pick you up? — No, thanks. Paul has already ___ to let me ride in his car.",
+     "options": [
+      "retired",
+      "charged",
+      "offered",
+      "refused"
+     ],
+     "answer": "offered",
+     "explanationAr": "offered = عرض.",
+     "explanationEn": "Correct answer: offered"
+    }
+   ]
+  },
+  {
+   "id": "alc-book-4",
+   "unit": "education",
+   "ar": "تمارين الكتاب: التقييم — Exercises E & F",
+   "en": "Evaluation · Lesson 2 · Exercises E & F",
+   "minutes": 7,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-book-4-intro",
+     "kind": "intro",
+     "ar": "تمارين الكتاب: التقييم",
+     "en": "Evaluation · Lesson 2 · Exercises E & F",
+     "bodyAr": "أسئلة اختيار من قسم التقييم (Evaluation) في آخر كتاب 12، الدرس 2 — Exercises E & F. عددها 14 سؤال.",
+     "bodyEn": "Multiple-choice questions from the Evaluation section of Book 12, Lesson 2, Exercises E & F."
+    },
+    {
+     "id": "alc-book-4-q1",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Jason might buy another TV, ___ he may keep the one that he has.",
+     "options": [
+      "but",
+      "so",
+      "or"
+     ],
+     "answer": "or",
+     "explanationAr": "اختيار ← or.",
+     "explanationEn": "Correct answer: or"
+    },
+    {
+     "id": "alc-book-4-q2",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Col Lee's retiring, ___ this is his last year in the military.",
+     "options": [
+      "or",
+      "and",
+      "so"
+     ],
+     "answer": "so",
+     "explanationAr": "نتيجة ← so.",
+     "explanationEn": "Correct answer: so"
+    },
+    {
+     "id": "alc-book-4-q3",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We're going to California, ___ we might go to Oregon, too.",
+     "options": [
+      "and",
+      "or",
+      "so"
+     ],
+     "answer": "and",
+     "explanationAr": "إضافة (too) ← and.",
+     "explanationEn": "Correct answer: and"
+    },
+    {
+     "id": "alc-book-4-q4",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Tina wants to be a teacher, ___ she's going to a university.",
+     "options": [
+      "but",
+      "so",
+      "or"
+     ],
+     "answer": "so",
+     "explanationAr": "نتيجة ← so.",
+     "explanationEn": "Correct answer: so"
+    },
+    {
+     "id": "alc-book-4-q5",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Jill works at a bank, ___ she wants to become a nurse.",
+     "options": [
+      "and",
+      "but",
+      "so"
+     ],
+     "answer": "but",
+     "explanationAr": "عكس ← but.",
+     "explanationEn": "Correct answer: but"
+    },
+    {
+     "id": "alc-book-4-q6",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Al's only worked here a week, ___ he doesn't know many people.",
+     "options": [
+      "or",
+      "but",
+      "so"
+     ],
+     "answer": "so",
+     "explanationAr": "نتيجة ← so.",
+     "explanationEn": "Correct answer: so"
+    },
+    {
+     "id": "alc-book-4-q7",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "You can pay cash for the CD player, ___ you can use a credit card.",
+     "options": [
+      "so",
+      "or",
+      "but"
+     ],
+     "answer": "or",
+     "explanationAr": "اختيار ← or.",
+     "explanationEn": "Correct answer: or"
+    },
+    {
+     "id": "alc-book-4-q8",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "The Hills ___ live in Denver. They moved last month.",
+     "options": [
+      "anymore",
+      "no longer",
+      "yet"
+     ],
+     "answer": "no longer",
+     "explanationAr": "قبل الفعل ← no longer.",
+     "explanationEn": "Correct answer: no longer"
+    },
+    {
+     "id": "alc-book-4-q9",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Sandra graduated in June. She doesn't go to college ___.",
+     "options": [
+      "already",
+      "still",
+      "any longer"
+     ],
+     "answer": "any longer",
+     "explanationAr": "not … any longer.",
+     "explanationEn": "Correct answer: any longer"
+    },
+    {
+     "id": "alc-book-4-q10",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Ann isn't here. She's ___ gone home for the day.",
+     "options": [
+      "yet",
+      "already",
+      "still"
+     ],
+     "answer": "already",
+     "explanationAr": "already.",
+     "explanationEn": "Correct answer: already"
+    },
+    {
+     "id": "alc-book-4-q11",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Eric learned to drive, but he ___ doesn't have a license.",
+     "options": [
+      "no longer",
+      "already",
+      "still"
+     ],
+     "answer": "still",
+     "explanationAr": "still.",
+     "explanationEn": "Correct answer: still"
+    },
+    {
+     "id": "alc-book-4-q12",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Sam graduated last year. He isn't a student ___.",
+     "options": [
+      "still",
+      "already",
+      "anymore"
+     ],
+     "answer": "anymore",
+     "explanationAr": "anymore.",
+     "explanationEn": "Correct answer: anymore"
+    },
+    {
+     "id": "alc-book-4-q13",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Al hasn't made up his mind ___.",
+     "options": [
+      "still",
+      "no longer",
+      "yet"
+     ],
+     "answer": "yet",
+     "explanationAr": "yet.",
+     "explanationEn": "Correct answer: yet"
+    },
+    {
+     "id": "alc-book-4-q14",
+     "kind": "choice",
+     "ar": "التقييم · Exercises E & F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Jack and Sue have ___ seen the Smiths' new house.",
+     "options": [
+      "yet",
+      "already",
+      "still"
+     ],
+     "answer": "already",
+     "explanationAr": "already.",
+     "explanationEn": "Correct answer: already"
+    }
+   ]
+  },
+  {
+   "id": "alc-book-5",
+   "unit": "education",
+   "ar": "تمارين الكتاب: الواجب — Exercises C & J",
+   "en": "Homework · Lesson 2 · Exercises C & J",
+   "minutes": 5,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-book-5-intro",
+     "kind": "intro",
+     "ar": "تمارين الكتاب: الواجب",
+     "en": "Homework · Lesson 2 · Exercises C & J",
+     "bodyAr": "أسئلة اختيار من قسم الواجب (Homework) في آخر كتاب 12، الدرس 2 — Exercises C & J. عددها 11 سؤال.",
+     "bodyEn": "Multiple-choice questions from the Homework section of Book 12, Lesson 2, Exercises C & J."
+    },
+    {
+     "id": "alc-book-5-q1",
+     "kind": "choice",
+     "ar": "الواجب · Exercises C & J",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Kate got a bargain at the store, so she had enough money to go to the movies. \"Bargain\" means:",
+     "options": [
+      "something from a different country",
+      "something good and cheap",
+      "something good and expensive"
+     ],
+     "answer": "something good and cheap",
+     "explanationAr": "وفّرت فلوس ← شي رخيص.",
+     "explanationEn": "Correct answer: something good and cheap"
+    },
+    {
+     "id": "alc-book-5-q2",
+     "kind": "choice",
+     "ar": "الواجب · Exercises C & J",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "The Hills decided to remodel the old house by making the kitchen larger. \"Remodel\" means:",
+     "options": [
+      "clean",
+      "visit",
+      "change"
+     ],
+     "answer": "change",
+     "explanationAr": "remodel = يجدد/يغيّر.",
+     "explanationEn": "Correct answer: change"
+    },
+    {
+     "id": "alc-book-5-q3",
+     "kind": "choice",
+     "ar": "الواجب · Exercises C & J",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Friends and family enjoyed eating and dancing at the reception. \"Reception\" means:",
+     "options": [
+      "movie",
+      "course",
+      "party"
+     ],
+     "answer": "party",
+     "explanationAr": "reception = حفلة.",
+     "explanationEn": "Correct answer: party"
+    },
+    {
+     "id": "alc-book-5-q4",
+     "kind": "choice",
+     "ar": "الواجب · Exercises C & J",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Did River City College ___ all of the students?",
+     "options": [
+      "except",
+      "accept"
+     ],
+     "answer": "accept",
+     "explanationAr": "يقبل ← accept.",
+     "explanationEn": "Correct answer: accept"
+    },
+    {
+     "id": "alc-book-5-q5",
+     "kind": "choice",
+     "ar": "الواجب · Exercises C & J",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I heard they took everyone ___ Dan.",
+     "options": [
+      "except",
+      "accept"
+     ],
+     "answer": "except",
+     "explanationAr": "ما عدا ← except.",
+     "explanationEn": "Correct answer: except"
+    },
+    {
+     "id": "alc-book-5-q6",
+     "kind": "choice",
+     "ar": "الواجب · Exercises C & J",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "No, they ___ to take him, but he refused it.",
+     "options": [
+      "discussed",
+      "offered"
+     ],
+     "answer": "offered",
+     "explanationAr": "عرضوا ← offered.",
+     "explanationEn": "Correct answer: offered"
+    },
+    {
+     "id": "alc-book-5-q7",
+     "kind": "choice",
+     "ar": "الواجب · Exercises C & J",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "They offered to take him, but he ___ it.",
+     "options": [
+      "retired",
+      "refused"
+     ],
+     "answer": "refused",
+     "explanationAr": "رفض ← refused.",
+     "explanationEn": "Correct answer: refused"
+    },
+    {
+     "id": "alc-book-5-q8",
+     "kind": "choice",
+     "ar": "الواجب · Exercises C & J",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Why did he make that ___?",
+     "options": [
+      "choice",
+      "tour"
+     ],
+     "answer": "choice",
+     "explanationAr": "make a choice.",
+     "explanationEn": "Correct answer: choice"
+    },
+    {
+     "id": "alc-book-5-q9",
+     "kind": "choice",
+     "ar": "الواجب · Exercises C & J",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "He decided to get a job ___.",
+     "options": [
+      "instead",
+      "already"
+     ],
+     "answer": "instead",
+     "explanationAr": "بدل الدراسة ← instead.",
+     "explanationEn": "Correct answer: instead"
+    },
+    {
+     "id": "alc-book-5-q10",
+     "kind": "choice",
+     "ar": "الواجب · Exercises C & J",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Well, I hope he ___ it with someone.",
+     "options": [
+      "discussed",
+      "educated"
+     ],
+     "answer": "discussed",
+     "explanationAr": "ناقشه ← discussed.",
+     "explanationEn": "Correct answer: discussed"
+    },
+    {
+     "id": "alc-book-5-q11",
+     "kind": "choice",
+     "ar": "الواجب · Exercises C & J",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I'm sure he did. He's serious about his ___.",
+     "options": [
+      "future",
+      "course"
+     ],
+     "answer": "future",
+     "explanationAr": "مستقبله ← future.",
+     "explanationEn": "Correct answer: future"
+    }
+   ]
+  },
+  {
    "id": "home-1",
    "ar": "أضفنا غرفة",
    "en": "We've added a room",
@@ -2995,6 +5298,1510 @@
      "answer": "She said she would come.",
      "explanationAr": "She said ثم she would come. لاحظ will أصبحت would.",
      "explanationEn": "She said + she would come. Will becomes would."
+    }
+   ]
+  },
+  {
+   "id": "alc-rule-6",
+   "unit": "home",
+   "ar": "القاعدة: could للاحتمال والتخمين",
+   "en": "Could for possibility and conjecture",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-rule-6-g",
+     "kind": "grammar",
+     "ar": "could للاحتمال والتخمين",
+     "en": "Could for possibility and conjecture",
+     "bodyAr": "نستخدم could و may و might عشان نخمّن لما ما نكون متأكدين. وكلمتين للتخمين بعد: maybe و perhaps، وتجي أول الجملة.",
+     "bodyEn": "Could for possibility and conjecture. Study the formula and the example, then practise with ten questions.",
+     "example": "What could this be? — It could be a box.",
+     "translation": "وش ممكن يكون هذا؟ يمكن صندوق",
+     "formula": "could / may / might + verb Could it be …? Where could he be?"
+    },
+    {
+     "id": "alc-rule-6-ex",
+     "kind": "intro",
+     "ar": "أمثلة من القاعدة",
+     "en": "More examples",
+     "bodyAr": "• Where could Ann be? — She might be at lunch.\n   وين ممكن تكون آن؟ يمكن تتغدى\n• Perhaps he missed the bus.\n   يمكن فاته الباص",
+     "bodyEn": "• Where could Ann be? — She might be at lunch.\n• Perhaps he missed the bus.",
+     "example": "Perhaps he missed the bus.",
+     "translation": "يمكن فاته الباص"
+    },
+    {
+     "id": "alc-rule-6-tip",
+     "kind": "intro",
+     "ar": "انتبه من هذا الخطأ",
+     "en": "Common mistake",
+     "bodyAr": "❌ She could is at home.\n✅ She could be at home.\n\n💡 maybe كلمة وحدة أول الجملة = perhaps. أما may be (كلمتين) فعل.",
+     "bodyEn": "Wrong: She could is at home.\nRight: She could be at home.",
+     "example": "She could be at home.",
+     "translation": "maybe كلمة وحدة أول الجملة = perhaps. أما may be (كلمتين) فعل."
+    },
+    {
+     "id": "alc-rule-6-q1",
+     "kind": "choice",
+     "ar": "could للاحتمال والتخمين",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I can't find my dictionary. Where ___ it be?",
+     "options": [
+      "has",
+      "does",
+      "could",
+      "is"
+     ],
+     "answer": "could",
+     "explanationAr": "Where could it be?",
+     "explanationEn": "Correct answer: could"
+    },
+    {
+     "id": "alc-rule-6-q2",
+     "kind": "choice",
+     "ar": "could للاحتمال والتخمين",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "She ___ be in a meeting. I'm not sure.",
+     "options": [
+      "is",
+      "could",
+      "must",
+      "has to"
+     ],
+     "answer": "could",
+     "explanationAr": "تخمين ← could.",
+     "explanationEn": "Correct answer: could"
+    },
+    {
+     "id": "alc-rule-6-q3",
+     "kind": "choice",
+     "ar": "could للاحتمال والتخمين",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "What could this be? — It ___ be a desk.",
+     "options": [
+      "does",
+      "have",
+      "is to",
+      "might"
+     ],
+     "answer": "might",
+     "explanationAr": "might + be.",
+     "explanationEn": "Correct answer: might"
+    },
+    {
+     "id": "alc-rule-6-q4",
+     "kind": "choice",
+     "ar": "could للاحتمال والتخمين",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "___ he's at the doctor's. He isn't here.",
+     "options": [
+      "Could",
+      "Maybe",
+      "Might",
+      "May be"
+     ],
+     "answer": "Maybe",
+     "explanationAr": "أول الجملة بمعنى يمكن ← Maybe.",
+     "explanationEn": "Correct answer: Maybe"
+    },
+    {
+     "id": "alc-rule-6-q5",
+     "kind": "choice",
+     "ar": "could للاحتمال والتخمين",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "John isn't here yet. ___ he missed the bus.",
+     "options": [
+      "Might",
+      "Should",
+      "Could",
+      "Perhaps"
+     ],
+     "answer": "Perhaps",
+     "explanationAr": "Perhaps + جملة كاملة.",
+     "explanationEn": "Correct answer: Perhaps"
+    },
+    {
+     "id": "alc-rule-6-q6",
+     "kind": "choice",
+     "ar": "could للاحتمال والتخمين",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Could it ___ a kind of cup?",
+     "options": [
+      "to be",
+      "is",
+      "being",
+      "be"
+     ],
+     "answer": "be",
+     "explanationAr": "could + be.",
+     "explanationEn": "Correct answer: be"
+    },
+    {
+     "id": "alc-rule-6-q7",
+     "kind": "choice",
+     "ar": "could للاحتمال والتخمين",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "\"What could this be?\" — \"___\"",
+     "options": [
+      "He didn't like that color.",
+      "He has been late before.",
+      "It might be a kind of cup.",
+      "It wasn't raining."
+     ],
+     "answer": "It might be a kind of cup.",
+     "explanationAr": "تخمين عن الشي (من تقييم الكتاب).",
+     "explanationEn": "Correct answer: It might be a kind of cup."
+    },
+    {
+     "id": "alc-rule-6-q8",
+     "kind": "choice",
+     "ar": "could للاحتمال والتخمين",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Choose the correct sentence.",
+     "options": [
+      "She mays be at lunch.",
+      "She may to be at lunch.",
+      "She may is at lunch.",
+      "She may be at lunch."
+     ],
+     "answer": "She may be at lunch.",
+     "explanationAr": "may + be.",
+     "explanationEn": "Correct answer: She may be at lunch."
+    },
+    {
+     "id": "alc-rule-6-q9",
+     "kind": "choice",
+     "ar": "could للاحتمال والتخمين",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Ali isn't answering his phone. He ___ be asleep.",
+     "options": [
+      "is could",
+      "could to",
+      "could",
+      "coulds"
+     ],
+     "answer": "could",
+     "explanationAr": "could + be.",
+     "explanationEn": "Correct answer: could"
+    },
+    {
+     "id": "alc-rule-6-q10",
+     "kind": "choice",
+     "ar": "could للاحتمال والتخمين",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Which word does NOT show a guess?",
+     "options": [
+      "might",
+      "must not",
+      "perhaps",
+      "could"
+     ],
+     "answer": "must not",
+     "explanationAr": "must not = ممنوع، مو تخمين.",
+     "explanationEn": "Correct answer: must not"
+    }
+   ]
+  },
+  {
+   "id": "alc-rule-7",
+   "unit": "home",
+   "ar": "القاعدة: صفات ‎-ed و ‎-ing",
+   "en": "Participial adjectives: -ed / -ing",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-rule-7-g",
+     "kind": "grammar",
+     "ar": "صفات ‎-ed و ‎-ing",
+     "en": "Participial adjectives: -ed / -ing",
+     "bodyAr": "-ed توصف إحساس الشخص: interested, excited, bored, confused, tired, frightened. و -ing توصف الشي اللي يسبب الإحساس: interesting, exciting, boring, confusing, tiring, frightening.",
+     "bodyEn": "Participial adjectives: -ed / -ing. Study the formula and the example, then practise with ten questions.",
+     "example": "The trip was interesting. I was very interested in the city.",
+     "translation": "الرحلة ممتعة، كنت مهتم بالمدينة",
+     "formula": "-ed = شعور الشخص (I'm bored) -ing = سبب الشعور (The class is boring)"
+    },
+    {
+     "id": "alc-rule-7-ex",
+     "kind": "intro",
+     "ar": "أمثلة من القاعدة",
+     "en": "More examples",
+     "bodyAr": "• The directions were confusing, so I was confused.\n   التعليمات مربكة، فتلخبطت\n• Two hours of exercise is tiring. I feel tired.\n   التمرين متعب، أحس بتعب",
+     "bodyEn": "• The directions were confusing, so I was confused.\n• Two hours of exercise is tiring. I feel tired.",
+     "example": "Two hours of exercise is tiring. I feel tired.",
+     "translation": "التمرين متعب، أحس بتعب"
+    },
+    {
+     "id": "alc-rule-7-tip",
+     "kind": "intro",
+     "ar": "انتبه من هذا الخطأ",
+     "en": "Common mistake",
+     "bodyAr": "❌ I'm boring in this class.\n✅ I'm bored in this class.\n\n💡 إذا قلت I'm boring يعني أنت شخص ممل!\n\n-ed (الشعور) | -ing (السبب)\ninterested | interesting\nexcited | exciting\nbored | boring\nconfused | confusing\ntired | tiring\nfrightened | frightening",
+     "bodyEn": "Wrong: I'm boring in this class.\nRight: I'm bored in this class.",
+     "example": "I'm bored in this class.",
+     "translation": "إذا قلت I'm boring يعني أنت شخص ممل!"
+    },
+    {
+     "id": "alc-rule-7-q1",
+     "kind": "choice",
+     "ar": "صفات ‎-ed و ‎-ing",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "How was your trip? — It was ___.",
+     "options": [
+      "interest",
+      "interested",
+      "interests",
+      "interesting"
+     ],
+     "answer": "interesting",
+     "explanationAr": "الرحلة سبب ← interesting.",
+     "explanationEn": "Correct answer: interesting"
+    },
+    {
+     "id": "alc-rule-7-q2",
+     "kind": "choice",
+     "ar": "صفات ‎-ed و ‎-ing",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Did you understand the directions? — No, they were ___.",
+     "options": [
+      "confusing",
+      "confused",
+      "confuses",
+      "confuse"
+     ],
+     "answer": "confusing",
+     "explanationAr": "التعليمات سبب ← confusing.",
+     "explanationEn": "Correct answer: confusing"
+    },
+    {
+     "id": "alc-rule-7-q3",
+     "kind": "choice",
+     "ar": "صفات ‎-ed و ‎-ing",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "He's very ___ about his new job.",
+     "options": [
+      "excites",
+      "exciting",
+      "excited",
+      "excite"
+     ],
+     "answer": "excited",
+     "explanationAr": "شعوره ← excited.",
+     "explanationEn": "Correct answer: excited"
+    },
+    {
+     "id": "alc-rule-7-q4",
+     "kind": "choice",
+     "ar": "صفات ‎-ed و ‎-ing",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I always feel ___ after two hours of exercise.",
+     "options": [
+      "tire",
+      "tiring",
+      "tires",
+      "tired"
+     ],
+     "answer": "tired",
+     "explanationAr": "شعوري ← tired.",
+     "explanationEn": "Correct answer: tired"
+    },
+    {
+     "id": "alc-rule-7-q5",
+     "kind": "choice",
+     "ar": "صفات ‎-ed و ‎-ing",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I'm sleepy in that class because it's ___.",
+     "options": [
+      "bores",
+      "boring",
+      "bored",
+      "bore"
+     ],
+     "answer": "boring",
+     "explanationAr": "الحصة سبب ← boring.",
+     "explanationEn": "Correct answer: boring"
+    },
+    {
+     "id": "alc-rule-7-q6",
+     "kind": "choice",
+     "ar": "صفات ‎-ed و ‎-ing",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "She was ___ after the accident.",
+     "options": [
+      "frighten",
+      "frightened",
+      "frightening",
+      "frightens"
+     ],
+     "answer": "frightened",
+     "explanationAr": "شعورها ← frightened.",
+     "explanationEn": "Correct answer: frightened"
+    },
+    {
+     "id": "alc-rule-7-q7",
+     "kind": "choice",
+     "ar": "صفات ‎-ed و ‎-ing",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I can't decide which car to buy. I'm so ___.",
+     "options": [
+      "confuse",
+      "confusing",
+      "confused",
+      "confuses"
+     ],
+     "answer": "confused",
+     "explanationAr": "شعوري ← confused.",
+     "explanationEn": "Correct answer: confused"
+    },
+    {
+     "id": "alc-rule-7-q8",
+     "kind": "choice",
+     "ar": "صفات ‎-ed و ‎-ing",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "No, thanks. I'm not ___ in music.",
+     "options": [
+      "interests",
+      "interest",
+      "interesting",
+      "interested"
+     ],
+     "answer": "interested",
+     "explanationAr": "interested in.",
+     "explanationEn": "Correct answer: interested"
+    },
+    {
+     "id": "alc-rule-7-q9",
+     "kind": "choice",
+     "ar": "صفات ‎-ed و ‎-ing",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Choose the correct sentence.",
+     "options": [
+      "The movie exciting.",
+      "The movie was excited.",
+      "I was exciting about the movie.",
+      "The movie was exciting."
+     ],
+     "answer": "The movie was exciting.",
+     "explanationAr": "الفيلم سبب ← exciting.",
+     "explanationEn": "Correct answer: The movie was exciting."
+    },
+    {
+     "id": "alc-rule-7-q10",
+     "kind": "choice",
+     "ar": "صفات ‎-ed و ‎-ing",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Working all day in the sun is ___.",
+     "options": [
+      "tiring",
+      "tires",
+      "tired",
+      "tire"
+     ],
+     "answer": "tiring",
+     "explanationAr": "الشغل سبب ← tiring.",
+     "explanationEn": "Correct answer: tiring"
+    }
+   ]
+  },
+  {
+   "id": "alc-rule-8",
+   "unit": "home",
+   "ar": "القاعدة: الكلام المنقول مع say",
+   "en": "Reported speech with say",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-rule-8-g",
+     "kind": "grammar",
+     "ar": "الكلام المنقول مع say",
+     "en": "Reported speech with say",
+     "bodyAr": "إذا تنقل كلام أحد بـ said، نرجّع الفعل خطوة للماضي: want → wanted، is → was، am going → was going، don't → didn't. ونغيّر الضمائر: I → he / she، my → his / her.",
+     "bodyEn": "Reported speech with say. Study the formula and the example, then practise with ten questions.",
+     "example": "\"I want to go to Europe.\" → He said he wanted to go to Europe.",
+     "translation": "قال إنه يبي يروح أوروبا",
+     "formula": "He said (that) + subject + past tense"
+    },
+    {
+     "id": "alc-rule-8-ex",
+     "kind": "intro",
+     "ar": "أمثلة من القاعدة",
+     "en": "More examples",
+     "bodyAr": "• \"I need more sleep.\" → She said that she needed more sleep.\n   قالت إنها تحتاج نوم أكثر\n• \"Jane is here.\" → He said Jane was here.\n   قال إن جين هنا",
+     "bodyEn": "• \"I need more sleep.\" → She said that she needed more sleep.\n• \"Jane is here.\" → He said Jane was here.",
+     "example": "\"Jane is here.\" → He said Jane was here.",
+     "translation": "قال إن جين هنا"
+    },
+    {
+     "id": "alc-rule-8-tip",
+     "kind": "intro",
+     "ar": "انتبه من هذا الخطأ",
+     "en": "Common mistake",
+     "bodyAr": "❌ He said he wants to go.\n✅ He said he wanted to go.\n\n💡 What did he say? = وش قال؟ والجواب يبدأ: He said (that)…\n\nالكلام الأصلي | المنقول\nam / is | was\nwant / need | wanted / needed\ndon't / doesn't | didn't\nam going | was going\nhave to | had to",
+     "bodyEn": "Wrong: He said he wants to go.\nRight: He said he wanted to go.",
+     "example": "He said he wanted to go.",
+     "translation": "What did he say? = وش قال؟ والجواب يبدأ: He said (that)…"
+    },
+    {
+     "id": "alc-rule-8-q1",
+     "kind": "choice",
+     "ar": "الكلام المنقول مع say",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "\"I'm going to the beach.\" → He said he ___ to the beach.",
+     "options": [
+      "will go",
+      "went",
+      "goes",
+      "was going"
+     ],
+     "answer": "was going",
+     "explanationAr": "am going ← was going.",
+     "explanationEn": "Correct answer: was going"
+    },
+    {
+     "id": "alc-rule-8-q2",
+     "kind": "choice",
+     "ar": "الكلام المنقول مع say",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "\"They study in my room.\" → He said that they ___ in his room.",
+     "options": [
+      "studied",
+      "are studying",
+      "study",
+      "will studying"
+     ],
+     "answer": "studied",
+     "explanationAr": "study ← studied.",
+     "explanationEn": "Correct answer: studied"
+    },
+    {
+     "id": "alc-rule-8-q3",
+     "kind": "choice",
+     "ar": "الكلام المنقول مع say",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "\"I want to enlarge my garage.\" → He said he ___ to enlarge his garage.",
+     "options": [
+      "want",
+      "wants",
+      "wanting",
+      "wanted"
+     ],
+     "answer": "wanted",
+     "explanationAr": "want ← wanted.",
+     "explanationEn": "Correct answer: wanted"
+    },
+    {
+     "id": "alc-rule-8-q4",
+     "kind": "choice",
+     "ar": "الكلام المنقول مع say",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "\"I'm not going to travel.\" → She said she ___ going to travel.",
+     "options": [
+      "doesn't",
+      "isn't",
+      "didn't",
+      "wasn't"
+     ],
+     "answer": "wasn't",
+     "explanationAr": "am not ← wasn't.",
+     "explanationEn": "Correct answer: wasn't"
+    },
+    {
+     "id": "alc-rule-8-q5",
+     "kind": "choice",
+     "ar": "الكلام المنقول مع say",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "\"Ken doesn't have time.\" → She said Ken ___ have time.",
+     "options": [
+      "wasn't",
+      "doesn't",
+      "didn't",
+      "don't"
+     ],
+     "answer": "didn't",
+     "explanationAr": "doesn't ← didn't.",
+     "explanationEn": "Correct answer: didn't"
+    },
+    {
+     "id": "alc-rule-8-q6",
+     "kind": "choice",
+     "ar": "الكلام المنقول مع say",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "\"I'm enjoying the program.\" → He said he ___ the program.",
+     "options": [
+      "was enjoying",
+      "is enjoying",
+      "enjoys",
+      "has enjoyed"
+     ],
+     "answer": "was enjoying",
+     "explanationAr": "am enjoying ← was enjoying.",
+     "explanationEn": "Correct answer: was enjoying"
+    },
+    {
+     "id": "alc-rule-8-q7",
+     "kind": "choice",
+     "ar": "الكلام المنقول مع say",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "\"My car is old.\" → He said ___ car was old.",
+     "options": [
+      "her",
+      "your",
+      "his",
+      "my"
+     ],
+     "answer": "his",
+     "explanationAr": "my ← his.",
+     "explanationEn": "Correct answer: his"
+    },
+    {
+     "id": "alc-rule-8-q8",
+     "kind": "choice",
+     "ar": "الكلام المنقول مع say",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "\"Bill's arriving at 3:00.\" → She said Bill ___ at 3:00.",
+     "options": [
+      "will arrive",
+      "arrives",
+      "is arriving",
+      "was arriving"
+     ],
+     "answer": "was arriving",
+     "explanationAr": "is arriving ← was arriving.",
+     "explanationEn": "Correct answer: was arriving"
+    },
+    {
+     "id": "alc-rule-8-q9",
+     "kind": "choice",
+     "ar": "الكلام المنقول مع say",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "\"You have to see the colonel.\" → He said I ___ to see the colonel.",
+     "options": [
+      "had",
+      "has",
+      "having",
+      "have"
+     ],
+     "answer": "had",
+     "explanationAr": "have ← had.",
+     "explanationEn": "Correct answer: had"
+    },
+    {
+     "id": "alc-rule-8-q10",
+     "kind": "choice",
+     "ar": "الكلام المنقول مع say",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Choose the correct sentence.",
+     "options": [
+      "She said that she needs help yesterday.",
+      "She said that she needed help.",
+      "She said me that she needed help.",
+      "She told that she needed help."
+     ],
+     "answer": "She said that she needed help.",
+     "explanationAr": "said that + ماضي.",
+     "explanationEn": "Correct answer: She said that she needed help."
+    }
+   ]
+  },
+  {
+   "id": "alc-book-6",
+   "unit": "home",
+   "ar": "تمارين الكتاب: التقييم — Exercise G",
+   "en": "Evaluation · Lesson 3 · Exercise G",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-book-6-intro",
+     "kind": "intro",
+     "ar": "تمارين الكتاب: التقييم",
+     "en": "Evaluation · Lesson 3 · Exercise G",
+     "bodyAr": "أسئلة اختيار من قسم التقييم (Evaluation) في آخر كتاب 12، الدرس 3 — Exercise G. عددها 17 سؤال.",
+     "bodyEn": "Multiple-choice questions from the Evaluation section of Book 12, Lesson 3, Exercise G."
+    },
+    {
+     "id": "alc-book-6-q1",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Dan: I'm going to the beach. — What did he say? — He said he ___ to the beach.",
+     "options": [
+      "will go",
+      "was going",
+      "went",
+      "goes"
+     ],
+     "answer": "was going",
+     "explanationAr": "am going ← was going.",
+     "explanationEn": "Correct answer: was going"
+    },
+    {
+     "id": "alc-book-6-q2",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Dan: They study in my room on Tuesdays. — He said that they ___ in his room on Tuesdays.",
+     "options": [
+      "studied",
+      "are studying",
+      "study",
+      "will studying"
+     ],
+     "answer": "studied",
+     "explanationAr": "study ← studied.",
+     "explanationEn": "Correct answer: studied"
+    },
+    {
+     "id": "alc-book-6-q3",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We will add on to our house because we want ___.",
+     "options": [
+      "more time",
+      "another room",
+      "more advice",
+      "another job"
+     ],
+     "answer": "another room",
+     "explanationAr": "add on ← غرفة زيادة.",
+     "explanationEn": "Correct answer: another room"
+    },
+    {
+     "id": "alc-book-6-q4",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I've moved to the suburbs. Now I live ___.",
+     "options": [
+      "near the school",
+      "far from the city",
+      "downtown"
+     ],
+     "answer": "far from the city",
+     "explanationAr": "suburbs = برا المدينة.",
+     "explanationEn": "Correct answer: far from the city"
+    },
+    {
+     "id": "alc-book-6-q5",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "A lot of problems mean a lot of ___.",
+     "options": [
+      "addition",
+      "trouble",
+      "room",
+      "practice"
+     ],
+     "answer": "trouble",
+     "explanationAr": "trouble = مشاكل.",
+     "explanationEn": "Correct answer: trouble"
+    },
+    {
+     "id": "alc-book-6-q6",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "How was your trip? — It was ___.",
+     "options": [
+      "interests",
+      "interest",
+      "interested",
+      "interesting"
+     ],
+     "answer": "interesting",
+     "explanationAr": "الرحلة ← interesting.",
+     "explanationEn": "Correct answer: interesting"
+    },
+    {
+     "id": "alc-book-6-q7",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "My television can also ___ movies on tape.",
+     "options": [
+      "play",
+      "heat",
+      "boil",
+      "solve"
+     ],
+     "answer": "play",
+     "explanationAr": "play = يشغّل.",
+     "explanationEn": "Correct answer: play"
+    },
+    {
+     "id": "alc-book-6-q8",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "___ it rains, then I won't go.",
+     "options": [
+      "If",
+      "Then",
+      "But",
+      "And"
+     ],
+     "answer": "If",
+     "explanationAr": "If … then.",
+     "explanationEn": "Correct answer: If"
+    },
+    {
+     "id": "alc-book-6-q9",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "They fixed the house, but they will leave the old garage. They won't ___ it.",
+     "options": [
+      "talk about",
+      "change",
+      "see",
+      "walk to"
+     ],
+     "answer": "change",
+     "explanationAr": "leave = يخليه مثل ما هو.",
+     "explanationEn": "Correct answer: change"
+    },
+    {
+     "id": "alc-book-6-q10",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "He's a builder. He ___.",
+     "options": [
+      "teaches many people",
+      "records new music",
+      "makes new houses",
+      "cooks good food"
+     ],
+     "answer": "makes new houses",
+     "explanationAr": "builder = يبني بيوت.",
+     "explanationEn": "Correct answer: makes new houses"
+    },
+    {
+     "id": "alc-book-6-q11",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Did you understand the directions? — No, they were ___.",
+     "options": [
+      "confuse",
+      "confusing",
+      "confused",
+      "confuses"
+     ],
+     "answer": "confusing",
+     "explanationAr": "التعليمات ← confusing.",
+     "explanationEn": "Correct answer: confusing"
+    },
+    {
+     "id": "alc-book-6-q12",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Do you like my new fireplace? It ___.",
+     "options": [
+      "keeps the house warm",
+      "cleans my clothes well",
+      "freezes food very quickly",
+      "looks like a sports car"
+     ],
+     "answer": "keeps the house warm",
+     "explanationAr": "الدفاية تدفّي.",
+     "explanationEn": "Correct answer: keeps the house warm"
+    },
+    {
+     "id": "alc-book-6-q13",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Can you help me with this problem? Do you have a ___ for it?",
+     "options": [
+      "solution",
+      "story",
+      "shed",
+      "stereo"
+     ],
+     "answer": "solution",
+     "explanationAr": "solution = حل.",
+     "explanationEn": "Correct answer: solution"
+    },
+    {
+     "id": "alc-book-6-q14",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "This house is too small. We need more ___.",
+     "options": [
+      "discussion",
+      "offers",
+      "room",
+      "speakers"
+     ],
+     "answer": "room",
+     "explanationAr": "room = مساحة.",
+     "explanationEn": "Correct answer: room"
+    },
+    {
+     "id": "alc-book-6-q15",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I like the ___ because it heats things quickly.",
+     "options": [
+      "microwave oven",
+      "washing machine",
+      "post office",
+      "pay phone"
+     ],
+     "answer": "microwave oven",
+     "explanationAr": "المايكرويف يسخّن.",
+     "explanationEn": "Correct answer: microwave oven"
+    },
+    {
+     "id": "alc-book-6-q16",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Let's go outside and sit on the ___.",
+     "options": [
+      "cassette",
+      "patio",
+      "stereo",
+      "oven"
+     ],
+     "answer": "patio",
+     "explanationAr": "patio = جلسة برا.",
+     "explanationEn": "Correct answer: patio"
+    },
+    {
+     "id": "alc-book-6-q17",
+     "kind": "choice",
+     "ar": "التقييم · Exercise G",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "What could this be? — ___",
+     "options": [
+      "It wasn't raining until you arrived.",
+      "He didn't like that color.",
+      "It might be a kind of cup.",
+      "He has been late before."
+     ],
+     "answer": "It might be a kind of cup.",
+     "explanationAr": "تخمين عن الشي.",
+     "explanationEn": "Correct answer: It might be a kind of cup."
+    }
+   ]
+  },
+  {
+   "id": "alc-book-7",
+   "unit": "home",
+   "ar": "تمارين الكتاب: التقييم — Exercises D & E",
+   "en": "Evaluation · Lesson 3 · Exercises D & E",
+   "minutes": 5,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-book-7-intro",
+     "kind": "intro",
+     "ar": "تمارين الكتاب: التقييم",
+     "en": "Evaluation · Lesson 3 · Exercises D & E",
+     "bodyAr": "أسئلة اختيار من قسم التقييم (Evaluation) في آخر كتاب 12، الدرس 3 — Exercises D & E. عددها 10 سؤال.",
+     "bodyEn": "Multiple-choice questions from the Evaluation section of Book 12, Lesson 3, Exercises D & E."
+    },
+    {
+     "id": "alc-book-7-q1",
+     "kind": "choice",
+     "ar": "التقييم · Exercises D & E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I like the music in the new movie, ___ I like the story.",
+     "options": [
+      "or",
+      "so",
+      "and",
+      "but"
+     ],
+     "answer": "and",
+     "explanationAr": "إضافة ← and.",
+     "explanationEn": "Correct answer: and"
+    },
+    {
+     "id": "alc-book-7-q2",
+     "kind": "choice",
+     "ar": "التقييم · Exercises D & E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We like the color of this car, ___ we don't like the size.",
+     "options": [
+      "and",
+      "so",
+      "or",
+      "but"
+     ],
+     "answer": "but",
+     "explanationAr": "عكس ← but.",
+     "explanationEn": "Correct answer: but"
+    },
+    {
+     "id": "alc-book-7-q3",
+     "kind": "choice",
+     "ar": "التقييم · Exercises D & E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "The Millers have twins now, ___ they need to get a bigger car.",
+     "options": [
+      "but",
+      "so",
+      "and",
+      "or"
+     ],
+     "answer": "so",
+     "explanationAr": "نتيجة ← so.",
+     "explanationEn": "Correct answer: so"
+    },
+    {
+     "id": "alc-book-7-q4",
+     "kind": "choice",
+     "ar": "التقييم · Exercises D & E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "It's raining right now, ___ we won't use the patio for lunch.",
+     "options": [
+      "so",
+      "or",
+      "but",
+      "and"
+     ],
+     "answer": "so",
+     "explanationAr": "نتيجة ← so.",
+     "explanationEn": "Correct answer: so"
+    },
+    {
+     "id": "alc-book-7-q5",
+     "kind": "choice",
+     "ar": "التقييم · Exercises D & E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I'd like to play some music, ___ my CD player doesn't work.",
+     "options": [
+      "and",
+      "or",
+      "but",
+      "so"
+     ],
+     "answer": "but",
+     "explanationAr": "عكس ← but.",
+     "explanationEn": "Correct answer: but"
+    },
+    {
+     "id": "alc-book-7-q6",
+     "kind": "choice",
+     "ar": "التقييم · Exercises D & E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Do you want to have lunch at 11:00 a.m., ___ can you wait until noon?",
+     "options": [
+      "and",
+      "or",
+      "so",
+      "but"
+     ],
+     "answer": "or",
+     "explanationAr": "اختيار ← or.",
+     "explanationEn": "Correct answer: or"
+    },
+    {
+     "id": "alc-book-7-q7",
+     "kind": "choice",
+     "ar": "التقييم · Exercises D & E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We can study right now, ___ we can wait and study tonight.",
+     "options": [
+      "but",
+      "so",
+      "and",
+      "or"
+     ],
+     "answer": "or",
+     "explanationAr": "اختيار ← or.",
+     "explanationEn": "Correct answer: or"
+    },
+    {
+     "id": "alc-book-7-q8",
+     "kind": "choice",
+     "ar": "التقييم · Exercises D & E",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "You've taken the last piece of pie, ___ you didn't leave any milk for me!",
+     "options": [
+      "or",
+      "because",
+      "and",
+      "so"
+     ],
+     "answer": "and",
+     "explanationAr": "إضافة ← and.",
+     "explanationEn": "Correct answer: and"
+    },
+    {
+     "id": "alc-book-7-q9",
+     "kind": "choice",
+     "ar": "التقييم · Exercises D & E",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "When you call a big company, you tell a secretary what your call pertains to. \"Pertains to\" means:",
+     "options": [
+      "sounds like",
+      "receives",
+      "remembers",
+      "is about"
+     ],
+     "answer": "is about",
+     "explanationAr": "pertains to = يخص.",
+     "explanationEn": "Correct answer: is about"
+    },
+    {
+     "id": "alc-book-7-q10",
+     "kind": "choice",
+     "ar": "التقييم · Exercises D & E",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Workers found a fire, and the firemen evacuated the building. No one was left inside. \"Evacuated\" means:",
+     "options": [
+      "turned on the water in",
+      "took all the furniture out of",
+      "tried to open all the doors to",
+      "took all the people out of"
+     ],
+     "answer": "took all the people out of",
+     "explanationAr": "ما بقى أحد ← طلّعوا الناس.",
+     "explanationEn": "Correct answer: took all the people out of"
+    }
+   ]
+  },
+  {
+   "id": "alc-book-8",
+   "unit": "home",
+   "ar": "تمارين الكتاب: الواجب — Exercises F, G & H",
+   "en": "Homework · Lesson 3 · Exercises F, G & H",
+   "minutes": 9,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-book-8-intro",
+     "kind": "intro",
+     "ar": "تمارين الكتاب: الواجب",
+     "en": "Homework · Lesson 3 · Exercises F, G & H",
+     "bodyAr": "أسئلة اختيار من قسم الواجب (Homework) في آخر كتاب 12، الدرس 3 — Exercises F, G & H. عددها 18 سؤال.",
+     "bodyEn": "Multiple-choice questions from the Homework section of Book 12, Lesson 3, Exercises F, G & H."
+    },
+    {
+     "id": "alc-book-8-q1",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "How does Pete feel about his new job? — He's very ___.",
+     "options": [
+      "exciting",
+      "excited"
+     ],
+     "answer": "excited",
+     "explanationAr": "شعوره ← excited.",
+     "explanationEn": "Correct answer: excited"
+    },
+    {
+     "id": "alc-book-8-q2",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "How's that new book on airplanes? — It's really ___.",
+     "options": [
+      "interested",
+      "interesting"
+     ],
+     "answer": "interesting",
+     "explanationAr": "الكتاب ← interesting.",
+     "explanationEn": "Correct answer: interesting"
+    },
+    {
+     "id": "alc-book-8-q3",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Why do you look so sleepy after that class? — Because it's ___.",
+     "options": [
+      "boring",
+      "bored"
+     ],
+     "answer": "boring",
+     "explanationAr": "الحصة ← boring.",
+     "explanationEn": "Correct answer: boring"
+    },
+    {
+     "id": "alc-book-8-q4",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Can you read the directions on the map? — I'm sorry, but they're very ___.",
+     "options": [
+      "confusing",
+      "confused"
+     ],
+     "answer": "confusing",
+     "explanationAr": "الاتجاهات ← confusing.",
+     "explanationEn": "Correct answer: confusing"
+    },
+    {
+     "id": "alc-book-8-q5",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "He had an accident because he drove the car recklessly. \"Recklessly\" means:",
+     "options": [
+      "safely",
+      "carelessly",
+      "easily"
+     ],
+     "answer": "carelessly",
+     "explanationAr": "تهوّر ← بإهمال.",
+     "explanationEn": "Correct answer: carelessly"
+    },
+    {
+     "id": "alc-book-8-q6",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "He didn't like his new job because his boss intimidated him. \"Intimidated\" means:",
+     "options": [
+      "helped",
+      "paid",
+      "frightened"
+     ],
+     "answer": "frightened",
+     "explanationAr": "خوّفه ← frightened.",
+     "explanationEn": "Correct answer: frightened"
+    },
+    {
+     "id": "alc-book-8-q7",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Where will the get-together ___?",
+     "options": [
+      "take place",
+      "clear up",
+      "add on"
+     ],
+     "answer": "take place",
+     "explanationAr": "take place = يُقام.",
+     "explanationEn": "Correct answer: take place"
+    },
+    {
+     "id": "alc-book-8-q8",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Water freezes at 0° Celsius, and it ___ at 100° C.",
+     "options": [
+      "burns",
+      "boils",
+      "builds"
+     ],
+     "answer": "boils",
+     "explanationAr": "يغلي ← boils.",
+     "explanationEn": "Correct answer: boils"
+    },
+    {
+     "id": "alc-book-8-q9",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Pvt Reed was late for another meeting. Now he's in ___.",
+     "options": [
+      "trouble",
+      "idea",
+      "suburb"
+     ],
+     "answer": "trouble",
+     "explanationAr": "in trouble = في ورطة.",
+     "explanationEn": "Correct answer: trouble"
+    },
+    {
+     "id": "alc-book-8-q10",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "These pictures are too small. Can you ___ them?",
+     "options": [
+      "solve",
+      "enlarge",
+      "heat"
+     ],
+     "answer": "enlarge",
+     "explanationAr": "كبّرها ← enlarge.",
+     "explanationEn": "Correct answer: enlarge"
+    },
+    {
+     "id": "alc-book-8-q11",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Whose books are on the desk? — They're mine. I ___ them for the teacher to look at.",
+     "options": [
+      "left",
+      "burned",
+      "played"
+     ],
+     "answer": "left",
+     "explanationAr": "left = خليتها.",
+     "explanationEn": "Correct answer: left"
+    },
+    {
+     "id": "alc-book-8-q12",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Someone changed the furniture. — Yes, Mary changed it. It was her ___.",
+     "options": [
+      "cassette",
+      "oven",
+      "idea"
+     ],
+     "answer": "idea",
+     "explanationAr": "فكرتها ← idea.",
+     "explanationEn": "Correct answer: idea"
+    },
+    {
+     "id": "alc-book-8-q13",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "He hasn't decided about his vacation. ___ he'll go to Canada.",
+     "options": [
+      "Still",
+      "Perhaps",
+      "Near"
+     ],
+     "answer": "Perhaps",
+     "explanationAr": "Perhaps = يمكن.",
+     "explanationEn": "Correct answer: Perhaps"
+    },
+    {
+     "id": "alc-book-8-q14",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "The papers fell into the fire and ___.",
+     "options": [
+      "boiled",
+      "heated",
+      "burned"
+     ],
+     "answer": "burned",
+     "explanationAr": "احترقت ← burned.",
+     "explanationEn": "Correct answer: burned"
+    },
+    {
+     "id": "alc-book-8-q15",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We still have a big problem. We haven't found ___ to it yet.",
+     "options": [
+      "a suburb",
+      "an addition",
+      "a solution"
+     ],
+     "answer": "a solution",
+     "explanationAr": "حل ← a solution.",
+     "explanationEn": "Correct answer: a solution"
+    },
+    {
+     "id": "alc-book-8-q16",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "This soup is cold. I want to ___ it up.",
+     "options": [
+      "enlarge",
+      "heat",
+      "play"
+     ],
+     "answer": "heat",
+     "explanationAr": "heat up = يسخّن.",
+     "explanationEn": "Correct answer: heat"
+    },
+    {
+     "id": "alc-book-8-q17",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I'd like to record some music. — Do you have a ___?",
+     "options": [
+      "fireplace",
+      "cassette",
+      "shed"
+     ],
+     "answer": "cassette",
+     "explanationAr": "cassette للتسجيل.",
+     "explanationEn": "Correct answer: cassette"
+    },
+    {
+     "id": "alc-book-8-q18",
+     "kind": "choice",
+     "ar": "الواجب · Exercises F, G & H",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "This den looks different from the other rooms. — Yes, it's ___.",
+     "options": [
+      "an addition",
+      "a speaker",
+      "a builder"
+     ],
+     "answer": "an addition",
+     "explanationAr": "إضافة جديدة ← an addition.",
+     "explanationEn": "Correct answer: an addition"
     }
    ]
   },
@@ -3397,6 +7204,1217 @@
    ]
   },
   {
+   "id": "alc-rule-9",
+   "unit": "outdoors",
+   "ar": "القاعدة: used to للعادات الماضية",
+   "en": "Used to: past routines and conditions",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-rule-9-g",
+     "kind": "grammar",
+     "ar": "used to للعادات الماضية",
+     "en": "Used to: past routines and conditions",
+     "bodyAr": "used to = كان زمان (عادة أو حالة وانتهت). بعدها فعل مجرد. وفي النفي والسؤال تصير use to بدون d لأن did أخذت الماضي.",
+     "bodyEn": "Used to: past routines and conditions. Study the formula and the example, then practise with ten questions.",
+     "example": "We used to hunt in winter.",
+     "translation": "كنا نصيد في الشتا",
+     "formula": "used to + verb didn't use to + verb Did … use to + verb?"
+    },
+    {
+     "id": "alc-rule-9-ex",
+     "kind": "intro",
+     "ar": "أمثلة من القاعدة",
+     "en": "More examples",
+     "bodyAr": "• Did you use to fish often?\n   كنت تصيد سمك كثير؟\n• We didn't use to fish often.\n   ما كنا نصيد كثير\n• I used to live in Paris.\n   كنت ساكن في باريس",
+     "bodyEn": "• Did you use to fish often?\n• We didn't use to fish often.\n• I used to live in Paris.",
+     "example": "I used to live in Paris.",
+     "translation": "كنت ساكن في باريس"
+    },
+    {
+     "id": "alc-rule-9-tip",
+     "kind": "intro",
+     "ar": "انتبه من هذا الخطأ",
+     "en": "Common mistake",
+     "bodyAr": "❌ Did you used to swim?\n✅ Did you use to swim?\n\n💡 مع did ← use to. بدون did ← used to.",
+     "bodyEn": "Wrong: Did you used to swim?\nRight: Did you use to swim?",
+     "example": "Did you use to swim?",
+     "translation": "مع did ← use to. بدون did ← used to."
+    },
+    {
+     "id": "alc-rule-9-q1",
+     "kind": "choice",
+     "ar": "used to للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I ___ live in Paris ten years ago.",
+     "options": [
+      "used to",
+      "would",
+      "once",
+      "twice"
+     ],
+     "answer": "used to",
+     "explanationAr": "حالة سكن ← used to (من تقييم الكتاب).",
+     "explanationEn": "Correct answer: used to"
+    },
+    {
+     "id": "alc-rule-9-q2",
+     "kind": "choice",
+     "ar": "used to للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Did you ___ sing when you were in school?",
+     "options": [
+      "use to",
+      "would",
+      "would to",
+      "used to"
+     ],
+     "answer": "use to",
+     "explanationAr": "مع did ← use to.",
+     "explanationEn": "Correct answer: use to"
+    },
+    {
+     "id": "alc-rule-9-q3",
+     "kind": "choice",
+     "ar": "used to للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Years ago, I ___ to the beach every weekend.",
+     "options": [
+      "used to going",
+      "used go",
+      "used to go",
+      "use to go"
+     ],
+     "answer": "used to go",
+     "explanationAr": "used to + go.",
+     "explanationEn": "Correct answer: used to go"
+    },
+    {
+     "id": "alc-rule-9-q4",
+     "kind": "choice",
+     "ar": "used to للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Where ___ go fishing?",
+     "options": [
+      "do you used to",
+      "did you use to",
+      "did you would",
+      "you used to"
+     ],
+     "answer": "did you use to",
+     "explanationAr": "Where did you use to…?",
+     "explanationEn": "Correct answer: did you use to"
+    },
+    {
+     "id": "alc-rule-9-q5",
+     "kind": "choice",
+     "ar": "used to للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Who ___ play with toy soldiers?",
+     "options": [
+      "used",
+      "use",
+      "use to",
+      "used to"
+     ],
+     "answer": "used to",
+     "explanationAr": "Who سؤال عن الفاعل بدون did ← used to.",
+     "explanationEn": "Correct answer: used to"
+    },
+    {
+     "id": "alc-rule-9-q6",
+     "kind": "choice",
+     "ar": "used to للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We didn't ___ eat fish.",
+     "options": [
+      "use to",
+      "uses to",
+      "used to",
+      "using to"
+     ],
+     "answer": "use to",
+     "explanationAr": "مع didn't ← use to.",
+     "explanationEn": "Correct answer: use to"
+    },
+    {
+     "id": "alc-rule-9-q7",
+     "kind": "choice",
+     "ar": "used to للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "He ___ be thinner when he was young.",
+     "options": [
+      "was used",
+      "use to",
+      "would",
+      "used to"
+     ],
+     "answer": "used to",
+     "explanationAr": "حالة ← used to.",
+     "explanationEn": "Correct answer: used to"
+    },
+    {
+     "id": "alc-rule-9-q8",
+     "kind": "choice",
+     "ar": "used to للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Choose the correct sentence.",
+     "options": [
+      "She used to work in a bank.",
+      "She use to work in a bank.",
+      "She used to working in a bank.",
+      "She used work in a bank."
+     ],
+     "answer": "She used to work in a bank.",
+     "explanationAr": "used to + فعل مجرد.",
+     "explanationEn": "Correct answer: She used to work in a bank."
+    },
+    {
+     "id": "alc-rule-9-q9",
+     "kind": "choice",
+     "ar": "used to للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "___ you use to be afraid of the dark?",
+     "options": [
+      "Do",
+      "Were",
+      "Did",
+      "Would"
+     ],
+     "answer": "Did",
+     "explanationAr": "Did you use to…?",
+     "explanationEn": "Correct answer: Did"
+    },
+    {
+     "id": "alc-rule-9-q10",
+     "kind": "choice",
+     "ar": "used to للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "\"I used to smoke.\" This means:",
+     "options": [
+      "I smoked before, but I don't now.",
+      "I will smoke.",
+      "I like smoking.",
+      "I smoke now."
+     ],
+     "answer": "I smoked before, but I don't now.",
+     "explanationAr": "used to = كان وانتهى.",
+     "explanationEn": "Correct answer: I smoked before, but I don't now."
+    }
+   ]
+  },
+  {
+   "id": "alc-rule-10",
+   "unit": "outdoors",
+   "ar": "القاعدة: would للعادات الماضية",
+   "en": "Would for past routines",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-rule-10-g",
+     "kind": "grammar",
+     "ar": "would للعادات الماضية",
+     "en": "Would for past routines",
+     "bodyAr": "would تقدر تستخدمها بدل used to للـعادات المتكررة في الماضي: We would go to Bluebird Lake. لكن ما نستخدمها للـحالات (live, be, have, like). هنا لازم used to.",
+     "bodyEn": "Would for past routines. Study the formula and the example, then practise with ten questions.",
+     "example": "When I was young, I would swim every day.",
+     "translation": "لما كنت صغير كنت أسبح كل يوم",
+     "formula": "would + verb (عادة متكررة فقط)"
+    },
+    {
+     "id": "alc-rule-10-ex",
+     "kind": "intro",
+     "ar": "أمثلة من القاعدة",
+     "en": "More examples",
+     "bodyAr": "• What would you do in winter?\n   وش كنت تسوي في الشتا؟\n• We wouldn't hunt in summer.\n   ما كنا نصيد في الصيف",
+     "bodyEn": "• What would you do in winter?\n• We wouldn't hunt in summer.",
+     "example": "We wouldn't hunt in summer.",
+     "translation": "ما كنا نصيد في الصيف"
+    },
+    {
+     "id": "alc-rule-10-tip",
+     "kind": "intro",
+     "ar": "انتبه من هذا الخطأ",
+     "en": "Common mistake",
+     "bodyAr": "❌ I would live in Texas.\n✅ I used to live in Texas.\n\n💡 فعل حركة متكرر (swim, go, play) ← would أو used to. حالة (live, be, have) ← used to بس.",
+     "bodyEn": "Wrong: I would live in Texas.\nRight: I used to live in Texas.",
+     "example": "I used to live in Texas.",
+     "translation": "فعل حركة متكرر (swim, go, play) ← would أو used to. حالة (live, be, have) ← used to بس."
+    },
+    {
+     "id": "alc-rule-10-q1",
+     "kind": "choice",
+     "ar": "would للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "When I was young, I ___ swim every day.",
+     "options": [
+      "am",
+      "was",
+      "would",
+      "will"
+     ],
+     "answer": "would",
+     "explanationAr": "عادة ماضية ← would.",
+     "explanationEn": "Correct answer: would"
+    },
+    {
+     "id": "alc-rule-10-q2",
+     "kind": "choice",
+     "ar": "would للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "___ every night when you were in high school?",
+     "options": [
+      "You study would",
+      "Study you would",
+      "Would you study",
+      "Would study you"
+     ],
+     "answer": "Would you study",
+     "explanationAr": "Would + you + فعل.",
+     "explanationEn": "Correct answer: Would you study"
+    },
+    {
+     "id": "alc-rule-10-q3",
+     "kind": "choice",
+     "ar": "would للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "What ___ you do on Saturday nights?",
+     "options": [
+      "would",
+      "are",
+      "will",
+      "do"
+     ],
+     "answer": "would",
+     "explanationAr": "What would you do…?",
+     "explanationEn": "Correct answer: would"
+    },
+    {
+     "id": "alc-rule-10-q4",
+     "kind": "choice",
+     "ar": "would للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We ___ hunt in summer.",
+     "options": [
+      "won't to",
+      "not would",
+      "didn't used",
+      "wouldn't"
+     ],
+     "answer": "wouldn't",
+     "explanationAr": "النفي: wouldn't.",
+     "explanationEn": "Correct answer: wouldn't"
+    },
+    {
+     "id": "alc-rule-10-q5",
+     "kind": "choice",
+     "ar": "would للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Which verb can NOT go with would for past routines?",
+     "options": [
+      "swim",
+      "play",
+      "live",
+      "go"
+     ],
+     "answer": "live",
+     "explanationAr": "live حالة ← used to.",
+     "explanationEn": "Correct answer: live"
+    },
+    {
+     "id": "alc-rule-10-q6",
+     "kind": "choice",
+     "ar": "would للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Every weekend we ___ go to Bluebird Lake.",
+     "options": [
+      "used",
+      "would",
+      "would to",
+      "use"
+     ],
+     "answer": "would",
+     "explanationAr": "would + go.",
+     "explanationEn": "Correct answer: would"
+    },
+    {
+     "id": "alc-rule-10-q7",
+     "kind": "choice",
+     "ar": "would للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Choose the correct sentence.",
+     "options": [
+      "We would went fishing on Sundays.",
+      "We would going fishing on Sundays.",
+      "We would to go fishing on Sundays.",
+      "We would go fishing on Sundays."
+     ],
+     "answer": "We would go fishing on Sundays.",
+     "explanationAr": "would + فعل مجرد.",
+     "explanationEn": "Correct answer: We would go fishing on Sundays."
+    },
+    {
+     "id": "alc-rule-10-q8",
+     "kind": "choice",
+     "ar": "would للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Where ___ you go on vacation?",
+     "options": [
+      "would to",
+      "would",
+      "did you would",
+      "used you"
+     ],
+     "answer": "would",
+     "explanationAr": "Where would you go?",
+     "explanationEn": "Correct answer: would"
+    },
+    {
+     "id": "alc-rule-10-q9",
+     "kind": "choice",
+     "ar": "would للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "My grandfather ___ tell us stories every night.",
+     "options": [
+      "would",
+      "is",
+      "will",
+      "was"
+     ],
+     "answer": "would",
+     "explanationAr": "عادة ← would.",
+     "explanationEn": "Correct answer: would"
+    },
+    {
+     "id": "alc-rule-10-q10",
+     "kind": "choice",
+     "ar": "would للعادات الماضية",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I ___ have a red bike when I was a child.",
+     "options": [
+      "would",
+      "am used",
+      "use to",
+      "used to"
+     ],
+     "answer": "used to",
+     "explanationAr": "have حالة ← used to.",
+     "explanationEn": "Correct answer: used to"
+    }
+   ]
+  },
+  {
+   "id": "alc-rule-11",
+   "unit": "outdoors",
+   "ar": "القاعدة: مقارنة الظروف ‎-er than",
+   "en": "Comparative adverbs: -er than",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-rule-11-g",
+     "kind": "grammar",
+     "ar": "مقارنة الظروف ‎-er than",
+     "en": "Comparative adverbs: -er than",
+     "bodyAr": "عشان نقارن طريقة شخصين يسوون شي، نضيف er للظرف القصير ونحط بعده than. انتبه: early → earlier (y تصير i)، و far → farther.",
+     "bodyEn": "Comparative adverbs: -er than. Study the formula and the example, then practise with ten questions.",
+     "example": "Joe runs faster than Bill.",
+     "translation": "جو يجري أسرع من بيل",
+     "formula": "adverb + er + than (faster, harder, earlier, later, sooner, nearer, farther, higher, lower, slower, straighter)"
+    },
+    {
+     "id": "alc-rule-11-ex",
+     "kind": "intro",
+     "ar": "أمثلة من القاعدة",
+     "en": "More examples",
+     "bodyAr": "• Sal arrived earlier than Joe.\n   سال وصل قبل جو\n• Who lives nearer to the office than Bill?\n   مين ساكن أقرب للمكتب من بيل؟",
+     "bodyEn": "• Sal arrived earlier than Joe.\n• Who lives nearer to the office than Bill?",
+     "example": "Who lives nearer to the office than Bill?",
+     "translation": "مين ساكن أقرب للمكتب من بيل؟"
+    },
+    {
+     "id": "alc-rule-11-tip",
+     "kind": "intro",
+     "ar": "انتبه من هذا الخطأ",
+     "en": "Common mistake",
+     "bodyAr": "❌ He drives more faster than me.\n✅ He drives faster than me.\n\n💡 لا تحط more مع ‎-er. والظروف القصيرة هذي ما ياخذون ly.\n\nالظرف | المقارنة\nfast / hard | faster / harder\nearly | earlier\nlate / soon | later / sooner\nfar / near | farther / nearer\nhigh / low | higher / lower",
+     "bodyEn": "Wrong: He drives more faster than me.\nRight: He drives faster than me.",
+     "example": "He drives faster than me.",
+     "translation": "لا تحط more مع ‎-er. والظروف القصيرة هذي ما ياخذون ly."
+    },
+    {
+     "id": "alc-rule-11-q1",
+     "kind": "choice",
+     "ar": "مقارنة الظروف ‎-er than",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Brenda got up ___ Sue.",
+     "options": [
+      "earlier",
+      "early than",
+      "earlier than",
+      "early"
+     ],
+     "answer": "earlier than",
+     "explanationAr": "early ← earlier than.",
+     "explanationEn": "Correct answer: earlier than"
+    },
+    {
+     "id": "alc-rule-11-q2",
+     "kind": "choice",
+     "ar": "مقارنة الظروف ‎-er than",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We can wash small cars ___ big cars.",
+     "options": [
+      "fast than",
+      "faster than",
+      "more faster",
+      "more faster than"
+     ],
+     "answer": "faster than",
+     "explanationAr": "faster than.",
+     "explanationEn": "Correct answer: faster than"
+    },
+    {
+     "id": "alc-rule-11-q3",
+     "kind": "choice",
+     "ar": "مقارنة الظروف ‎-er than",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Who shoots ___ Larry?",
+     "options": [
+      "straight than",
+      "straight",
+      "straighter",
+      "straighter than"
+     ],
+     "answer": "straighter than",
+     "explanationAr": "straighter than.",
+     "explanationEn": "Correct answer: straighter than"
+    },
+    {
+     "id": "alc-rule-11-q4",
+     "kind": "choice",
+     "ar": "مقارنة الظروف ‎-er than",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "George was driving at 80. He was driving ___ than the speed limit.",
+     "options": [
+      "fastest",
+      "faster",
+      "fast",
+      "more fast"
+     ],
+     "answer": "faster",
+     "explanationAr": "faster.",
+     "explanationEn": "Correct answer: faster"
+    },
+    {
+     "id": "alc-rule-11-q5",
+     "kind": "choice",
+     "ar": "مقارنة الظروف ‎-er than",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Fred ran 2 miles. Bob ran 1. Fred ran ___ than Bob.",
+     "options": [
+      "more far",
+      "far",
+      "farer",
+      "farther"
+     ],
+     "answer": "farther",
+     "explanationAr": "far ← farther.",
+     "explanationEn": "Correct answer: farther"
+    },
+    {
+     "id": "alc-rule-11-q6",
+     "kind": "choice",
+     "ar": "مقارنة الظروف ‎-er than",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Ann went to bed at midnight, Helen at 11:30. Ann went to bed ___ than Helen.",
+     "options": [
+      "sooner",
+      "lower",
+      "later",
+      "earlier"
+     ],
+     "answer": "later",
+     "explanationAr": "منتصف الليل بعد ← later.",
+     "explanationEn": "Correct answer: later"
+    },
+    {
+     "id": "alc-rule-11-q7",
+     "kind": "choice",
+     "ar": "مقارنة الظروف ‎-er than",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Linda writes more letters than Jean. Linda works ___ than Jean.",
+     "options": [
+      "hard",
+      "harder",
+      "hardly",
+      "more hard"
+     ],
+     "answer": "harder",
+     "explanationAr": "hard ← harder.",
+     "explanationEn": "Correct answer: harder"
+    },
+    {
+     "id": "alc-rule-11-q8",
+     "kind": "choice",
+     "ar": "مقارنة الظروف ‎-er than",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Your plane flies 100 feet up, mine 40. Yours flies ___ than mine.",
+     "options": [
+      "higher",
+      "lower",
+      "nearer",
+      "farther"
+     ],
+     "answer": "higher",
+     "explanationAr": "أعلى ← higher.",
+     "explanationEn": "Correct answer: higher"
+    },
+    {
+     "id": "alc-rule-11-q9",
+     "kind": "choice",
+     "ar": "مقارنة الظروف ‎-er than",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Kate finished in 35 minutes, Bill in 45. Kate finished ___ than Bill.",
+     "options": [
+      "lower",
+      "later",
+      "slower",
+      "sooner"
+     ],
+     "answer": "sooner",
+     "explanationAr": "أسرع خلصت ← sooner.",
+     "explanationEn": "Correct answer: sooner"
+    },
+    {
+     "id": "alc-rule-11-q10",
+     "kind": "choice",
+     "ar": "مقارنة الظروف ‎-er than",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "You live 2 miles from me, Jay 5 miles. You live ___ than Jay.",
+     "options": [
+      "farther",
+      "later",
+      "nearer",
+      "higher"
+     ],
+     "answer": "nearer",
+     "explanationAr": "أقرب ← nearer.",
+     "explanationEn": "Correct answer: nearer"
+    }
+   ]
+  },
+  {
+   "id": "alc-book-9",
+   "unit": "outdoors",
+   "ar": "تمارين الكتاب: التقييم — Exercise F",
+   "en": "Evaluation · Lesson 4 · Exercise F",
+   "minutes": 6,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-book-9-intro",
+     "kind": "intro",
+     "ar": "تمارين الكتاب: التقييم",
+     "en": "Evaluation · Lesson 4 · Exercise F",
+     "bodyAr": "أسئلة اختيار من قسم التقييم (Evaluation) في آخر كتاب 12، الدرس 4 — Exercise F. عددها 13 سؤال.",
+     "bodyEn": "Multiple-choice questions from the Evaluation section of Book 12, Lesson 4, Exercise F."
+    },
+    {
+     "id": "alc-book-9-q1",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Brenda got up ___ Sue.",
+     "options": [
+      "early",
+      "earlier",
+      "early than",
+      "earlier than"
+     ],
+     "answer": "earlier than",
+     "explanationAr": "earlier than.",
+     "explanationEn": "Correct answer: earlier than"
+    },
+    {
+     "id": "alc-book-9-q2",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Did you ___ sing when you were in school?",
+     "options": [
+      "used to",
+      "would",
+      "would to",
+      "use to"
+     ],
+     "answer": "use to",
+     "explanationAr": "Did + use to.",
+     "explanationEn": "Correct answer: use to"
+    },
+    {
+     "id": "alc-book-9-q3",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Glen wanted to swim, ___ he went to the lake.",
+     "options": [
+      "so",
+      "but",
+      "if",
+      "or"
+     ],
+     "answer": "so",
+     "explanationAr": "نتيجة ← so.",
+     "explanationEn": "Correct answer: so"
+    },
+    {
+     "id": "alc-book-9-q4",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Years ago, I ___ to the beach every weekend.",
+     "options": [
+      "used to go",
+      "used to going",
+      "used go",
+      "use to go"
+     ],
+     "answer": "used to go",
+     "explanationAr": "used to go.",
+     "explanationEn": "Correct answer: used to go"
+    },
+    {
+     "id": "alc-book-9-q5",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We can wash small cars ___ big cars.",
+     "options": [
+      "more faster than",
+      "faster than",
+      "more faster",
+      "fast than"
+     ],
+     "answer": "faster than",
+     "explanationAr": "faster than.",
+     "explanationEn": "Correct answer: faster than"
+    },
+    {
+     "id": "alc-book-9-q6",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Ann tried to fix her fan, ___ it still doesn't work.",
+     "options": [
+      "or",
+      "if",
+      "so",
+      "but"
+     ],
+     "answer": "but",
+     "explanationAr": "عكس ← but.",
+     "explanationEn": "Correct answer: but"
+    },
+    {
+     "id": "alc-book-9-q7",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I ___ live in Paris ten years ago.",
+     "options": [
+      "would",
+      "once",
+      "used to",
+      "twice"
+     ],
+     "answer": "used to",
+     "explanationAr": "حالة ← used to.",
+     "explanationEn": "Correct answer: used to"
+    },
+    {
+     "id": "alc-book-9-q8",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Where ___ go fishing?",
+     "options": [
+      "did you use to",
+      "did you would",
+      "do you used to",
+      "you used to"
+     ],
+     "answer": "did you use to",
+     "explanationAr": "did you use to.",
+     "explanationEn": "Correct answer: did you use to"
+    },
+    {
+     "id": "alc-book-9-q9",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "You enjoy playing soccer, ___ you play every weekend.",
+     "options": [
+      "but",
+      "and",
+      "or",
+      "if"
+     ],
+     "answer": "and",
+     "explanationAr": "إضافة ← and.",
+     "explanationEn": "Correct answer: and"
+    },
+    {
+     "id": "alc-book-9-q10",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Who shoots ___ Larry?",
+     "options": [
+      "straighter than",
+      "straighter",
+      "straight",
+      "straight than"
+     ],
+     "answer": "straighter than",
+     "explanationAr": "straighter than.",
+     "explanationEn": "Correct answer: straighter than"
+    },
+    {
+     "id": "alc-book-9-q11",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "___ every night when you were in high school?",
+     "options": [
+      "Study you would",
+      "You study would",
+      "Would study you",
+      "Would you study"
+     ],
+     "answer": "Would you study",
+     "explanationAr": "Would you study.",
+     "explanationEn": "Correct answer: Would you study"
+    },
+    {
+     "id": "alc-book-9-q12",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Who ___ play with toy soldiers?",
+     "options": [
+      "used",
+      "use",
+      "use to",
+      "used to"
+     ],
+     "answer": "used to",
+     "explanationAr": "Who + used to.",
+     "explanationEn": "Correct answer: used to"
+    },
+    {
+     "id": "alc-book-9-q13",
+     "kind": "choice",
+     "ar": "التقييم · Exercise F",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Do you have to buy a new car, ___ could you use this one for another year?",
+     "options": [
+      "if",
+      "but",
+      "and",
+      "or"
+     ],
+     "answer": "or",
+     "explanationAr": "اختيار ← or.",
+     "explanationEn": "Correct answer: or"
+    }
+   ]
+  },
+  {
+   "id": "alc-book-10",
+   "unit": "outdoors",
+   "ar": "تمارين الكتاب: التقييم — Exercises C & D",
+   "en": "Evaluation · Lesson 4 · Exercises C & D",
+   "minutes": 4,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-book-10-intro",
+     "kind": "intro",
+     "ar": "تمارين الكتاب: التقييم",
+     "en": "Evaluation · Lesson 4 · Exercises C & D",
+     "bodyAr": "أسئلة اختيار من قسم التقييم (Evaluation) في آخر كتاب 12، الدرس 4 — Exercises C & D. عددها 9 سؤال.",
+     "bodyEn": "Multiple-choice questions from the Evaluation section of Book 12, Lesson 4, Exercises C & D."
+    },
+    {
+     "id": "alc-book-10-q1",
+     "kind": "choice",
+     "ar": "التقييم · Exercises C & D",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "The team worked well together. \"Team\" means:",
+     "options": [
+      "people that work together",
+      "machines that work together",
+      "animals that live together"
+     ],
+     "answer": "people that work together",
+     "explanationAr": "team = فريق.",
+     "explanationEn": "Correct answer: people that work together"
+    },
+    {
+     "id": "alc-book-10-q2",
+     "kind": "choice",
+     "ar": "التقييم · Exercises C & D",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "The man used his right foot to kick the ball. \"Kick\" means:",
+     "options": [
+      "hit with his foot",
+      "hit with a stick",
+      "hit with his hand"
+     ],
+     "answer": "hit with his foot",
+     "explanationAr": "kick = يركل.",
+     "explanationEn": "Correct answer: hit with his foot"
+    },
+    {
+     "id": "alc-book-10-q3",
+     "kind": "choice",
+     "ar": "التقييم · Exercises C & D",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Ron knew that the story was true. He was positive that it was true. \"Positive\" means:",
+     "options": [
+      "sad",
+      "sure",
+      "wrong"
+     ],
+     "answer": "sure",
+     "explanationAr": "positive = متأكد.",
+     "explanationEn": "Correct answer: sure"
+    },
+    {
+     "id": "alc-book-10-q4",
+     "kind": "choice",
+     "ar": "التقييم · Exercises C & D",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "He told me to obey the rules, but he is breaking them. \"Hypocrite\" means:",
+     "options": [
+      "a person who thinks no one should obey the rules",
+      "a person who says to do one thing but does another",
+      "a person who works with the police"
+     ],
+     "answer": "a person who says to do one thing but does another",
+     "explanationAr": "hypocrite = منافق.",
+     "explanationEn": "Correct answer: a person who says to do one thing but does another"
+    },
+    {
+     "id": "alc-book-10-q5",
+     "kind": "choice",
+     "ar": "التقييم · Exercises C & D",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "George wanted to go hunting, ___ he decided to buy his own gun.",
+     "options": [
+      "but",
+      "so",
+      "or",
+      "and"
+     ],
+     "answer": "so",
+     "explanationAr": "نتيجة ← so.",
+     "explanationEn": "Correct answer: so"
+    },
+    {
+     "id": "alc-book-10-q6",
+     "kind": "choice",
+     "ar": "التقييم · Exercises C & D",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "He went to a big store, ___ he bought a rifle.",
+     "options": [
+      "but",
+      "or",
+      "so",
+      "and"
+     ],
+     "answer": "and",
+     "explanationAr": "إضافة ← and.",
+     "explanationEn": "Correct answer: and"
+    },
+    {
+     "id": "alc-book-10-q7",
+     "kind": "choice",
+     "ar": "التقييم · Exercises C & D",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "He went hunting, ___ he missed every shot.",
+     "options": [
+      "and",
+      "but",
+      "so",
+      "or"
+     ],
+     "answer": "but",
+     "explanationAr": "عكس ← but.",
+     "explanationEn": "Correct answer: but"
+    },
+    {
+     "id": "alc-book-10-q8",
+     "kind": "choice",
+     "ar": "التقييم · Exercises C & D",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "George should practice more, ___ he should sell the rifle and stop hunting.",
+     "options": [
+      "or",
+      "but",
+      "so",
+      "and"
+     ],
+     "answer": "or",
+     "explanationAr": "اختيار ← or.",
+     "explanationEn": "Correct answer: or"
+    },
+    {
+     "id": "alc-book-10-q9",
+     "kind": "choice",
+     "ar": "التقييم · Exercises C & D",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "He wants to sell his rifle now, ___ he has a problem.",
+     "options": [
+      "or",
+      "and",
+      "so",
+      "but"
+     ],
+     "answer": "but",
+     "explanationAr": "عكس ← but.",
+     "explanationEn": "Correct answer: but"
+    }
+   ]
+  },
+  {
+   "id": "alc-book-11",
+   "unit": "outdoors",
+   "ar": "تمارين الكتاب: الواجب — Exercise B",
+   "en": "Homework · Lesson 4 · Exercise B",
+   "minutes": 4,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-book-11-intro",
+     "kind": "intro",
+     "ar": "تمارين الكتاب: الواجب",
+     "en": "Homework · Lesson 4 · Exercise B",
+     "bodyAr": "أسئلة اختيار من قسم الواجب (Homework) في آخر كتاب 12، الدرس 4 — Exercise B. عددها 6 سؤال.",
+     "bodyEn": "Multiple-choice questions from the Homework section of Book 12, Lesson 4, Exercise B."
+    },
+    {
+     "id": "alc-book-11-q1",
+     "kind": "choice",
+     "ar": "الواجب · Exercise B",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Animals were eating grass under the trees in the field. \"Field\" means:",
+     "options": [
+      "parking lot in the city",
+      "intersection near a school",
+      "land in the country"
+     ],
+     "answer": "land in the country",
+     "explanationAr": "field = أرض في الريف.",
+     "explanationEn": "Correct answer: land in the country"
+    },
+    {
+     "id": "alc-book-11-q2",
+     "kind": "choice",
+     "ar": "الواجب · Exercise B",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "The coach showed the boys and girls how to throw a football. \"Coach\" means:",
+     "options": [
+      "a person who tells stories",
+      "a person who teaches sports",
+      "a person who owns a business"
+     ],
+     "answer": "a person who teaches sports",
+     "explanationAr": "coach = مدرّب.",
+     "explanationEn": "Correct answer: a person who teaches sports"
+    },
+    {
+     "id": "alc-book-11-q3",
+     "kind": "choice",
+     "ar": "الواجب · Exercise B",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "The girls won the game. They were the best. \"The best\" means:",
+     "options": [
+      "finished first",
+      "finished last",
+      "finished second"
+     ],
+     "answer": "finished first",
+     "explanationAr": "الأفضل ← الأول.",
+     "explanationEn": "Correct answer: finished first"
+    },
+    {
+     "id": "alc-book-11-q4",
+     "kind": "choice",
+     "ar": "الواجب · Exercise B",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "We finished earlier because the new machine facilitated the job. \"Facilitated\" means:",
+     "options": [
+      "did it slowly",
+      "couldn't do it",
+      "made it easier"
+     ],
+     "answer": "made it easier",
+     "explanationAr": "facilitate = يسهّل.",
+     "explanationEn": "Correct answer: made it easier"
+    },
+    {
+     "id": "alc-book-11-q5",
+     "kind": "choice",
+     "ar": "الواجب · Exercise B",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "We were cold because the furnace was broken. \"Furnace\" means:",
+     "options": [
+      "a tool for fixing big machines",
+      "a vehicle that moves heavy things",
+      "a machine that heats a building"
+     ],
+     "answer": "a machine that heats a building",
+     "explanationAr": "furnace = جهاز تدفئة.",
+     "explanationEn": "Correct answer: a machine that heats a building"
+    },
+    {
+     "id": "alc-book-11-q6",
+     "kind": "choice",
+     "ar": "الواجب · Exercise B",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "The soldier had courage when he ran into the burning house. \"Courage\" means:",
+     "options": [
+      "some really awful ideas",
+      "no feeling of being afraid",
+      "a lot of information"
+     ],
+     "answer": "no feeling of being afraid",
+     "explanationAr": "courage = شجاعة.",
+     "explanationEn": "Correct answer: no feeling of being afraid"
+    }
+   ]
+  },
+  {
    "id": "review-1",
    "ar": "مراجعة المفردات",
    "en": "Vocabulary review",
@@ -3662,6 +8680,488 @@
      "answer": "Have you ever been fishing?",
      "explanationAr": "Have ثم you ثم ever ثم been ثم fishing.",
      "explanationEn": "Have + you + ever + been + fishing?"
+    }
+   ]
+  },
+  {
+   "id": "alc-opposites",
+   "unit": "review",
+   "ar": "الأضداد والأفعال الشاذة",
+   "en": "Opposites and irregular verbs",
+   "minutes": 10,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-opposites-pairs-1",
+     "kind": "intro",
+     "ar": "الأضداد (1/5)",
+     "en": "Opposites",
+     "bodyAr": "accept (يقبل)  ⇄  refuse (يرفض)\ncalm (هادي)  ⇄  windy (فيه ريح)\nclear (صافي)  ⇄  cloudy (غايم)\ndeep (عميق)  ⇄  shallow (ضحل)\ndangerous (خطير)  ⇄  safe (آمن)\nfreezing (متجمّد)  ⇄  hot (حار)",
+     "bodyEn": "accept  ⇄  refuse\ncalm  ⇄  windy\nclear  ⇄  cloudy\ndeep  ⇄  shallow\ndangerous  ⇄  safe\nfreezing  ⇄  hot",
+     "example": "accept ⇄ refuse",
+     "translation": "يقبل ⇄ يرفض"
+    },
+    {
+     "id": "alc-opposites-pairs-2",
+     "kind": "intro",
+     "ar": "الأضداد (2/5)",
+     "en": "Opposites",
+     "bodyAr": "humid (رطب)  ⇄  dry (جاف)\nquiet (هادي)  ⇄  noisy (مزعج)\nunpleasant (مزعج)  ⇄  pleasant (لطيف)\nalready (خلاص)  ⇄  not yet (للحين ما)\nstill (ما زال)  ⇄  no longer (ما عاد)\nindoors (داخل)  ⇄  outdoors (برا)",
+     "bodyEn": "humid  ⇄  dry\nquiet  ⇄  noisy\nunpleasant  ⇄  pleasant\nalready  ⇄  not yet\nstill  ⇄  no longer\nindoors  ⇄  outdoors",
+     "example": "humid ⇄ dry",
+     "translation": "رطب ⇄ جاف"
+    },
+    {
+     "id": "alc-opposites-pairs-3",
+     "kind": "intro",
+     "ar": "الأضداد (3/5)",
+     "en": "Opposites",
+     "bodyAr": "high (عالي)  ⇄  low (منخفض)\nnear (قريب)  ⇄  far (بعيد)\nnearer (أقرب)  ⇄  farther (أبعد)\nearly (بدري)  ⇄  late (متأخر)\nfast (بسرعة)  ⇄  slow (ببطء)\nhard (صعب / بجد)  ⇄  easy (سهل)",
+     "bodyEn": "high  ⇄  low\nnear  ⇄  far\nnearer  ⇄  farther\nearly  ⇄  late\nfast  ⇄  slow\nhard  ⇄  easy",
+     "example": "high ⇄ low",
+     "translation": "عالي ⇄ منخفض"
+    },
+    {
+     "id": "alc-opposites-pairs-4",
+     "kind": "intro",
+     "ar": "الأضداد (4/5)",
+     "en": "Opposites",
+     "bodyAr": "enlarge (يكبّر)  ⇄  reduce (يصغّر)\ninterested (مهتم)  ⇄  bored (طفشان)\ninteresting (ممتع)  ⇄  boring (ممل)\nconfused (متلخبط)  ⇄  sure (متأكد)\nbuild (يبني)  ⇄  destroy (يهدم)\nheat (يسخّن)  ⇄  cool (يبرّد)",
+     "bodyEn": "enlarge  ⇄  reduce\ninterested  ⇄  bored\ninteresting  ⇄  boring\nconfused  ⇄  sure\nbuild  ⇄  destroy\nheat  ⇄  cool",
+     "example": "enlarge ⇄ reduce",
+     "translation": "يكبّر ⇄ يصغّر"
+    },
+    {
+     "id": "alc-opposites-pairs-5",
+     "kind": "intro",
+     "ar": "الأضداد (5/5)",
+     "en": "Opposites",
+     "bodyAr": "remain (يبقى)  ⇄  leave (يمشي)\nonce (مرة)  ⇄  twice (مرتين)\nwhole (كامل)  ⇄  part (جزء)\nplenty (وفير)  ⇄  not enough (مو كافي)\nfuture (المستقبل)  ⇄  past (الماضي)\nprofessional (محترف)  ⇄  amateur (هاوي)",
+     "bodyEn": "remain  ⇄  leave\nonce  ⇄  twice\nwhole  ⇄  part\nplenty  ⇄  not enough\nfuture  ⇄  past\nprofessional  ⇄  amateur",
+     "example": "remain ⇄ leave",
+     "translation": "يبقى ⇄ يمشي"
+    },
+    {
+     "id": "alc-opposites-verbs-1",
+     "kind": "intro",
+     "ar": "أفعال شاذة (1/3)",
+     "en": "Irregular verbs",
+     "bodyAr": "blow → blew / blown  :  يهب، ينفخ\nbe over → was / been over  :  ينتهي\ntake → took / taken  :  ياخذ\nmake up → made up  :  يقرّر (one's mind)\nthink over → thought over  :  يفكر في\nbuild → built / built  :  يبني",
+     "bodyEn": "blow → blew / blown\nbe over → was / been over\ntake → took / taken\nmake up → made up\nthink over → thought over\nbuild → built / built",
+     "example": "blow → blew / blown",
+     "translation": "يهب، ينفخ"
+    },
+    {
+     "id": "alc-opposites-verbs-2",
+     "kind": "intro",
+     "ar": "أفعال شاذة (2/3)",
+     "en": "Irregular verbs",
+     "bodyAr": "leave → left / left  :  يترك\nget together → got / gotten together  :  يجتمع\ncatch → caught / caught  :  يمسك، يصيد\nshoot → shot / shot  :  يطلق النار\ngo → went / gone  :  يروح\nfly → flew / flown  :  يطير",
+     "bodyEn": "leave → left / left\nget together → got / gotten together\ncatch → caught / caught\nshoot → shot / shot\ngo → went / gone\nfly → flew / flown",
+     "example": "leave → left / left",
+     "translation": "يترك"
+    },
+    {
+     "id": "alc-opposites-verbs-3",
+     "kind": "intro",
+     "ar": "أفعال شاذة (3/3)",
+     "en": "Irregular verbs",
+     "bodyAr": "see → saw / seen  :  يشوف\neat → ate / eaten  :  ياكل\nforget → forgot / forgotten  :  ينسى\nride → rode / ridden  :  يركب\nhide → hid / hidden  :  يخبّي\ngrow → grew / grown  :  يكبر، يزرع",
+     "bodyEn": "see → saw / seen\neat → ate / eaten\nforget → forgot / forgotten\nride → rode / ridden\nhide → hid / hidden\ngrow → grew / grown",
+     "example": "see → saw / seen",
+     "translation": "يشوف"
+    },
+    {
+     "id": "alc-opposites-q1",
+     "kind": "choice",
+     "ar": "تمارين الأضداد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Did Ann take the job? — No, she didn't accept it. She ___ it.",
+     "options": [
+      "refused",
+      "accepted",
+      "retired",
+      "offered"
+     ],
+     "answer": "refused",
+     "explanationAr": "عكس accept ← refuse.",
+     "explanationEn": "Correct answer: refused"
+    },
+    {
+     "id": "alc-opposites-q2",
+     "kind": "choice",
+     "ar": "تمارين الأضداد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "The lake isn't deep here. It's ___.",
+     "options": [
+      "calm",
+      "shallow",
+      "clear",
+      "humid"
+     ],
+     "answer": "shallow",
+     "explanationAr": "عكس deep ← shallow.",
+     "explanationEn": "Correct answer: shallow"
+    },
+    {
+     "id": "alc-opposites-q3",
+     "kind": "choice",
+     "ar": "تمارين الأضداد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "I don't like humid weather. I like ___ weather.",
+     "options": [
+      "dry",
+      "slippery",
+      "freezing",
+      "quiet"
+     ],
+     "answer": "dry",
+     "explanationAr": "عكس humid ← dry.",
+     "explanationEn": "Correct answer: dry"
+    },
+    {
+     "id": "alc-opposites-q4",
+     "kind": "choice",
+     "ar": "تمارين الأضداد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "He isn't still in the Army. He's ___ in the Army.",
+     "options": [
+      "yet",
+      "already",
+      "still",
+      "no longer"
+     ],
+     "answer": "no longer",
+     "explanationAr": "عكس still ← no longer.",
+     "explanationEn": "Correct answer: no longer"
+    },
+    {
+     "id": "alc-opposites-q5",
+     "kind": "choice",
+     "ar": "تمارين الأضداد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "The class wasn't interesting. It was ___.",
+     "options": [
+      "boring",
+      "confused",
+      "tiring",
+      "bored"
+     ],
+     "answer": "boring",
+     "explanationAr": "عكس interesting ← boring.",
+     "explanationEn": "Correct answer: boring"
+    },
+    {
+     "id": "alc-opposites-q6",
+     "kind": "choice",
+     "ar": "تمارين الأضداد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "We didn't stay indoors. We went ___.",
+     "options": [
+      "downstairs",
+      "in a room",
+      "inside",
+      "outdoors"
+     ],
+     "answer": "outdoors",
+     "explanationAr": "عكس indoors ← outdoors.",
+     "explanationEn": "Correct answer: outdoors"
+    },
+    {
+     "id": "alc-opposites-q7",
+     "kind": "choice",
+     "ar": "تمارين الأضداد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Your plane doesn't fly low. It flies ___.",
+     "options": [
+      "near",
+      "late",
+      "high",
+      "slow"
+     ],
+     "answer": "high",
+     "explanationAr": "عكس low ← high.",
+     "explanationEn": "Correct answer: high"
+    },
+    {
+     "id": "alc-opposites-q8",
+     "kind": "choice",
+     "ar": "تمارين الأضداد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "Jay doesn't live nearer than you. He lives ___.",
+     "options": [
+      "closer",
+      "farther",
+      "lower",
+      "sooner"
+     ],
+     "answer": "farther",
+     "explanationAr": "عكس nearer ← farther.",
+     "explanationEn": "Correct answer: farther"
+    },
+    {
+     "id": "alc-opposites-q9",
+     "kind": "choice",
+     "ar": "تمارين الأضداد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "This picture is too small. Please ___ it.",
+     "options": [
+      "boil",
+      "solve",
+      "heat",
+      "enlarge"
+     ],
+     "answer": "enlarge",
+     "explanationAr": "عكس small ← enlarge.",
+     "explanationEn": "Correct answer: enlarge"
+    },
+    {
+     "id": "alc-opposites-q10",
+     "kind": "choice",
+     "ar": "تمارين الأضداد",
+     "en": "Practice question",
+     "promptAr": "اختر الكلمة المناسبة للفراغ.",
+     "promptEn": "Choose the best answer for the blank.",
+     "example": "The trip wasn't unpleasant. It was very ___.",
+     "options": [
+      "slippery",
+      "freezing",
+      "pleasant",
+      "dangerous"
+     ],
+     "answer": "pleasant",
+     "explanationAr": "عكس unpleasant ← pleasant.",
+     "explanationEn": "Correct answer: pleasant"
+    }
+   ]
+  },
+  {
+   "id": "alc-listening",
+   "unit": "review",
+   "ar": "الاستماع: قصة ماجد + 10 أسئلة",
+   "en": "Listening: Majed's story",
+   "minutes": 8,
+   "source": "alc-notebook",
+   "steps": [
+    {
+     "id": "alc-listening-intro",
+     "kind": "intro",
+     "ar": "الاستماع: قصة ماجد",
+     "en": "Listening: Majed's story",
+     "bodyAr": "اسمع القصة، وتقدر تعيدها ببطء. حاول تجاوب قبل ما تفتح النص. القصة تجمع قواعد الكتاب كلها: used to و would والمضارع التام والكلام المنقول والشرط.",
+     "bodyEn": "Listen to Majed's story. Try to answer before you read the transcript. It reviews the grammar of the whole book.",
+     "example": "My name is Majed, and I've been in the military for twelve years.",
+     "translation": "اسمي ماجد، وأنا في السلك العسكري منذ اثنتي عشرة سنة."
+    },
+    {
+     "id": "alc-listening-story",
+     "kind": "listening",
+     "ar": "قصة ماجد",
+     "en": "Majed's story",
+     "bodyAr": "استمع مرة، ثم استمع ببطء إذا احتجت. جرّب الفهم قبل فتح النص.",
+     "bodyEn": "Listen once, then try the slower speed if you need it.",
+     "audio": "My name is Majed, and I've been in the military for twelve years. When I was a child, my family used to live in a small town near the mountains. Every winter, my father would take me hunting, and in summer we would go fishing at a quiet lake. I used to think that fishing was boring, but now I find it very relaxing. Last year I made an important decision about my future. I decided to take some courses at a university, so I could get a bachelor's degree. I haven't finished my degree yet, but I've already taken six courses. My wife said that she was very excited about it. We have also added on a den to our house in the suburbs, because we needed more room. If the weather is nice this weekend, we will have a get-together on the new patio. My brother can't come, so he might visit us next month.",
+     "translation": "اسمي ماجد، وأنا في السلك العسكري منذ اثنتي عشرة سنة. عندما كنت طفلًا، كانت عائلتي تسكن في بلدة صغيرة قرب الجبال. كل شتاء كان أبي يأخذني للصيد، وفي الصيف كنا نذهب لصيد السمك عند بحيرة هادئة. كنت أظن أن صيد السمك ممل، لكنني الآن أجده مريحًا جدًا. في السنة الماضية اتخذت قرارًا مهمًا عن مستقبلي. قررت أن آخذ بعض المواد في الجامعة لأحصل على شهادة البكالوريوس. لم أنهِ شهادتي بعد، لكنني أخذت ست مواد حتى الآن. قالت زوجتي إنها متحمسة جدًا لذلك. وأضفنا أيضًا غرفة جلوس عائلية إلى بيتنا في الضاحية، لأننا كنا نحتاج إلى مساحة أكبر. إذا كان الجو جميلًا هذا الأسبوع، فسنقيم تجمعًا في الجلسة الخارجية الجديدة. أخي لا يستطيع الحضور، لذلك قد يزورنا الشهر القادم.",
+     "speakersAr": "قصة ماجد",
+     "speakersEn": "MAJED'S STORY"
+    },
+    {
+     "id": "alc-listening-q1",
+     "kind": "choice",
+     "ar": "أسئلة الاستماع",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "How long has Majed been in the military?",
+     "options": [
+      "For twelve years",
+      "For two years",
+      "Since last year",
+      "For six years"
+     ],
+     "answer": "For twelve years",
+     "explanationAr": "I've been in the military for twelve years.",
+     "explanationEn": "Correct answer: For twelve years"
+    },
+    {
+     "id": "alc-listening-q2",
+     "kind": "choice",
+     "ar": "أسئلة الاستماع",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Where did his family use to live?",
+     "options": [
+      "In the suburbs",
+      "Near the sea",
+      "In a small town near the mountains",
+      "In a big city"
+     ],
+     "answer": "In a small town near the mountains",
+     "explanationAr": "used to live in a small town near the mountains.",
+     "explanationEn": "Correct answer: In a small town near the mountains"
+    },
+    {
+     "id": "alc-listening-q3",
+     "kind": "choice",
+     "ar": "أسئلة الاستماع",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "What would his father do every winter?",
+     "options": [
+      "Go to the beach",
+      "Take him hunting",
+      "Take him fishing",
+      "Build a house"
+     ],
+     "answer": "Take him hunting",
+     "explanationAr": "would take me hunting.",
+     "explanationEn": "Correct answer: Take him hunting"
+    },
+    {
+     "id": "alc-listening-q4",
+     "kind": "choice",
+     "ar": "أسئلة الاستماع",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "What did Majed use to think about fishing?",
+     "options": [
+      "It was tiring.",
+      "It was boring.",
+      "It was exciting.",
+      "It was dangerous."
+     ],
+     "answer": "It was boring.",
+     "explanationAr": "used to think that fishing was boring.",
+     "explanationEn": "Correct answer: It was boring."
+    },
+    {
+     "id": "alc-listening-q5",
+     "kind": "choice",
+     "ar": "أسئلة الاستماع",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "What decision did he make last year?",
+     "options": [
+      "To take courses at a university",
+      "To move to the city",
+      "To buy a boat",
+      "To retire"
+     ],
+     "answer": "To take courses at a university",
+     "explanationAr": "take some courses at a university.",
+     "explanationEn": "Correct answer: To take courses at a university"
+    },
+    {
+     "id": "alc-listening-q6",
+     "kind": "choice",
+     "ar": "أسئلة الاستماع",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Has he finished his degree?",
+     "options": [
+      "He doesn't want a degree",
+      "Yes, already",
+      "Yes, last year",
+      "Not yet"
+     ],
+     "answer": "Not yet",
+     "explanationAr": "I haven't finished my degree yet.",
+     "explanationEn": "Correct answer: Not yet"
+    },
+    {
+     "id": "alc-listening-q7",
+     "kind": "choice",
+     "ar": "أسئلة الاستماع",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "How many courses has he already taken?",
+     "options": [
+      "Four",
+      "Twelve",
+      "Six",
+      "Two"
+     ],
+     "answer": "Six",
+     "explanationAr": "I've already taken six courses.",
+     "explanationEn": "Correct answer: Six"
+    },
+    {
+     "id": "alc-listening-q8",
+     "kind": "choice",
+     "ar": "أسئلة الاستماع",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "What did his wife say?",
+     "options": [
+      "She was excited about it.",
+      "She didn't like it.",
+      "She was confused about it.",
+      "She was bored."
+     ],
+     "answer": "She was excited about it.",
+     "explanationAr": "she said that she was very excited.",
+     "explanationEn": "Correct answer: She was excited about it."
+    },
+    {
+     "id": "alc-listening-q9",
+     "kind": "choice",
+     "ar": "أسئلة الاستماع",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "Why did they add on a den?",
+     "options": [
+      "It was cheap.",
+      "For a stereo",
+      "Their old den burned.",
+      "They needed more room."
+     ],
+     "answer": "They needed more room.",
+     "explanationAr": "because we needed more room.",
+     "explanationEn": "Correct answer: They needed more room."
+    },
+    {
+     "id": "alc-listening-q10",
+     "kind": "choice",
+     "ar": "أسئلة الاستماع",
+     "en": "Practice question",
+     "promptAr": "اختر الإجابة الصحيحة.",
+     "promptEn": "Choose the correct answer.",
+     "example": "What will happen if the weather is nice?",
+     "options": [
+      "They will go to the beach.",
+      "They will go hunting.",
+      "His brother will visit.",
+      "They will have a get-together on the patio."
+     ],
+     "answer": "They will have a get-together on the patio.",
+     "explanationAr": "If the weather is nice, we will have a get-together.",
+     "explanationEn": "Correct answer: They will have a get-together on the patio."
     }
    ]
   },

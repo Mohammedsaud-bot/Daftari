@@ -410,6 +410,13 @@ class ConversationBubbles extends StatelessWidget {
     final lines = RegExp(
       r'(Maya|Omar):.*?(?=Maya:|Omar:|$)',
     ).allMatches(text).map((m) => m.group(0)!.trim()).toList();
+    if (lines.isEmpty) {
+      // Narrated passages (e.g. Majed's story) and other dialogues: show the text as one paragraph.
+      return English(
+        text,
+        style: const TextStyle(color: ink, fontSize: 17, height: 1.7),
+      );
+    }
     return Directionality(
       textDirection: TextDirection.ltr,
       child: Column(
